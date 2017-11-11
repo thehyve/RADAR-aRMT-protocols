@@ -1,5 +1,5 @@
 {
-  "version": 0.1,
+  "version": 0.11,
   "protocols":[
     {
       "name": "PHQ8",
@@ -25,12 +25,13 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 3
+          "amount": 1
         },
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            600
+            1100,
+            1300
           ]
         },
         "reminders": {
@@ -40,12 +41,12 @@
         }
       },
       "questionnaire_URI": {
-        "en": "https://github.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/blob/master/questionnaires/phq8/phq8_armt.json",
-        "it": "https://github.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/blob/master/questionnaires/phq8/phq8_armt.json",
-        "nl": "https://github.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/blob/master/questionnaires/phq8/phq8_armt.json",
-        "da": "https://github.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/blob/master/questionnaires/phq8/phq8_armt.json",
-        "de": "https://github.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/blob/master/questionnaires/phq8/phq8_armt.json",
-        "es": "https://github.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/blob/master/questionnaires/phq8/phq8_armt.json"
+        "en": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/phq8/phq8_armt.json",
+        "it": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/phq8/phq8_armt.json",
+        "nl": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/phq8/phq8_armt.json",
+        "da": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/phq8/phq8_armt.json",
+        "de": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/phq8/phq8_armt.json",
+        "es": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/phq8/phq8_armt.json"
       }
     }
   ]
