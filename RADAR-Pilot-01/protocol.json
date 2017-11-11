@@ -1,5 +1,5 @@
 {
-  "version": 0.12,
+  "version": 0.13,
   "protocols":[
     {
       "name": "PHQ8",
@@ -20,7 +20,14 @@
         "de": "",
         "es": ""
       },
-      "warn": "",
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
       "estimatedCompletionTime": 7,
       "protocol": {
         "repeatProtocol": {
