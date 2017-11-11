@@ -1,5 +1,5 @@
 {
-  "version": 0.1,
+  "version": 0.11,
   "protocols":[
     {
       "name": "PHQ8",
@@ -25,12 +25,13 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 3
+          "amount": 1
         },
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            600
+            1100,
+            1300
           ]
         },
         "reminders": {
