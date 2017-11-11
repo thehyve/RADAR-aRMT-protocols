@@ -1,0 +1,52 @@
+{
+  "version": 0.1,
+  "protocols":[
+    {
+      "name": "PHQ8",
+      "showIntroduction": "true",
+      "startText": {
+        "en": "This questionnaire is known as the PHQ8. Clinicians use it to assess current depression in patients. Please note that none of your answers will be collected today. Thank you for taking part in this focus group.",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "Thank you for taking the time today.",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": "",
+      "estimatedCompletionTime": 7,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "day",
+          "amount": 3
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            600
+          ]
+        },
+        "reminders": {
+          "unit": "min",
+          "amount": 15,
+          "repeat": 2
+        }
+      },
+      "questionnaire_URI": {
+        "en": "https://github.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/blob/master/questionnaires/phq8/phq8_armt.json",
+        "it": "https://github.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/blob/master/questionnaires/phq8/phq8_armt.json",
+        "nl": "https://github.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/blob/master/questionnaires/phq8/phq8_armt.json",
+        "da": "https://github.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/blob/master/questionnaires/phq8/phq8_armt.json",
+        "de": "https://github.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/blob/master/questionnaires/phq8/phq8_armt.json",
+        "es": "https://github.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/blob/master/questionnaires/phq8/phq8_armt.json"
+      }
+    }
+  ]
+}
