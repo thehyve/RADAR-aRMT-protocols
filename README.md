@@ -1,5 +1,5 @@
 # Protocols
 
-Each directory is analogous to a study site, where a specific protocol applies.
+Each directory is analogous to a RADAR project in the Management Portal, where a specific protocol applies.
 
 More documentation to come.
