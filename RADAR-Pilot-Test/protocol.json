@@ -1,6 +1,6 @@
 {
   "version": 0.13,
-  "schema_version": 0.0.2,
+  "schemaVersion": 0.0.2,
   "name": "{Proper Name} Pilot",
   "healthIssues": [
     "depression"
