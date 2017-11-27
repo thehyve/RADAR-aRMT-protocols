@@ -58,13 +58,51 @@
       }
     }, {
       "name": "RSES",
-      "showIntroduction": "true",
+      "showIntroduction": "false",
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "rses"
       },
       "startText": {
         "default": "This questionnaire is known as the Rses.",
+        "nl":""
+      },
+      "endText": {
+        "default": "Thank you for taking the time today.",
+        "it": ""
+      },
+      "warn": {
+        "default": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 7,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "day",
+          "amount": 1
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            1100,
+            1300
+          ]
+        },
+        "reminders": {
+          "unit": "min",
+          "amount": 15,
+          "repeat": 2
+        }
+      }
+    }, {
+      "name": "ESM",
+      "showIntroduction": "true",
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "esm"
+      },
+      "startText": {
+        "default": "This questionnaire is known as the ESM.",
         "nl":""
       },
       "endText": {
