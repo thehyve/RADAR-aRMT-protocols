@@ -37,14 +37,20 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            1100,
-            1300
+            600
           ]
         },
-        "reminders": {
-          "unit": "min",
-          "amount": 15,
-          "repeat": 2
+        "protocolReminders": {
+          "unit": "day",
+          "amount": 4,
+          "repeat": 1,
+          "title": "NOTIFICATION_REMINDER_NOW",
+          "text": "NOTIFICATION_REMINDER_NOW_DESC"
+        },
+        "protocolNotifications": {
+          "start": {
+            "title":
+          }
         }
       },
       "questionnaire_URI": {
