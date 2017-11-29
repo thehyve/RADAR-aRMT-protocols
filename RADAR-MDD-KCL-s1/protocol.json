@@ -138,8 +138,8 @@
       "estimatedCompletionTime": 7,
       "protocol": {
         "repeatProtocol": {
-          "unit": "week",
-          "amount": 6
+          "unit": "day",
+          "amount": 42
         },
         "repeatQuestionnaire": {
           "unit": "min",
