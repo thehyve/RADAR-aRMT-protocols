@@ -1,5 +1,5 @@
 {
-  "version": "0.1.8",
+  "version": "0.1.9",
   "schemaVersion": "0.0.2",
   "name": "RADAR MDD KCL PUBLIC TEST",
   "healthIssues": [
@@ -57,11 +57,11 @@
       }
     },
     {
-      "name": "SPEECH",
+      "name": "ROMBERG",
       "showIntroduction": "false",
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "audio"
+        "name": "romberg_test"
       },
       "startText": {
         "en": "",
