@@ -1,61 +1,11 @@
 {
-  "version": "0.1.3",
+  "version": "0.1.4",
   "schemaVersion": "0.0.2",
   "name": "RADAR MDD KCL s1",
   "healthIssues": [
     "depression"
   ],
   "protocols": [
-    {
-      "name": "Speech test",
-      "showIntroduction": "false",
-      "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/audio/audio_armt.json",
-        "name": "audio"
-      },
-      "startText": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "endText": {
-        "en": "Thank you for taking the time today.",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "warn": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "estimatedCompletionTime": 2,
-      "protocol": {
-        "repeatProtocol": {
-          "unit": "day",
-          "amount": 1
-        },
-        "repeatQuestionnaire": {
-          "unit": "min",
-          "unitsFromZero": [
-            1000
-          ]
-        },
-        "reminders": {
-          "unit": "day",
-          "amount": 4,
-          "repeat": 1
-        }
-      }
-    },
     {
       "name": "PHQ8",
       "showIntroduction": "false",
@@ -105,7 +55,58 @@
           "repeat": 1
         }
       }
-    }, {
+    },
+    {
+      "name": "SpeechTest",
+      "showIntroduction": "false",
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/audio/audio_armt.json",
+        "name": "audio"
+      },
+      "startText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "Thank you for taking the time today.",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 2,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "day",
+          "amount": 1
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            1000
+          ]
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 4,
+          "repeat": 1
+        }
+      }
+    },
+    {
       "name": "RSES",
       "showIntroduction": "false",
       "questionnaire": {
