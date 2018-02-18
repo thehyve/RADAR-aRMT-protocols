@@ -1,5 +1,5 @@
 {
-  "version": "0.2.1",
+  "version": "0.2.2",
   "schemaVersion": "0.0.2",
   "name": "RADAR MDD KCL PUBLIC TEST",
   "healthIssues": [
@@ -11,7 +11,7 @@
       "showIntroduction": "false",
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "thinic_it"
+        "name": "thinc_it"
       },
       "startText": {
         "en": "",
@@ -37,7 +37,7 @@
         "de": "",
         "es": ""
       },
-      "estimatedCompletionTime": 3,
+      "estimatedCompletionTime": 1,
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
