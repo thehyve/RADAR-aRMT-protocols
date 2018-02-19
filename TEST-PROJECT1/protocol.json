@@ -1,5 +1,5 @@
 {
-  "version": "0.2.3",
+  "version": "0.2.4",
   "schemaVersion": "0.0.2",
   "name": "RADAR MDD KCL PUBLIC TEST",
   "healthIssues": [
@@ -91,7 +91,7 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 7
+          "amount": 14
         },
         "repeatQuestionnaire": {
           "unit": "min",
@@ -141,7 +141,7 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 7
+          "amount": 14
         },
         "repeatQuestionnaire": {
           "unit": "min",
@@ -232,7 +232,25 @@
             6660,
             6750,
             6840,
-            6930
+            6930,
+            7650,
+            7745,
+            7862,
+            7923,
+            8055,
+            8113,
+            8199,
+            8287,
+            8376,
+            9143,
+            9183,
+            9297,
+            9374,
+            9450,
+            9544,
+            9646,
+            9732,
+            9823
           ]
         },
         "reminders": {
