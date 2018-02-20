@@ -1,5 +1,5 @@
 {
-  "version": "0.2.4",
+  "version": "0.2.5",
   "schemaVersion": "0.0.2",
   "name": "RADAR MDD KCL PUBLIC TEST",
   "healthIssues": [
@@ -196,7 +196,7 @@
           "unit": "min",
           "unitsFromZero": [
             590,
-            800,
+            1200,
             1890,
             1985,
             2013,
