@@ -1,5 +1,5 @@
 {
-  "version": "0.0.6",
+  "version": "0.0.7",
   "schemaVersion": "0.0.2",
   "name": "RADAR MDD KCL s1",
   "healthIssues": [
@@ -206,26 +206,6 @@
           "repeat": 0
         }
       }
-    },
-    {
-     "endText" : "Thanks for giving it a try! Feel free to tell us about your app experience.",
-     "estimatedCompletionTime" : 2,
-     "name" : "DEMO",
-     "protocol" : {
-       "reminders" : {
-         "amount" : 15,
-         "repeat" : 1,
-         "unit" : "min"
-       },
-       "repeatProtocol" : {
-         "amount" : 1,
-         "unit" : "day"
-       },
-       "repeatQuestionnaire" : {
-         "unit" : "min",
-         "unitsFromZero" : [ 950, 910, 1300 ]
-       }
-     }
-   }
+    }
   ]
 }
