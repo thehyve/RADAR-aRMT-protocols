@@ -1,5 +1,5 @@
 {
-  "version": "0.0.8",
+  "version": "0.0.9",
   "schemaVersion": "0.0.2",
   "name": "RADAR MDD KCL s1",
   "healthIssues": [
@@ -46,7 +46,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            600
+            540
           ]
         },
         "reminders": {
@@ -194,6 +194,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
+            570,
             1890,
             1985,
             2013,
