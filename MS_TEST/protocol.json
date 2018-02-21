@@ -161,7 +161,7 @@
       "showIntroduction": "false",
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "tandem_walking_test"
+        "name": "2MW_test"
       },
       "startText": {
         "en": "",
