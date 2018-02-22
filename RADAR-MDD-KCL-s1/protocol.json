@@ -11,7 +11,8 @@
       "showIntroduction": "false",
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "thinc_it"
+        "name": "thinc_it",
+        "avsc": "notification"
       },
       "startText": {
         "en": "",
@@ -61,7 +62,8 @@
       "showIntroduction": "false",
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "phq8"
+        "name": "phq8",
+        "avsc": "questionnaire"
       },
       "startText": {
         "en": "This questionnaire is known as the PHQ8. Clinicians use it to assess current depression in patients. Please note that none of your answers will be collected today. Thank you for taking part in this focus group.",
@@ -110,7 +112,8 @@
       "showIntroduction": "false",
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "rses"
+        "name": "rses",
+        "avsc": "questionnaire"
       },
       "startText": {
         "en": "",
@@ -159,7 +162,8 @@
       "showIntroduction": "false",
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "esm"
+        "name": "esm",
+        "avsc": "questionnaire"
       },
       "startText": {
         "en": "",

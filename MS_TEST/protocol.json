@@ -1,5 +1,5 @@
 {
-  "version": "0.0.7",
+  "version": "0.0.8",
   "schemaVersion": "0.0.2",
   "name": "RADAR MS TEST",
   "healthIssues": [
@@ -11,7 +11,8 @@
       "showIntroduction": "false",
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "romberg_test"
+        "name": "romberg_test",
+        "avsc": "task"
       },
       "startText": {
         "en": "",
@@ -61,7 +62,8 @@
       "showIntroduction": "false",
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "thinc_it"
+        "name": "thinc_it",
+        "avsc": "notification"
       },
       "startText": {
         "en": "",
@@ -111,7 +113,8 @@
       "showIntroduction": "false",
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "2MW_test"
+        "name": "2MW_test",
+        "avsc": "task"
       },
       "startText": {
         "en": "",
@@ -161,7 +164,8 @@
       "showIntroduction": "false",
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "tandem_walking_test"
+        "name": "tandem_walking_test",
+        "avsc": "task"
       },
       "startText": {
         "en": "",
