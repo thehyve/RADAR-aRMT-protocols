@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "schemaVersion": "0.0.2",
   "name": "RADAR MS TEST",
   "healthIssues": [
@@ -54,6 +54,15 @@
           "unit": "day",
           "amount": 0,
           "repeat": 0
+        },
+        "clinicalProtocol": {
+          "requiresInClinicCompletion": true,
+          "repeatAfterClinicVisit": {
+            "unit": "min",
+            "unitsFromZero": [
+              1000
+            ]
+          }
         }
       }
     },
