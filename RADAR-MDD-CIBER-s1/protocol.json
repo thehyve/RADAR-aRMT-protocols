@@ -1,5 +1,5 @@
 {
-  "version": "0.1.1",
+  "version": "0.1.2",
   "schemaVersion": "0.0.2",
   "name": "RADAR MDD CIBER s1",
   "healthIssues": [
@@ -189,7 +189,7 @@
         "de": "",
         "es": ""
       },
-      "estimatedCompletionTime": 7,
+      "estimatedCompletionTime": 3,
       "protocol": {
         "repeatProtocol": {
           "unit": "day",

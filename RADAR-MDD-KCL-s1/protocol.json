@@ -1,5 +1,5 @@
 {
-  "version": "0.1.2",
+  "version": "0.1.3",
   "schemaVersion": "0.0.2",
   "name": "RADAR MDD KCL s1",
   "healthIssues": [
@@ -189,7 +189,7 @@
         "de": "",
         "es": ""
       },
-      "estimatedCompletionTime": 7,
+      "estimatedCompletionTime": 3,
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
