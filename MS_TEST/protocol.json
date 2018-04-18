@@ -1,5 +1,5 @@
 {
-  "version": "0.1.3",
+  "version": "0.1.4",
   "schemaVersion": "0.0.2",
   "name": "RADAR MS TEST",
   "healthIssues": [
@@ -277,7 +277,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            630,
+            990,
             1095,
             1890,
             1985,
