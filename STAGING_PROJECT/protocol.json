@@ -1,5 +1,5 @@
 {
-  "version": "0.1.4",
+  "version": "0.1.5",
   "schemaVersion": "0.0.2",
   "name": "RADAR STAGING Project",
   "healthIssues": [
@@ -60,7 +60,7 @@
           "repeatAfterClinicVisit": {
             "unit": "min",
             "unitsFromZero": [
-              10
+              4
             ]
           }
         }
