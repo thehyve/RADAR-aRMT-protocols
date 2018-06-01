@@ -42,12 +42,12 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 1
+          "amount": 42
         },
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            540
+            600
           ]
         },
         "reminders": {
@@ -59,14 +59,14 @@
     },
     {
       "name": "PHQ8",
-      "showIntroduction": "false",
+      "showIntroduction": "true",
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "phq8",
         "avsc": "questionnaire"
       },
       "startText": {
-        "en": "This questionnaire is known as the PHQ8. Clinicians use it to assess current depression in patients. Please note that none of your answers will be collected today. Thank you for taking part in this focus group.",
+        "en": "",
         "it": "",
         "nl": "",
         "da": "",
@@ -74,7 +74,7 @@
         "es": ""
       },
       "endText": {
-        "en": "Thank you for taking the time today.",
+        "en": "",
         "it": "",
         "nl": "",
         "da": "",
@@ -89,30 +89,31 @@
         "de": "",
         "es": ""
       },
-      "estimatedCompletionTime": 3,
+      "estimatedCompletionTime": 1,
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 1
+          "amount": 42
         },
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            480
+            630
           ]
         },
         "reminders": {
           "unit": "day",
-          "amount": 4,
-          "repeat": 1
+          "amount": 0,
+          "repeat": 0
         }
       }
-    }, {
-      "name": "RSES",
+    },
+    {
+      "name": "PDDS",
       "showIntroduction": "false",
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "rses",
+        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "perceived_deficits_questionnaire",
         "avsc": "questionnaire"
       },
       "startText": {
@@ -139,25 +140,26 @@
         "de": "",
         "es": ""
       },
-      "estimatedCompletionTime": 3,
+      "estimatedCompletionTime": 1,
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 1
+          "amount": 42
         },
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            510
+            600
           ]
         },
         "reminders": {
           "unit": "day",
-          "amount": 4,
-          "repeat": 1
+          "amount": 0,
+          "repeat": 0
         }
       }
-    }, {
+    },
+    {
       "name": "ESM",
       "showIntroduction": "false",
       "questionnaire": {
@@ -193,7 +195,7 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 1
+          "amount": 42
         },
         "repeatQuestionnaire": {
           "unit": "min",
@@ -207,7 +209,52 @@
             2385,
             2440,
             2543,
-            2612
+            2612,
+            3337,
+            3456,
+            3560,
+            3602,
+            3695,
+            3780,
+            3870,
+            3968,
+            4075,
+            4784,
+            4863,
+            4950,
+            5040,
+            5130,
+            5220,
+            5310,
+            5400,
+            5490,
+            6210,
+            6300,
+            6390,
+            6480,
+            6570,
+            6660,
+            6750,
+            6840,
+            6930,
+            7650,
+            7745,
+            7862,
+            7923,
+            8055,
+            8113,
+            8199,
+            8287,
+            8376,
+            9143,
+            9183,
+            9297,
+            9374,
+            9450,
+            9544,
+            9646,
+            9732,
+            9823
           ]
         },
         "reminders": {
