@@ -1,7 +1,7 @@
 {
   "version": "0.1.4",
   "schemaVersion": "0.0.2",
-  "name": "RADAR MSDis OSR s1",
+  "name": "RADAR MSDis VHIR s1",
   "healthIssues": [
     "depression"
   ],
