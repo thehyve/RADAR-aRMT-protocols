@@ -1,5 +1,5 @@
 {
-  "version": "0.1.4",
+  "version": "0.1.5",
   "schemaVersion": "0.0.2",
   "name": "RADAR MDD CIBER s1",
   "healthIssues": [
@@ -31,12 +31,12 @@
         "es": ""
       },
       "warn": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
+        "en": "Requires a quiet space.",
+        "it": "Richiede uno spazio tranquillo.",
+        "nl": "Vereist een rustige ruimte.",
+        "da": "Kræver et stille rum.",
+        "de": "Benötigt einen ruhigen Platz.",
+        "es": "Requiere un espacio tranquilo."
       },
       "estimatedCompletionTime": 1,
       "protocol": {
