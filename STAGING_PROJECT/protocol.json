@@ -1,5 +1,5 @@
 {
-  "version": "0.1.8",
+  "version": "0.1.9",
   "schemaVersion": "0.0.2",
   "name": "RADAR STAGING Project",
   "healthIssues": [
@@ -355,15 +355,6 @@
             1103,
             1172
           ]
-        },
-        "clinicalProtocol": {
-          "requiresInClinicCompletion": true,
-          "repeatAfterClinicVisit": {
-            "unit": "min",
-            "unitsFromZero": [
-              4
-            ]
-          }
         },
         "reminders": {
           "unit": "day",
