@@ -1,5 +1,5 @@
 {
-  "version": "0.1.5",
+  "version": "0.1.6",
   "schemaVersion": "0.0.2",
   "name": "RADAR MDD VUmc s1",
   "healthIssues": [
@@ -198,7 +198,6 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            1095,
             1890,
             1985,
             2073,
@@ -253,6 +252,57 @@
             9646,
             9732,
             9823
+          ]
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 0,
+          "repeat": 0
+        }
+      }
+    },
+    {
+      "name": "DEMO ESM",
+      "showIntroduction": "false",
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "esm-demo",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 3,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "day",
+          "amount": 1
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            930
           ]
         },
         "reminders": {
