@@ -148,7 +148,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            510
+            500
           ]
         },
         "reminders": {
@@ -297,12 +297,12 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 1
+          "amount": 42
         },
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            930
+            520
           ]
         },
         "reminders": {
