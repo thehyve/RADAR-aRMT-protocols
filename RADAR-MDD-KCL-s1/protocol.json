@@ -98,7 +98,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            480
+            510
           ]
         },
         "reminders": {
@@ -148,7 +148,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            510
+            540
           ]
         },
         "reminders": {
@@ -263,7 +263,7 @@
     },
     {
       "name": "DEMO ESM",
-      "showIntroduction": "false",
+      "showIntroduction": "true",
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "esm-demo",
@@ -302,7 +302,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            1200
+            480
           ]
         },
         "reminders": {
