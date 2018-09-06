@@ -285,15 +285,6 @@
                     "unit": "day",
                     "amount": 4,
                     "repeat": 1
-                },
-                "clinicalProtocol": {
-                    "requiresInClinicCompletion": true,
-                    "repeatAfterClinicVisit": {
-                        "unit": "min",
-                        "unitsFromZero": [
-                            10
-                        ]
-                    }
                 }
             }
         },
