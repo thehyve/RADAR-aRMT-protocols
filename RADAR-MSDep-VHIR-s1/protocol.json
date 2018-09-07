@@ -1,5 +1,5 @@
 {
-  "version": "0.1.6",
+  "version": "0.1.7",
   "schemaVersion": "0.0.2",
   "name": "RADAR MSDep VHIR s1",
   "healthIssues": [
@@ -42,7 +42,7 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 42
+          "amount": 14
         },
         "repeatQuestionnaire": {
           "unit": "min",
@@ -93,7 +93,7 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 42
+          "amount": 14
         },
         "repeatQuestionnaire": {
           "unit": "min",
@@ -109,7 +109,7 @@
       }
     },
     {
-      "name": "PDDS",
+      "name": "PDQ",
       "showIntroduction": "false",
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
@@ -299,12 +299,12 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 1
+          "amount": 42
         },
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            930
+            480
           ]
         },
         "reminders": {
