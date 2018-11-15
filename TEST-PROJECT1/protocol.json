@@ -8,7 +8,7 @@
   "protocols": [
     {
       "name": "THINC-IT",
-      "showIntroduction": "false",
+      "showIntroduction": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "thinc_it",
@@ -59,7 +59,7 @@
     },
     {
       "name": "PHQ8",
-      "showIntroduction": "false",
+      "showIntroduction": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "phq8",
@@ -110,7 +110,7 @@
     },
     {
       "name": "RSES",
-      "showIntroduction": "false",
+      "showIntroduction": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "rses",
@@ -160,7 +160,7 @@
       }
     }, {
       "name": "ESM",
-      "showIntroduction": "false",
+      "showIntroduction": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "esm",

@@ -1,0 +1,318 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "id": "http://mighealth.ucl.ac.uk/protocol#",
+  "$id": "http://mighealth.ucl.ac.uk/protocol#",
+  "type": "object",
+  "title": "RADAR-base protocol for the aRMT app questionnaire delivery",
+  "description": "A protocol for the RADAR-base aRMT app describes what questionnaires should be proposed to participants at what time. It controls notification times, label text and the questionnaire sources.",
+  "version": "0.0.2",
+  "required": [
+    "version",
+    "schemaVersion",
+    "name",
+    "healthIssues",
+    "protocols"
+  ],
+  "properties": {
+    "version": {
+      "$id": "#/properties/version",
+      "type": "string",
+      "title": "Protocol version",
+      "description": "Update this version whenever the aRMT app should read any changes. Use semantic versioning for the version.",
+      "examples": [
+        "0.2.3"
+      ],
+      "pattern": "^(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)(-(0|[1-9][0-9]*|[0-9]*[a-zA-Z-][0-9a-zA-Z-]*)(\\.(0|[1-9][0-9]*|[0-9]*[a-zA-Z-][0-9a-zA-Z-]*))*)?(\\+[0-9a-zA-Z-]+(\\.[0-9a-zA-Z-]+)*)?$"
+    },
+    "schemaVersion": {
+      "$id": "#/properties/schemaVersion",
+      "type": "string",
+      "title": "The version of this schema",
+      "description": "The version of this schema describing the protocol structure. Use semantic versioning for the version.",
+      "default": "",
+      "examples": [
+        "0.0.2"
+      ],
+      "pattern": "^(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)(-(0|[1-9][0-9]*|[0-9]*[a-zA-Z-][0-9a-zA-Z-]*)(\\.(0|[1-9][0-9]*|[0-9]*[a-zA-Z-][0-9a-zA-Z-]*))*)?(\\+[0-9a-zA-Z-]+(\\.[0-9a-zA-Z-]+)*)?$"
+    },
+    "name": {
+      "$id": "#/properties/name",
+      "type": "string",
+      "title": "Protocol set name",
+      "description": "The name of the set of protocols. It should match the study that the protocol is being used in.",
+      "examples": [
+        "RADAR MDD KCL s1"
+      ]
+    },
+    "healthIssues": {
+      "$id": "#/properties/healthIssues",
+      "type": "array",
+      "title": "Health issues",
+      "description": "Health issues that are covered by the questionnaire.",
+      "items": {
+        "$id": "#/properties/healthIssues/items",
+        "type": "string",
+        "title": "Health issue",
+        "default": "",
+        "examples": [
+          "depression"
+        ],
+        "pattern": "^(.*)$"
+      }
+    },
+    "protocols": {
+      "$id": "#/properties/protocols",
+      "type": "array",
+      "title": "Questionnaire protocols",
+      "description": "List of questionnaire protocols in the study protocol.",
+      "items": {
+        "$id": "#/properties/protocols/items",
+        "type": "object",
+        "title": "Questionnaire protocol",
+        "description": "Single questionnaire protocol.",
+        "required": [
+          "name",
+          "showIntroduction",
+          "questionnaire",
+          "startText",
+          "endText",
+          "warn",
+          "estimatedCompletionTime",
+          "protocol"
+        ],
+        "properties": {
+          "name": {
+            "$id": "#/properties/protocols/items/properties/name",
+            "type": "string",
+            "title": "Protocol name",
+            "examples": [
+              "THINC-IT"
+            ]
+          },
+          "showIntroduction": {
+            "$id": "#/properties/protocols/items/properties/showIntroduction",
+            "type": "boolean",
+            "title": "Show an introduction",
+            "description": "True if an introduction to the questionnaire should be shown, false otherwise. The contents of the introduction are defined by the 'startText' property.",
+            "default": "",
+            "examples": [
+              false
+              ]
+          },
+          "questionnaire": {
+            "$id": "#/properties/protocols/items/properties/questionnaire",
+            "type": "object",
+            "title": "The Questionnaire Schema",
+            "required": [
+              "repository",
+              "name",
+              "avsc"
+            ],
+            "properties": {
+              "repository": {
+                "$id": "#/properties/protocols/items/properties/questionnaire/properties/repository",
+                "type": "string",
+                "title": "The Repository Schema",
+                "default": "",
+                "examples": [
+                  "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/"
+                ],
+                "pattern": "^(.*)$"
+              },
+              "name": {
+                "$id": "#/properties/protocols/items/properties/questionnaire/properties/name",
+                "type": "string",
+                "title": "The Name Schema",
+                "default": "",
+                "examples": [
+                  "thinc_it"
+                ],
+                "pattern": "^(.*)$"
+              },
+              "avsc": {
+                "$id": "#/properties/protocols/items/properties/questionnaire/properties/avsc",
+                "type": "string",
+                "title": "The Avsc Schema",
+                "default": "",
+                "examples": [
+                  "notification"
+                ],
+                "pattern": "^(.*)$"
+              }
+            }
+          },
+          "startText": {
+            "$id": "#/properties/protocols/items/properties/startText",
+            "type": "object",
+            "title": "Start text",
+            "description": "Text shown in the app before starting a questionnaire. Enable it with the 'showIntroduction' property.",
+            "required": ["en"],
+            "patternProperties": {
+              "^[a-z][a-z](-[a-zA-Z0-9]+)*$": {"type": "string", "description": "Text in the language corresponding to property name. The property name should be a ISO 639-1 two letter language code or BCP-47 language tag.", "examples": ["en", "nl", "en-US"]}
+            },
+            "additionalProperties": false
+          },
+          "endText": {
+            "$id": "#/properties/protocols/items/properties/endText",
+            "type": "object",
+            "title": "End text",
+            "title": "Text shown in the app after finishing a questionnaire.",
+            "required": ["en"],
+            "patternProperties": {
+              "^[a-z][a-z](-[a-zA-Z0-9]+)*$": {"type": "string", "description": "Text in the language corresponding to property name. The property name should be a ISO 639-1 two letter language code or BCP-47 language tag.", "examples": ["en", "nl", "en-US"]}
+            },
+            "additionalProperties": false
+          },
+          "warn": {
+            "$id": "#/properties/protocols/items/properties/warn",
+            "type": "object",
+            "title": "Warning text",
+            "description": "Warning shown when the questionnaire has not been filled.",
+            "required": ["en"],
+            "patternProperties": {
+              "^[a-z][a-z](-[a-zA-Z0-9]+)*$": {"type": "string", "description": "Text in the language corresponding to property name. The property name should be a ISO 639-1 two letter language code or BCP-47 language tag.", "examples": ["en", "nl", "en-US"]}
+            },
+            "additionalProperties": false
+          },
+          "estimatedCompletionTime": {
+            "$id": "#/properties/protocols/items/properties/estimatedCompletionTime",
+            "type": "integer",
+            "title": "Estimated completion time",
+            "description": "Estimated completion time in minutes.",
+            "examples": [
+              1
+            ]
+          },
+          "protocol": {
+            "$id": "#/properties/protocols/items/properties/protocol",
+            "type": "object",
+            "title": "Questionnaire protocol",
+            "description": "Protocol including schedule for the questionnaire.",
+            "required": [
+              "repeatProtocol",
+              "repeatQuestionnaire",
+              "reminders"
+            ],
+            "properties": {
+              "repeatProtocol": {
+                "$id": "#/properties/protocols/items/properties/protocol/properties/repeatProtocol",
+                "type": "object",
+                "title": "Protocol repetition",
+                "description": "How frequently the protocol should be repeated for each participant.",
+                "required": [
+                  "unit",
+                  "amount"
+                ],
+                "default": {
+                  "unit": "day",
+                  "amount": 7
+                },
+                "properties": {
+                  "unit": {
+                    "$id": "#/properties/protocols/items/properties/protocol/properties/repeatProtocol/properties/unit",
+                    "type": "string",
+                    "enum": ["min", "hour", "day", "week", "month", "year"],
+                    "title": "Amount unit",
+                    "description": "Duration unit attached to the amount property in repeatProtocol.",
+                    "examples": [
+                      "day"
+                    ]
+                  },
+                  "amount": {
+                    "$id": "#/properties/protocols/items/properties/protocol/properties/repeatProtocol/properties/amount",
+                    "type": "integer",
+                    "title": "Amount of time",
+                    "description": "Modified by the unit property in repeatProtocol.",
+                    "examples": [
+                      7
+                    ]
+                  }
+                }
+              },
+              "repeatQuestionnaire": {
+                "$id": "#/properties/protocols/items/properties/protocol/properties/repeatQuestionnaire",
+                "type": "object",
+                "title": "Questionnaire repetitions",
+                "title": "What time of day questionnaires should be posed. The day that questionnaires are posed are specified with repeatProtocol, the local time is defined by this repeatQuestionnaire.",
+                "required": [
+                  "unit",
+                  "unitsFromZero"
+                ],
+                "properties": {
+                  "unit": {
+                    "$id": "#/properties/protocols/items/properties/protocol/properties/repeatQuestionnaire/properties/unit",
+                    "type": "string",
+                    "enum": ["min", "hour", "day"],
+                    "title": "Amount unit",
+                    "description": "Duration unit attached to the amount property in repeatQuestionnaire.",
+                    "examples": [
+                      "min"
+                    ]
+                  },
+                  "unitsFromZero": {
+                    "$id": "#/properties/protocols/items/properties/protocol/properties/repeatQuestionnaire/properties/unitsFromZero",
+                    "type": "array",
+                    "title": "Times starting at midnight",
+                    "description": "Times, starting from midnight, that a protocol should be suggested. The date of the midnight in question is determined by repeatProtocol.",
+                    "items": {
+                      "$id": "#/properties/protocols/items/properties/protocol/properties/repeatQuestionnaire/properties/unitsFromZero/items",
+                      "type": "integer",
+                      "title": "Amount of time",
+                      "description": "Modified by the unit property in repeatQuestionnaire",
+                      "examples": [
+                        600
+                      ]
+                    }
+                  }
+                }
+              },
+              "reminders": {
+                "$id": "#/properties/protocols/items/properties/protocol/properties/reminders",
+                "type": "object",
+                "title": "Reminder schedule",
+                "description": "When and how often to remind participants that a questionnairie still has to be filled out.",
+                "required": [
+                  "unit",
+                  "amount",
+                  "repeat"
+                ],
+                "properties": {
+                  "unit": {
+                    "$id": "#/properties/protocols/items/properties/protocol/properties/reminders/properties/unit",
+                    "type": "string",
+                    "enum": ["min", "hour", "day", "week", "month", "year"],
+                    "title": "Amount unit",
+                    "description": "Duration unit modifing the amount property in reminders.",
+                    "examples": [
+                      "day"
+                    ]
+                  },
+                  "amount": {
+                    "$id": "#/properties/protocols/items/properties/protocol/properties/reminders/properties/amount",
+                    "type": "integer",
+                    "title": "Amount of time",
+                    "description": "Time to wait after the previous notification. Modified by the unit property in reminders.",
+                    "examples": [
+                      0
+                    ]
+                  },
+                  "repeat": {
+                    "$id": "#/properties/protocols/items/properties/protocol/properties/reminders/properties/repeat",
+                    "type": "integer",
+                    "title": "Repetitions",
+                    "description": "Number of reminders to send.",
+                    "default": 0,
+                    "examples": [
+                      0
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {}
+}

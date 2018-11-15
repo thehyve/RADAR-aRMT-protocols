@@ -1,0 +1,23 @@
+#!/bin/bash
+
+set -e
+cd schema
+yarn install
+AJV=$(yarn bin)/ajv
+cd ..
+
+HAS_ERROR=false
+for p in $(find . -name protocol.json); do
+  if ! "$AJV" -s schema/protocol-schema.json -d "$p"; then
+    HAS_ERROR=true
+  fi
+done
+
+if $HAS_ERROR; then
+  echo "Validation failed"
+  exit 1
+else
+  echo "Success"
+  exit 0
+fi
+
