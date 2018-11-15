@@ -56,7 +56,7 @@
         "default": "",
         "examples": [
           "depression"
-        ],
+        ]
       }
     },
     "protocols": {
@@ -115,7 +115,7 @@
                 "default": "",
                 "examples": [
                   "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/"
-                ],
+                ]
               },
               "name": {
                 "$id": "#/properties/protocols/items/properties/questionnaire/properties/name",
@@ -125,7 +125,7 @@
                 "default": "",
                 "examples": [
                   "thinc_it"
-                ],
+                ]
               },
               "avsc": {
                 "$id": "#/properties/protocols/items/properties/questionnaire/properties/avsc",
@@ -134,7 +134,7 @@
                 "description": "Avro Schema name as defined in RADAR-Schemas.",
                 "examples": [
                   "notification"
-                ],
+                ]
               }
             }
           },
