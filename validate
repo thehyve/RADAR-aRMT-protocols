@@ -5,7 +5,7 @@ yarn install
 
 HAS_ERROR=false
 for p in $(find . -name protocol.json); do
-  if ! "$(yarn bin)/ajv" -s schema/protocol-schema.json -d "$p"; then
+  if ! node --no-deprecation "$(yarn bin)/ajv" -s schema/protocol-schema.json -d "$p"; then
     HAS_ERROR=true
   fi
 done
