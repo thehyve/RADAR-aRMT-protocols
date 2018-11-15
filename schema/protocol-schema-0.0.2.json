@@ -57,7 +57,6 @@
         "examples": [
           "depression"
         ],
-        "pattern": "^(.*)$"
       }
     },
     "protocols": {
@@ -112,32 +111,30 @@
               "repository": {
                 "$id": "#/properties/protocols/items/properties/questionnaire/properties/repository",
                 "type": "string",
-                "title": "The Repository Schema",
+                "title": "Repository URL",
                 "default": "",
                 "examples": [
                   "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/"
                 ],
-                "pattern": "^(.*)$"
               },
               "name": {
                 "$id": "#/properties/protocols/items/properties/questionnaire/properties/name",
                 "type": "string",
-                "title": "The Name Schema",
+                "title": "Questionnaire name",
+                "description": "Name should match file name under the URL provided in the repository property.",
                 "default": "",
                 "examples": [
                   "thinc_it"
                 ],
-                "pattern": "^(.*)$"
               },
               "avsc": {
                 "$id": "#/properties/protocols/items/properties/questionnaire/properties/avsc",
                 "type": "string",
-                "title": "The Avsc Schema",
-                "default": "",
+                "title": "Schema",
+                "description": "Avro Schema name as defined in RADAR-Schemas.",
                 "examples": [
                   "notification"
                 ],
-                "pattern": "^(.*)$"
               }
             }
           },
