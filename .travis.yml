@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+  - node
+
+cache:
+  yarn: true
+  directories:
+    - schema/node_modules
+
+before_install:
+  - export PATH="$HOME/.yarn/bin:$PATH"
+  - curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --version 1.12.3
+
+script: ./validate

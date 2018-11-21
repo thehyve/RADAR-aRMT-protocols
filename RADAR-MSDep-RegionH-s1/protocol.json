@@ -8,7 +8,7 @@
   "protocols": [
     {
       "name": "THINC-IT",
-      "showIntroduction": "false",
+      "showIntroduction": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "thinc_it",
@@ -59,7 +59,7 @@
     },
     {
       "name": "PHQ8",
-      "showIntroduction": "true",
+      "showIntroduction": true,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "phq8",
@@ -110,7 +110,7 @@
     },
     {
       "name": "PDQ",
-      "showIntroduction": "false",
+      "showIntroduction": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "perceived_deficits_questionnaire",
@@ -161,7 +161,7 @@
     },
     {
       "name": "ESM",
-      "showIntroduction": "false",
+      "showIntroduction": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "esm",
@@ -265,7 +265,7 @@
     },
     {
       "name": "DEMO ESM",
-      "showIntroduction": "false",
+      "showIntroduction": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "esm-demo",

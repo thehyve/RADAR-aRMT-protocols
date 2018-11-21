@@ -8,7 +8,7 @@
   "protocols": [
     {
       "name": "PHQ8",
-      "showIntroduction": "true",
+      "showIntroduction": true,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "phq8",
@@ -59,22 +59,22 @@
       }
     }, {
       "name": "RSES",
-      "showIntroduction": "false",
+      "showIntroduction": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "rses",
         "avsc": "questionnaire"
       },
       "startText": {
-        "default": "This questionnaire is known as the Rses.",
+        "en": "This questionnaire is known as the Rses.",
         "nl":""
       },
       "endText": {
-        "default": "Thank you for taking the time today.",
+        "en": "Thank you for taking the time today.",
         "it": ""
       },
       "warn": {
-        "default": "",
+        "en": "",
         "es": ""
       },
       "estimatedCompletionTime": 7,
@@ -98,22 +98,22 @@
       }
     }, {
       "name": "ESM",
-      "showIntroduction": "true",
+      "showIntroduction": true,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "esm",
         "avsc": "questionnaire"
       },
       "startText": {
-        "default": "This questionnaire is known as the ESM.",
+        "en": "This questionnaire is known as the ESM.",
         "nl":""
       },
       "endText": {
-        "default": "Thank you for taking the time today.",
+        "en": "Thank you for taking the time today.",
         "it": ""
       },
       "warn": {
-        "default": "",
+        "en": "",
         "es": ""
       },
       "estimatedCompletionTime": 7,

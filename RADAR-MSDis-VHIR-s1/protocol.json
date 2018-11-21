@@ -8,7 +8,7 @@
   "protocols": [
     {
       "name": "THINC-IT",
-      "showIntroduction": "false",
+      "showIntroduction": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "thinc_it",
@@ -59,7 +59,7 @@
     },
     {
       "name": "PHQ8",
-      "showIntroduction": "true",
+      "showIntroduction": true,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "phq8",
@@ -110,7 +110,7 @@
     },
     {
       "name": "PDQ",
-      "showIntroduction": "false",
+      "showIntroduction": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "perceived_deficits_questionnaire",
@@ -161,7 +161,7 @@
     },
     {
       "name": "ROMBERG",
-      "showIntroduction": "false",
+      "showIntroduction": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "romberg_test",
@@ -221,7 +221,7 @@
     },
     {
       "name": "2MW",
-      "showIntroduction": "false",
+      "showIntroduction": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "2MW_test",
@@ -281,7 +281,7 @@
     },
     {
       "name": "TANDEM WALKING",
-      "showIntroduction": "false",
+      "showIntroduction": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "tandem_walking_test",
@@ -340,7 +340,7 @@
       }
     }, {
       "name": "ESM",
-      "showIntroduction": "false",
+      "showIntroduction": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "esm",
@@ -444,7 +444,7 @@
     },
     {
       "name": "DEMO ESM",
-      "showIntroduction": "false",
+      "showIntroduction": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "esm-demo",
