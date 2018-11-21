@@ -95,7 +95,7 @@
             "default": "",
             "examples": [
               false
-              ]
+            ]
           },
           "questionnaire": {
             "$id": "#/properties/protocols/items/properties/questionnaire",
@@ -224,7 +224,8 @@
                       7
                     ]
                   }
-                }
+                },
+                "additionalProperties": false
               },
               "repeatQuestionnaire": {
                 "$id": "#/properties/protocols/items/properties/protocol/properties/repeatQuestionnaire",
@@ -241,7 +242,7 @@
                     "type": "string",
                     "enum": ["min", "hour", "day"],
                     "title": "Amount unit",
-                    "description": "Duration unit attached to the amount property in repeatQuestionnaire.",
+                    "description": "Duration unit attached to the unitsFromZero property in repeatQuestionnaire.",
                     "examples": [
                       "min"
                     ]
@@ -262,6 +263,64 @@
                     }
                   }
                 }
+              },
+              "clinicalProtocol": {
+                "$id": "#/properties/protocols/items/properties/protocol/properties/clinicalProtocol",
+                "type": "object",
+                "title": "Clinical protocol",
+                "description": "Defines repetitions of the protocol after a clinical visit.",
+                "required": [
+                  "repeatAfterClinicVisit"
+                ],
+                "properties": {
+                  "requiresInClinicCompletion": {
+                    "$id": "#/properties/protocols/items/properties/protocol/properties/repeatQuestionnaire",
+                    "type": "boolean",
+                    "title": "Requires in-clinic completion.",
+                    "description": "Whether the test should be performed during a clinical visit.",
+                    "examples": [
+                      true
+                    ]
+                  },
+                  "repeatAfterClinicVisit": {
+                    "$id": "#/properties/protocols/items/properties/protocol/properties/repeatQuestionnaire",
+                    "type": "object",
+                    "title": "Test repetitions",
+                    "description": "When to repeat the test.",
+                    "required": [
+                      "unit",
+                      "unitsFromZero"
+                    ],
+                    "properties": {
+                      "unit": {
+                        "$id": "#/properties/protocols/items/properties/protocol/properties/repeatQuestionnaire/properties/unit",
+                        "type": "string",
+                        "enum": ["min", "hour", "day"],
+                        "title": "Amount unit",
+                        "description": "Duration unit attached to the unitsFromZero property in repeatAfterClinicVisit.",
+                        "examples": [
+                          "min"
+                        ]
+                      },
+                      "unitsFromZero": {
+                        "$id": "#/properties/protocols/items/properties/protocol/properties/repeatQuestionnaire/properties/unitsFromZero",
+                        "type": "array",
+                        "title": "Times",
+                        "description": "Times, starting from clinic visit, that a protocol should start.",
+                        "items": {
+                          "$id": "#/properties/protocols/items/properties/protocol/properties/repeatQuestionnaire/properties/unitsFromZero/items",
+                          "type": "integer",
+                          "title": "Amount of time",
+                          "description": "Modified by the unit property in repeatAfterClinicVisit",
+                          "examples": [
+                            600
+                          ]
+                        }
+                      }
+                    }
+                  }
+                },
+                "additionalProperties": false
               },
               "reminders": {
                 "$id": "#/properties/protocols/items/properties/protocol/properties/reminders",
@@ -303,12 +362,14 @@
                       0
                     ]
                   }
-                }
+                },
+                "additionalProperties": false
               }
             }
           }
         }
       }
     }
-  }
+  },
+  "additionalProperties": false
 }
