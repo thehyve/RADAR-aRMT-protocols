@@ -1,16 +1,15 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "id": "http://mighealth.ucl.ac.uk/protocol#",
-  "$id": "http://mighealth.ucl.ac.uk/protocol#",
+  "id": "http://radar-base.org/armt/protocol/schema#",
+  "$id": "http://radar-base.org/armt/protocol/schema#",
   "type": "object",
   "title": "RADAR-base protocol for the aRMT app questionnaire delivery",
-  "description": "A protocol for the RADAR-base aRMT app describes what questionnaires should be proposed to participants at what time. It controls notification times, label text and the questionnaire sources.",
+  "description": "A protocol for the RADAR-base aRMT app describes what questionnaires should be proposed to participants at what time. It controls notification times, label text and the questionnaire sources. The reference questionnaire app is described on the wiki page https://radar-base.atlassian.net/wiki/spaces/RAD/pages/463241217/Protocol+Schedule.",
   "version": "0.0.2",
   "required": [
     "version",
     "schemaVersion",
     "name",
-    "healthIssues",
     "protocols"
   ],
   "properties": {
@@ -48,7 +47,7 @@
       "$id": "#/properties/healthIssues",
       "type": "array",
       "title": "Health issues",
-      "description": "Health issues that are covered by the questionnaire.",
+      "description": "Study area of health issues that are covered by the questionnaire.",
       "items": {
         "$id": "#/properties/healthIssues/items",
         "type": "string",
@@ -85,7 +84,7 @@
             "type": "string",
             "title": "Protocol name",
             "examples": [
-              "THINC-IT"
+              "PHQ8"
             ]
           },
           "showIntroduction": {
@@ -101,7 +100,8 @@
           "questionnaire": {
             "$id": "#/properties/protocols/items/properties/questionnaire",
             "type": "object",
-            "title": "The Questionnaire Schema",
+            "title": "Questionnaire to use",
+            "description": "Reference to the questionnaire specification. This defines the questions, field type, branching logic etc.",
             "required": [
               "repository",
               "name",
@@ -124,7 +124,7 @@
                 "description": "Name should match file name under the URL provided in the repository property.",
                 "default": "",
                 "examples": [
-                  "thinc_it"
+                  "phq8"
                 ]
               },
               "avsc": {
@@ -153,7 +153,7 @@
             "$id": "#/properties/protocols/items/properties/endText",
             "type": "object",
             "title": "End text",
-            "title": "Text shown in the app after finishing a questionnaire.",
+            "description": "Text shown in the app after finishing a questionnaire.",
             "required": ["en"],
             "patternProperties": {
               "^[a-z][a-z](-[a-zA-Z0-9]+)*$": {"type": "string", "description": "Text in the language corresponding to property name. The property name should be a ISO 639-1 two letter language code or BCP-47 language tag.", "examples": ["en", "nl", "en-US"]}
@@ -230,7 +230,7 @@
                 "$id": "#/properties/protocols/items/properties/protocol/properties/repeatQuestionnaire",
                 "type": "object",
                 "title": "Questionnaire repetitions",
-                "title": "What time of day questionnaires should be posed. The day that questionnaires are posed are specified with repeatProtocol, the local time is defined by this repeatQuestionnaire.",
+                "description": "What time of day questionnaires should be posed. The day that questionnaires are posed are specified with repeatProtocol, the local time is defined by this repeatQuestionnaire (units offset from repeat from midnight repeatProtocol day).",
                 "required": [
                   "unit",
                   "unitsFromZero"
@@ -310,6 +310,5 @@
         }
       }
     }
-  },
-  "definitions": {}
+  }
 }
