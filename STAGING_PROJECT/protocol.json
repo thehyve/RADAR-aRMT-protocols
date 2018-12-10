@@ -459,7 +459,7 @@
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "audio",
-        "avsc": "opensmile"
+        "avsc": "questionnaire"
       },
       "startText": {
         "en": "",
