@@ -1,0 +1,222 @@
+{
+  "version": "0.0.1",
+  "schemaVersion": "0.0.2",
+  "name": "Epilepsy-ESM-Study_aRMT",
+  "healthIssues": [
+    "epilepsy"
+  ],
+  "protocols": [{
+      "name": "Morning-Assessment",
+      "showIntroduction": false,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "morning_assessment",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 3,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "day",
+          "amount": 1
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            540
+          ]
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 0,
+          "repeat": 0
+        }
+      }
+    },
+    {
+      "name": "Evening-Assessment",
+      "showIntroduction": false,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "evening_assessment",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 3,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "day",
+          "amount": 1
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            1140
+          ]
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 0,
+          "repeat": 0
+        }
+      }
+    },
+    {
+      "name": "ESM-Epi-Mod",
+      "showIntroduction": false,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "esm_epi_mod",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 3,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "day",
+          "amount": 1
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            540,
+            660,
+            720,
+            780,
+            840,
+            900,
+            960,
+            1020,
+            1080,
+            1140
+          ]
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 0,
+          "repeat": 0
+        }
+      }
+    },
+    {
+      "name": "DEMO",
+      "showIntroduction": true,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "esm-demo",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 3,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "year",
+          "amount": 9999
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            480
+          ]
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 0,
+          "repeat": 0
+        }
+      }
+    }
+  ]
+}
