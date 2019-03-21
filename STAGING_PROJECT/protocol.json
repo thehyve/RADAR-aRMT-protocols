@@ -285,6 +285,10 @@
           "unit": "day",
           "amount": 4,
           "repeat": 1
+        },
+        "completionWindow": {
+          "unit": "day",
+          "amount": 3
         }
       }
     },
@@ -336,6 +340,10 @@
           "unit": "day",
           "amount": 4,
           "repeat": 1
+        },
+        "completionWindow": {
+          "unit": "day",
+          "amount": 3
         }
       }
     },
