@@ -273,7 +273,7 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 1
+          "amount": 4
         },
         "repeatQuestionnaire": {
           "unit": "min",
@@ -328,7 +328,7 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 1
+          "amount": 4
         },
         "repeatQuestionnaire": {
           "unit": "min",
