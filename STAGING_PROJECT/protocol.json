@@ -7,7 +7,7 @@
   ],
   "protocols": [
     {
-      "name": "SAMPLE_INPUT_TYPE",
+      "name": "SAMPLE_INPUT_TYPE_DEMO",
       "showIntroduction": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
