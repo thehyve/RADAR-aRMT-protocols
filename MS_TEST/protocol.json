@@ -477,8 +477,8 @@
       "estimatedCompletionTime": 3,
       "protocol": {
         "repeatProtocol": {
-          "unit": "day",
-          "amount": 1
+          "unit": "year",
+          "amount": 9999
         },
         "repeatQuestionnaire": {
           "unit": "min",
