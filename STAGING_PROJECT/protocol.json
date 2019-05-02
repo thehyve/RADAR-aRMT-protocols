@@ -525,7 +525,7 @@
       "name": "AUDIO",
       "showIntroduction": false,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/audio-test/questionnaires/",
         "name": "audio",
         "avsc": "questionnaire"
       },
@@ -562,7 +562,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            660
+            720
           ]
         },
         "reminders": {
