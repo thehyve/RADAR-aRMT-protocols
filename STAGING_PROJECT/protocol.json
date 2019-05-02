@@ -1,5 +1,5 @@
 {
-  "version": "0.3.8",
+  "version": "0.3.9",
   "schemaVersion": "0.0.2",
   "name": "RADAR STAGING Project",
   "healthIssues": [
@@ -107,7 +107,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            1000
+            1060
           ]
         },
         "reminders": {
@@ -167,7 +167,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            600
+            660
           ]
         },
         "reminders": {
@@ -218,7 +218,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            1030
+            1090
           ]
         },
         "reminders": {
@@ -278,7 +278,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            1060
+            1120
           ]
         },
         "reminders": {
@@ -338,7 +338,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            480
+            540
           ]
         },
         "reminders": {
@@ -393,7 +393,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            540
+            600
           ]
         },
         "reminders": {
@@ -448,7 +448,6 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            480,
             540,
             600,
             660,
@@ -460,7 +459,8 @@
             1020,
             1080,
             1140,
-            1200
+            1200,
+            1260
           ]
         },
         "reminders": {
@@ -511,13 +511,64 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            480
+            540
           ]
         },
         "reminders": {
           "unit": "day",
           "amount": 0,
           "repeat": 0
+        }
+      }
+    },
+    {
+      "name": "AUDIO",
+      "showIntroduction": false,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/audio-test/questionnaires/",
+        "name": "audio",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 4,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "day",
+          "amount": 1
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            720
+          ]
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 4,
+          "repeat": 1
         }
       }
     }
