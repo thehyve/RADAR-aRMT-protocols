@@ -1,5 +1,5 @@
 {
-  "version": "0.2.2",
+  "version": "0.2.3",
   "schemaVersion": "0.0.2",
   "name": "RADAR MS TEST",
   "healthIssues": [
@@ -113,7 +113,7 @@
       "showIntroduction": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "perceived_deficits_questionnaire",
+        "name": "patient_determined_disease_step",
         "avsc": "questionnaire"
       },
       "startText": {
@@ -144,7 +144,7 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 42
+          "amount": 1
         },
         "repeatQuestionnaire": {
           "unit": "min",

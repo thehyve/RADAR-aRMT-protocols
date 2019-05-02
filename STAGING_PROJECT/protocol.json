@@ -1,11 +1,71 @@
 {
-  "version": "0.3.7",
+  "version": "0.3.8",
   "schemaVersion": "0.0.2",
   "name": "RADAR STAGING Project",
   "healthIssues": [
     "depression"
   ],
   "protocols": [
+    {
+      "name": "SAMPLE_INPUT_TYPE_DEMO",
+      "showIntroduction": false,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "sample-field-types",
+        "avsc": "task"
+      },
+      "startText": {
+        "en": "Welcome to testing tasks",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "Thank you for taking the time today.",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 2,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "day",
+          "amount": 1
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            1000
+          ]
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 0,
+          "repeat": 0
+        },
+        "clinicalProtocol": {
+          "requiresInClinicCompletion": true,
+          "repeatAfterClinicVisit": {
+            "unit": "min",
+            "unitsFromZero": [
+              4
+            ]
+          }
+        }
+      }
+    },
     {
       "name": "ROMBERG",
       "showIntroduction": false,
@@ -273,7 +333,7 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 1
+          "amount": 4
         },
         "repeatQuestionnaire": {
           "unit": "min",
@@ -285,6 +345,10 @@
           "unit": "day",
           "amount": 4,
           "repeat": 1
+        },
+        "completionWindow": {
+          "unit": "day",
+          "amount": 3
         }
       }
     },
@@ -324,7 +388,7 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 1
+          "amount": 4
         },
         "repeatQuestionnaire": {
           "unit": "min",
@@ -336,6 +400,10 @@
           "unit": "day",
           "amount": 4,
           "repeat": 1
+        },
+        "completionWindow": {
+          "unit": "day",
+          "amount": 3
         }
       }
     },
