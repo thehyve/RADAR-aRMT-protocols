@@ -107,7 +107,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            1000
+            1060
           ]
         },
         "reminders": {
@@ -167,7 +167,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            600
+            660
           ]
         },
         "reminders": {
@@ -218,7 +218,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            1030
+            1090
           ]
         },
         "reminders": {
@@ -278,7 +278,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            1060
+            1120
           ]
         },
         "reminders": {
@@ -338,7 +338,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            480
+            540
           ]
         },
         "reminders": {
@@ -393,7 +393,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            540
+            600
           ]
         },
         "reminders": {
@@ -448,7 +448,6 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            480,
             540,
             600,
             660,
@@ -460,7 +459,8 @@
             1020,
             1080,
             1140,
-            1200
+            1200,
+            1260
           ]
         },
         "reminders": {
@@ -511,7 +511,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            480
+            540
           ]
         },
         "reminders": {
