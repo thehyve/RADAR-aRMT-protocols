@@ -556,13 +556,121 @@
         "estimatedCompletionTime": 4,
         "protocol": {
           "repeatProtocol": {
-            "unit": "day",
-            "amount": 1
+            "unit": "week",
+            "amount": 18
           },
           "repeatQuestionnaire": {
-            "unit": "min",
+            "unit": "hour",
             "unitsFromZero": [
-              720
+              12,
+              1356,
+              2364
+            ]
+          },
+          "reminders": {
+            "unit": "day",
+            "amount": 4,
+            "repeat": 1
+          }
+        }
+      },
+      {
+        "name": "AUDIO_2",
+        "showIntroduction": false,
+        "questionnaire": {
+          "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/audio-test/questionnaires/",
+          "name": "audio_2",
+          "avsc": "questionnaire"
+        },
+        "startText": {
+          "en": "",
+          "it": "",
+          "nl": "",
+          "da": "",
+          "de": "",
+          "es": ""
+        },
+        "endText": {
+          "en": "",
+          "it": "",
+          "nl": "",
+          "da": "",
+          "de": "",
+          "es": ""
+        },
+        "warn": {
+          "en": "",
+          "it": "",
+          "nl": "",
+          "da": "",
+          "de": "",
+          "es": ""
+        },
+        "estimatedCompletionTime": 4,
+        "protocol": {
+          "repeatProtocol": {
+            "unit": "week",
+            "amount": 18
+          },
+          "repeatQuestionnaire": {
+            "unit": "hour",
+            "unitsFromZero": [
+              348,
+              1020,
+              2700
+            ]
+          },
+          "reminders": {
+            "unit": "day",
+            "amount": 4,
+            "repeat": 1
+          }
+        }
+      },
+      {
+        "name": "AUDIO_3",
+        "showIntroduction": false,
+        "questionnaire": {
+          "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/audio-test/questionnaires/",
+          "name": "audio_3",
+          "avsc": "questionnaire"
+        },
+        "startText": {
+          "en": "",
+          "it": "",
+          "nl": "",
+          "da": "",
+          "de": "",
+          "es": ""
+        },
+        "endText": {
+          "en": "",
+          "it": "",
+          "nl": "",
+          "da": "",
+          "de": "",
+          "es": ""
+        },
+        "warn": {
+          "en": "",
+          "it": "",
+          "nl": "",
+          "da": "",
+          "de": "",
+          "es": ""
+        },
+        "estimatedCompletionTime": 4,
+        "protocol": {
+          "repeatProtocol": {
+            "unit": "week",
+            "amount": 18
+          },
+          "repeatQuestionnaire": {
+            "unit": "hour",
+            "unitsFromZero": [
+              684,
+              1692,
+              2028
             ]
           },
           "reminders": {
