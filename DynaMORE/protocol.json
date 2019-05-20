@@ -21,7 +21,7 @@
         "da": "",
         "de": "",
         "es": ""
-      },
+,      },
       "endText": {
         "en": "Thanks for filling this out!",
         "it": "",
@@ -89,6 +89,10 @@
           "unit": "day",
           "amount": 0,
           "repeat": 0
+        },
+        "completionWindow": {
+          "unit": "min",
+          "amount": 5
         }
       }
     }
