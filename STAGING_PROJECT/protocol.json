@@ -685,7 +685,7 @@
         "showIntroduction": false,
         "questionnaire": {
           "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/auto-update-dd/questionnaires/",
-          "name": "patient_determined_disease_step_3",
+          "name": "patient_determined_disease_step",
           "avsc": "questionnaire"
         },
         "startText": {
