@@ -557,14 +557,12 @@
         "protocol": {
           "repeatProtocol": {
             "unit": "day",
-            "amount": 9
+            "amount": 3
           },
           "repeatQuestionnaire": {
             "unit": "hour",
             "unitsFromZero": [
-              12,
-              108,
-              180
+              12
             ]
           },
           "reminders": {
@@ -610,14 +608,12 @@
         "protocol": {
           "repeatProtocol": {
             "unit": "day",
-            "amount": 9
+            "amount": 3
           },
           "repeatQuestionnaire": {
             "unit": "hour",
             "unitsFromZero": [
-              36,
-              84,
-              204
+              36
             ]
           },
           "reminders": {
@@ -663,14 +659,12 @@
         "protocol": {
           "repeatProtocol": {
             "unit": "day",
-            "amount": 9
+            "amount": 3
           },
           "repeatQuestionnaire": {
             "unit": "hour",
             "unitsFromZero": [
-              60,
-              132,
-              156
+              60
             ]
           },
           "reminders": {
