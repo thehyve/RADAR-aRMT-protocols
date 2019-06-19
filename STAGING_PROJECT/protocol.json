@@ -553,7 +553,7 @@
           "de": "Benötigt einen ruhigen Platz.",
           "es": "Requiere un espacio tranquilo."
         },
-        "estimatedCompletionTime": 4,
+        "estimatedCompletionTime": 3,
         "protocol": {
           "repeatProtocol": {
             "unit": "day",
@@ -604,7 +604,7 @@
           "de": "Benötigt einen ruhigen Platz.",
           "es": "Requiere un espacio tranquilo."
         },
-        "estimatedCompletionTime": 4,
+        "estimatedCompletionTime": 3,
         "protocol": {
           "repeatProtocol": {
             "unit": "day",
@@ -655,7 +655,7 @@
           "de": "Benötigt einen ruhigen Platz.",
           "es": "Requiere un espacio tranquilo."
         },
-        "estimatedCompletionTime": 4,
+        "estimatedCompletionTime": 3,
         "protocol": {
           "repeatProtocol": {
             "unit": "day",
