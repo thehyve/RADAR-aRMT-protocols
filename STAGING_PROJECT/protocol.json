@@ -546,14 +546,14 @@
           "es": ""
         },
         "warn": {
-          "en": "",
-          "it": "",
-          "nl": "",
-          "da": "",
-          "de": "",
-          "es": ""
+          "en": "Requires a quiet space.",
+          "it": "Richiede uno spazio tranquillo.",
+          "nl": "Vereist een rustige ruimte.",
+          "da": "Kræver et stille rum.",
+          "de": "Benötigt einen ruhigen Platz.",
+          "es": "Requiere un espacio tranquilo."
         },
-        "estimatedCompletionTime": 4,
+        "estimatedCompletionTime": 3,
         "protocol": {
           "repeatProtocol": {
             "unit": "day",
@@ -597,14 +597,14 @@
           "es": ""
         },
         "warn": {
-          "en": "",
-          "it": "",
-          "nl": "",
-          "da": "",
-          "de": "",
-          "es": ""
+          "en": "Requires a quiet space.",
+          "it": "Richiede uno spazio tranquillo.",
+          "nl": "Vereist een rustige ruimte.",
+          "da": "Kræver et stille rum.",
+          "de": "Benötigt einen ruhigen Platz.",
+          "es": "Requiere un espacio tranquilo."
         },
-        "estimatedCompletionTime": 4,
+        "estimatedCompletionTime": 3,
         "protocol": {
           "repeatProtocol": {
             "unit": "day",
@@ -648,14 +648,14 @@
           "es": ""
         },
         "warn": {
-          "en": "",
-          "it": "",
-          "nl": "",
-          "da": "",
-          "de": "",
-          "es": ""
+          "en": "Requires a quiet space.",
+          "it": "Richiede uno spazio tranquillo.",
+          "nl": "Vereist een rustige ruimte.",
+          "da": "Kræver et stille rum.",
+          "de": "Benötigt einen ruhigen Platz.",
+          "es": "Requiere un espacio tranquilo."
         },
-        "estimatedCompletionTime": 4,
+        "estimatedCompletionTime": 3,
         "protocol": {
           "repeatProtocol": {
             "unit": "day",
