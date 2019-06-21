@@ -546,12 +546,12 @@
           "es": ""
         },
         "warn": {
-          "en": "Requires a quiet space.",
-          "it": "Richiede uno spazio tranquillo.",
-          "nl": "Vereist een rustige ruimte.",
-          "da": "Kræver et stille rum.",
-          "de": "Benötigt einen ruhigen Platz.",
-          "es": "Requiere un espacio tranquilo."
+          "en": "Find a quiet space.",
+          "it": "Trova uno spazio tranquillo.",
+          "nl": "Zoek een stille ruimte.",
+          "da": "Find et roligt sted.",
+          "de": "Suchen Sie sich einen ruhigen Platz.",
+          "es": "Encuentra un espacio tranquilo."
         },
         "estimatedCompletionTime": 4,
         "protocol": {
@@ -597,12 +597,12 @@
           "es": ""
         },
         "warn": {
-          "en": "Requires a quiet space.",
-          "it": "Richiede uno spazio tranquillo.",
-          "nl": "Vereist een rustige ruimte.",
-          "da": "Kræver et stille rum.",
-          "de": "Benötigt einen ruhigen Platz.",
-          "es": "Requiere un espacio tranquilo."
+          "en": "Find a quiet space.",
+          "it": "Trova uno spazio tranquillo.",
+          "nl": "Zoek een stille ruimte.",
+          "da": "Find et roligt sted.",
+          "de": "Suchen Sie sich einen ruhigen Platz.",
+          "es": "Encuentra un espacio tranquilo."
         },
         "estimatedCompletionTime": 4,
         "protocol": {
@@ -648,12 +648,12 @@
           "es": ""
         },
         "warn": {
-          "en": "Requires a quiet space.",
-          "it": "Richiede uno spazio tranquillo.",
-          "nl": "Vereist een rustige ruimte.",
-          "da": "Kræver et stille rum.",
-          "de": "Benötigt einen ruhigen Platz.",
-          "es": "Requiere un espacio tranquilo."
+          "en": "Find a quiet space.",
+          "it": "Trova uno spazio tranquillo.",
+          "nl": "Zoek een stille ruimte.",
+          "da": "Find et roligt sted.",
+          "de": "Suchen Sie sich einen ruhigen Platz.",
+          "es": "Encuentra un espacio tranquilo."
         },
         "estimatedCompletionTime": 4,
         "protocol": {
