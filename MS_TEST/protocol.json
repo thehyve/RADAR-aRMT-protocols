@@ -47,7 +47,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            600
+            660
           ]
         },
         "reminders": {
@@ -98,7 +98,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            630
+            690
           ]
         },
         "reminders": {
@@ -149,7 +149,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            600
+            660
           ]
         },
         "reminders": {
@@ -200,7 +200,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            1000
+            1060
           ]
         },
         "reminders": {
@@ -260,7 +260,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            1030
+            1090
           ]
         },
         "reminders": {
@@ -320,7 +320,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            1060
+            1120
           ]
         },
         "reminders": {
@@ -379,60 +379,60 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            1890,
-            1985,
-            2073,
-            2160,
-            2253,
-            2385,
-            2440,
-            2543,
-            2612,
-            3337,
-            3456,
-            3560,
-            3602,
-            3695,
-            3780,
-            3870,
-            3968,
-            4075,
-            4784,
-            4863,
-            4950,
-            5040,
-            5130,
-            5220,
-            5310,
-            5400,
-            5490,
-            6210,
-            6300,
-            6390,
-            6480,
-            6570,
-            6660,
-            6750,
-            6840,
-            6930,
-            7650,
-            7745,
-            7862,
-            7923,
-            8055,
-            8113,
-            8199,
-            8287,
-            8376,
-            9143,
-            9183,
-            9297,
-            9374,
-            9450,
-            9544,
-            9646,
-            9732,
-            9823
+            1950,
+            2045,
+            2133,
+            2220,
+            2313,
+            2445,
+            2500,
+            2603,
+            2672,
+            3397,
+            3516,
+            3620,
+            3662,
+            3755,
+            3840,
+            3930,
+            4028,
+            4135,
+            4844,
+            4923,
+            5010,
+            5100,
+            5190,
+            5280,
+            5370,
+            5460,
+            5550,
+            6270,
+            6360,
+            6450,
+            6540,
+            6630,
+            6720,
+            6810,
+            6900,
+            6990,
+            7710,
+            7805,
+            7922,
+            7983,
+            8115,
+            8173,
+            8259,
+            8347,
+            8436,
+            9203,
+            9243,
+            9357,
+            9434,
+            9510,
+            9604,
+            9706,
+            9792,
+            9883
           ]
         },
         "reminders": {
@@ -477,13 +477,13 @@
       "estimatedCompletionTime": 3,
       "protocol": {
         "repeatProtocol": {
-          "unit": "day",
-          "amount": 1
+          "unit": "year",
+          "amount": 9999
         },
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            930
+            990
           ]
         },
         "reminders": {

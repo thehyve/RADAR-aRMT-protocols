@@ -47,7 +47,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            600
+            660
           ]
         },
         "reminders": {
@@ -98,7 +98,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            630
+            690
           ]
         },
         "reminders": {
@@ -153,7 +153,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            600
+            660
           ]
         },
         "reminders": {
@@ -204,7 +204,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            480
+            540
           ]
         },
         "reminders": {
