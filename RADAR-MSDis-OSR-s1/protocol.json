@@ -1,5 +1,5 @@
 {
-  "version": "0.1.9",
+  "version": "0.1.10",
   "schemaVersion": "0.0.2",
   "name": "RADAR MSDis OSR s1",
   "healthIssues": [
@@ -105,6 +105,10 @@
           "unit": "day",
           "amount": 0,
           "repeat": 0
+        },
+        "completionWindow": {
+          "unit": "day",
+          "amount": 3
         }
       }
     },
@@ -336,109 +340,6 @@
               10080
             ]
           }
-        }
-      }
-    }, {
-      "name": "ESM",
-      "showIntroduction": false,
-      "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "esm",
-        "avsc": "questionnaire"
-      },
-      "startText": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "endText": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "warn": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "estimatedCompletionTime": 3,
-      "protocol": {
-        "repeatProtocol": {
-          "unit": "day",
-          "amount": 42
-        },
-        "repeatQuestionnaire": {
-          "unit": "min",
-          "unitsFromZero": [
-            1950,
-            2045,
-            2133,
-            2220,
-            2313,
-            2445,
-            2500,
-            2603,
-            2672,
-            3397,
-            3516,
-            3620,
-            3662,
-            3755,
-            3840,
-            3930,
-            4028,
-            4135,
-            4844,
-            4923,
-            5010,
-            5100,
-            5190,
-            5280,
-            5370,
-            5460,
-            5550,
-            6270,
-            6360,
-            6450,
-            6540,
-            6630,
-            6720,
-            6810,
-            6900,
-            6990,
-            7710,
-            7805,
-            7922,
-            7983,
-            8115,
-            8173,
-            8259,
-            8347,
-            8436,
-            9203,
-            9243,
-            9357,
-            9434,
-            9510,
-            9604,
-            9706,
-            9792,
-            9883
-          ]
-        },
-        "reminders": {
-          "unit": "day",
-          "amount": 0,
-          "repeat": 0
         }
       }
     },
