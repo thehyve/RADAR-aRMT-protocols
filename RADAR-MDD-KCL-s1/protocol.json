@@ -258,7 +258,7 @@
         "repeatQuestionnaire": {
           "unit": "hour",
           "unitsFromZero": [
-            12
+            9.5
           ]
         },
         "reminders": {
@@ -309,7 +309,7 @@
         "repeatQuestionnaire": {
           "unit": "hour",
           "unitsFromZero": [
-            348
+            345.5
           ]
         },
         "reminders": {
@@ -360,7 +360,7 @@
         "repeatQuestionnaire": {
           "unit": "hour",
           "unitsFromZero": [
-            684
+            681.5
           ]
         },
         "reminders": {

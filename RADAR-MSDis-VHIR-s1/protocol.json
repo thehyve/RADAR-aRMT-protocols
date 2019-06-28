@@ -484,9 +484,9 @@
           "amount": 42
         },
         "repeatQuestionnaire": {
-          "unit": "hour",
+          "unit": "min",
           "unitsFromZero": [
-            12
+            690
           ]
         },
         "reminders": {
