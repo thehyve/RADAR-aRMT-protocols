@@ -256,9 +256,9 @@
           "amount": 42
         },
         "repeatQuestionnaire": {
-          "unit": "hour",
+          "unit": "min",
           "unitsFromZero": [
-            9.5
+            570
           ]
         },
         "reminders": {
@@ -307,9 +307,9 @@
           "amount": 42
         },
         "repeatQuestionnaire": {
-          "unit": "hour",
+          "unit": "min",
           "unitsFromZero": [
-            345.5
+            20730
           ]
         },
         "reminders": {
@@ -358,9 +358,9 @@
           "amount": 42
         },
         "repeatQuestionnaire": {
-          "unit": "hour",
+          "unit": "min",
           "unitsFromZero": [
-            681.5
+            40890
           ]
         },
         "reminders": {
