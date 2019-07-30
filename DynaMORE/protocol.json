@@ -17,7 +17,7 @@
       "startText": {
         "en": "Time for a new questionnaire!",
         "it": "",
-        "nl": "",
+        "nl": "Tijd voor een nieuwe vragenlijst!",
         "da": "",
         "de": "",
         "es": ""
@@ -25,7 +25,7 @@
       "endText": {
         "en": "Thanks for filling this out!",
         "it": "",
-        "nl": "",
+        "nl": "Bedankt voor het invullen!",
         "da": "",
         "de": "",
         "es": ""
@@ -51,7 +51,7 @@
 			542,
 			672,
 			806,
-			821,
+			833,
 			981,
 			1041,
 			1093,
