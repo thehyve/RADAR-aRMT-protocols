@@ -1,5 +1,5 @@
 {
-  "version": "0.1.9",
+  "version": "0.1.11",
   "schemaVersion": "0.0.2",
   "name": "RADAR MSDep VHIR s1",
   "healthIssues": [
@@ -47,7 +47,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            600
+            660
           ]
         },
         "reminders": {
@@ -98,13 +98,17 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            630
+            690
           ]
         },
         "reminders": {
           "unit": "day",
           "amount": 0,
           "repeat": 0
+        },
+        "completionWindow": {
+          "unit": "day",
+          "amount": 3
         }
       }
     },
@@ -149,111 +153,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            600
-          ]
-        },
-        "reminders": {
-          "unit": "day",
-          "amount": 0,
-          "repeat": 0
-        }
-      }
-    },
-    {
-      "name": "ESM",
-      "showIntroduction": false,
-      "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "esm",
-        "avsc": "questionnaire"
-      },
-      "startText": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "endText": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "warn": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "estimatedCompletionTime": 3,
-      "protocol": {
-        "repeatProtocol": {
-          "unit": "day",
-          "amount": 42
-        },
-        "repeatQuestionnaire": {
-          "unit": "min",
-          "unitsFromZero": [
-            1890,
-            1985,
-            2073,
-            2160,
-            2253,
-            2385,
-            2440,
-            2543,
-            2612,
-            3337,
-            3456,
-            3560,
-            3602,
-            3695,
-            3780,
-            3870,
-            3968,
-            4075,
-            4784,
-            4863,
-            4950,
-            5040,
-            5130,
-            5220,
-            5310,
-            5400,
-            5490,
-            6210,
-            6300,
-            6390,
-            6480,
-            6570,
-            6660,
-            6750,
-            6840,
-            6930,
-            7650,
-            7745,
-            7862,
-            7923,
-            8055,
-            8113,
-            8199,
-            8287,
-            8376,
-            9143,
-            9183,
-            9297,
-            9374,
-            9450,
-            9544,
-            9646,
-            9732,
-            9823
+            660
           ]
         },
         "reminders": {
@@ -304,7 +204,58 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            480
+            540
+          ]
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 0,
+          "repeat": 0
+        }
+      }
+    },
+    {
+      "name": "PDDS",
+      "showIntroduction": false,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "patient_determined_disease_step",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 1,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "day",
+          "amount": 42
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            630
           ]
         },
         "reminders": {
