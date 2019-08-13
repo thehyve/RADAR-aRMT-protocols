@@ -1,0 +1,72 @@
+{
+  "version": "0.0.1",
+  "schemaVersion": "0.0.2",
+  "name": "RADAR EPI UKLFR DIARY TEST",
+  "healthIssues": [
+    "epilepsy"
+  ],
+  "protocols": [
+    {
+      "name": "Seizure Diary",
+      "showIntroduction": true,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/epilepsy-aRMT-study/questionnaires/",
+        "name": "seizure_diary",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "startText",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "endText",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "warn",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 5,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "day",
+          "amount": 1
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            60,
+            120,
+            180,
+            240,
+            300,
+            360,
+            420,
+            480,
+            540,
+            600,
+            660,
+            720
+          ]
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 0,
+          "repeat": 0
+        }
+      }
+    }
+  ]
+}
