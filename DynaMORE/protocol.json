@@ -17,7 +17,7 @@
       "startText": {
         "en": "Time for a new questionnaire!",
         "it": "",
-        "nl": "Tijd voor een nieuwe vragenlijst! Duurt ongeveer 3-4 minuten.",
+        "nl": "Tijd voor een nieuwe vragenlijst!",
         "da": "Zeit für einen neuen Fragebogen!",
         "de": "",
         "es": ""
@@ -131,7 +131,7 @@
       "startText": {
         "en": "Your evening questionnaire is now available. You have until midnight to fill it out.",
         "it": "",
-        "nl": "Je avondvragenlijst is nu beschikbaar, je hebt tot middernacht om hem in te vullen. Duurt ongeveer 2 minuten.",
+        "nl": "Je avondvragenlijst is nu beschikbaar, je hebt tot middernacht om hem in te vullen.",
         "da": "",
         "de": "",
         "es": ""
