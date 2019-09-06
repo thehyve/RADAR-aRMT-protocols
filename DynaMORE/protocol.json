@@ -8,26 +8,26 @@
   "protocols": [
     {
       "name": "ESM_DynaMORE",
-      "showIntroduction": false,
+      "showIntroduction": true,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "repository": "https://github.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/tree/master/questionnaires/",
         "name": "ESM_DynaMORE",
         "avsc": "questionnaire"
       },
       "startText": {
         "en": "Time for a new questionnaire!",
         "it": "",
-        "nl": "Tijd voor een nieuwe vragenlijst!",
-        "da": "",
-        "de": "Zeit für einen neuen Fragebogen!",
+        "nl": "Tijd voor een nieuwe vragenlijst! Duurt ongeveer 3-4 minuten.",
+        "da": "Zeit für einen neuen Fragebogen!",
+        "de": "",
         "es": ""
       },
       "endText": {
         "en": "Thanks for filling this out!",
         "it": "",
-        "nl": "Bedankt voor het invullen!",
-        "da": "",
-        "de": "Vielen Dank, dass Sie diese Fragen beantwortet haben!",
+        "nl": "Bedankt voor deze vragenlijst in te vullen!",
+        "da": "Vielen Dank, dass Sie diese Fragen beantwortet haben!",
+        "de": "",
         "es": ""
       },
       "warn": {
@@ -47,66 +47,66 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-		 	1922,
-		  	1982,
-		  	2112,
-		  	2246,
-		  	2273,
-		  	2421,
-		  	2481,
-		  	2533,
-		  	2657,
-		  	2705,
-		  	3341,
-		  	3452,
-		  	3552,
-		  	3664,
-		  	3707,
-		  	3868,
-		  	3906,
-		  	4014,
-		  	4129,
-		  	4229,
-		  	4797,
-		  	4865,
-		  	5004,
-		  	5068,
-		  	5152,
-		  	5287,
-		  	5313,
-		  	5484,
-		  	5531,
-		  	5639,
-		  	6240,
-		  	6317,
-		  	6447,
-		  	6539,
-		  	6572,
-		  	6668,
-		  	6796,
-		  	6855,
-		  	6960,
-		  	7089,
-		  	7651,
-		  	7773,
-		  	7832,
-		  	7953,
-		  	8074,
-		  	8112,
-		  	8257,
-		  	8336,
-		  	8425,
-		  	8540,
-		  	9114,
-		  	9243,
-		  	9281,
-		  	9406,
-		  	9476,
-		  	9552,
-		  	9632,
-		  	9776,
-		  	9854,
-		  	9981
+			482,
+			542,
+			672,
+			806,
+			821,
+			981,
+			1041,
+			1093,
+			1217,
+			1265,
+			1901,
+			2012,
+			2112,
+			2224,
+			2267,
+			2428,
+			2466,
+			2574,
+			2689,
+			2789,
+			3357,
+			3425,
+			3564,
+			3628,
+			3712,
+			3847,
+			3873,
+			4044,
+			4091,
+			4199,
+			4800,
+			4877,
+			5007,
+			5099,
+			5132,
+			5228,
+			5356,
+			5415,
+			5520,
+			5649,
+			6211,
+			6333,
+			6392,
+			6513,
+			6634,
+			6672,
+			6817,
+			6896,
+			6985,
+			7100,
+			7674,
+			7803,
+			7841,
+			7966,
+			8036,
+			8112,
+			8192,
+			8336,
+			8414,
+			8541				
           ]
         },
         "reminders": {
@@ -117,9 +117,70 @@
         "completionWindow": {
           "unit": "min",
           "amount": 10
-        }
+        },
       }
-    }
+    },
+    {
+      "name": "ESM_Evening_DynaMORE",
+      "showIntroduction": true,
+      "questionnaire": {
+        "repository": "https://github.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/tree/master/questionnaires/",
+        "name": "ESM_DynaMORE_Evening",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "Your evening questionnaire is now available. You have until midnight to fill it out.",
+        "it": "",
+        "nl": "Je avondvragenlijst is nu beschikbaar, je hebt tot middernacht om hem in te vullen. Duurt ongeveer 2 minuten.",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 10,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "year",
+          "amount": 9999
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+      2520,
+      3960,
+      5400,
+      6840,
+      8280,
+      9720       
+          ]
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 0,
+          "repeat": 0
+        },
+        "completionWindow": {
+          "unit": "min",
+          "amount": 360
+        },
+      }
+    },
   ]
 }
+
 
