@@ -121,7 +121,7 @@
       }
     },
     {
-      "name": "ESM_Evening_DynaMORE",
+      "name": "ESM_DynaMORE_Evening",
       "showIntroduction": true,
       "questionnaire": {
         "repository": "https://github.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/tree/master/questionnaires/",
