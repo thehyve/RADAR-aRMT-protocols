@@ -110,9 +110,9 @@
           ]
         },
         "reminders": {
-          "unit": "day",
-          "amount": 0,
-          "repeat": 0
+          "unit": "min",
+          "amount": 1,
+          "repeat": 5
         },
         "completionWindow": {
           "unit": "min",
