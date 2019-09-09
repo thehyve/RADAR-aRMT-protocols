@@ -18,15 +18,15 @@
         "en": "Time for a new questionnaire!",
         "it": "",
         "nl": "Tijd voor een nieuwe vragenlijst!",
-        "da": "Zeit für einen neuen Fragebogen!",
+        "da": "",
         "de": "",
         "es": ""
       },
       "endText": {
         "en": "Thanks for filling this out!",
         "it": "",
-        "nl": "Bedankt voor deze vragenlijst in te vullen!",
-        "da": "Vielen Dank, dass Sie diese Fragen beantwortet haben!",
+        "nl": "Bedankt voor het invullen!",
+        "da": "",
         "de": "",
         "es": ""
       },
@@ -38,7 +38,7 @@
         "de": "",
         "es": ""
       },
-      "estimatedCompletionTime": 4,
+      "estimatedCompletionTime": 10,
       "protocol": {
         "repeatProtocol": {
           "unit": "year",
@@ -51,7 +51,7 @@
 			542,
 			672,
 			806,
-			821,
+			833,
 			981,
 			1041,
 			1093,
@@ -110,77 +110,15 @@
           ]
         },
         "reminders": {
-          "unit": "min",
-          "amount": 1,
-          "repeat": 10
-        },
-        "completionWindow": {
-          "unit": "min",
-          "amount": 10
-        }
-      }
-    },
-    {
-      "name": "ESM_DynaMORE_Evening",
-      "showIntroduction": true,
-      "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "ESM_DynaMORE_Evening",
-        "avsc": "questionnaire"
-      },
-      "startText": {
-        "en": "Your evening questionnaire is now available. You have until midnight to fill it out.",
-        "it": "",
-        "nl": "Je avondvragenlijst is nu beschikbaar, je hebt tot middernacht om hem in te vullen.",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "endText": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "warn": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "estimatedCompletionTime": 2,
-      "protocol": {
-        "repeatProtocol": {
-          "unit": "year",
-          "amount": 9999
-        },
-        "repeatQuestionnaire": {
-          "unit": "min",
-          "unitsFromZero": [
-      660,
-      3960,
-      5400,
-      6840,
-      8280,
-      9720       
-          ]
-        },
-        "reminders": {
           "unit": "day",
           "amount": 0,
           "repeat": 0
         },
         "completionWindow": {
           "unit": "min",
-          "amount": 360
+          "amount": 10
         }
       }
     }
   ]
 }
-
-
