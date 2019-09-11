@@ -1,5 +1,5 @@
 {
-  "version": "0.1.1",
+  "version": "0.1.2",
   "schemaVersion": "0.1.0",
   "name": "ESM_DynaMORE",
   "healthIssues": [
@@ -7,11 +7,11 @@
   ],
   "protocols": [
     {
-      "name": "ESM_DynaMORE",
+      "name": "ESM_DynaMORE_Evening",
       "showIntroduction": true,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "ESM_DynaMORE",
+        "name": "ESM_DynaMORE_Evening",
         "avsc": "questionnaire"
       },
       "startText": {
@@ -19,7 +19,7 @@
         "it": "",
         "nl": "Tijd voor een nieuwe vragenlijst!",
         "da": "",
-        "de": "",
+        "de": "Zeit für einen neuen Fragebogen!",
         "es": ""
       },
       "endText": {
@@ -27,7 +27,7 @@
         "it": "",
         "nl": "Bedankt voor het invullen!",
         "da": "",
-        "de": "",
+        "de": "Vielen Dank, dass Sie diese Fragen beantwortet haben!",
         "es": ""
       },
       "warn": {
@@ -38,7 +38,7 @@
         "de": "",
         "es": ""
       },
-      "estimatedCompletionTime": 4,
+      "estimatedCompletionTime": 2,
       "protocol": {
         "repeatProtocol": {
           "unit": "year",
@@ -47,66 +47,13 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-			482,
-			542,
-			672,
-			806,
-			833,
-			981,
-			1041,
-			1093,
-			1217,
-			1265,
-			1901,
-			2012,
-			2112,
-			2224,
-			2267,
-			2428,
-			2466,
-			2574,
-			2689,
-			2789,
-			3357,
-			3425,
-			3564,
-			3628,
-			3712,
-			3847,
-			3873,
-			4044,
-			4091,
-			4199,
-			4800,
-			4877,
-			5007,
-			5099,
-			5132,
-			5228,
-			5356,
-			5415,
-			5520,
-			5649,
-			6211,
-			6333,
-			6392,
-			6513,
-			6634,
-			6672,
-			6817,
-			6896,
-			6985,
-			7100,
-			7674,
-			7803,
-			7841,
-			7966,
-			8036,
-			8112,
-			8192,
-			8336,
-			8414,
-			8541				
+      720,
+      750,
+      780,
+      810,
+      840,
+      870,
+      900      
           ]
         },
         "reminders": {
@@ -115,8 +62,8 @@
           "repeat": 5
         },
         "completionWindow": {
-          "unit": "min",
-          "amount": 10
+          "unit": "day",
+          "amount": 1
         }
       }
     }
