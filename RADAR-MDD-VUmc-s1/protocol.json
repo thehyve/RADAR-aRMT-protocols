@@ -2,9 +2,7 @@
   "version": "0.1.10",
   "schemaVersion": "0.0.2",
   "name": "RADAR MDD VUmc s1",
-  "healthIssues": [
-    "depression"
-  ],
+  "healthIssues": ["depression"],
   "protocols": [
     {
       "name": "THINC-IT",
@@ -46,9 +44,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [
-            600
-          ]
+          "unitsFromZero": [600]
         },
         "reminders": {
           "unit": "day",
@@ -97,14 +93,12 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [
-            540
-          ]
+          "unitsFromZero": [540]
         },
         "reminders": {
           "unit": "day",
-          "amount": 4,
-          "repeat": 1
+          "amount": 0,
+          "repeat": 0
         },
         "completionWindow": {
           "unit": "day",
@@ -152,14 +146,12 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [
-            570
-          ]
+          "unitsFromZero": [570]
         },
         "reminders": {
           "unit": "day",
-          "amount": 4,
-          "repeat": 1
+          "amount": 0,
+          "repeat": 0
         },
         "completionWindow": {
           "unit": "day",
@@ -207,9 +199,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [
-            990
-          ]
+          "unitsFromZero": [990]
         },
         "reminders": {
           "unit": "day",
