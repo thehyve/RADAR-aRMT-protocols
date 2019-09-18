@@ -38,7 +38,7 @@
         "de": "",
         "es": ""
       },
-      "estimatedCompletionTime": 4,
+      "estimatedCompletionTime": 3,
       "protocol": {
         "repeatProtocol": {
           "unit": "year",
@@ -111,8 +111,8 @@
         },
         "reminders": {
           "unit": "min",
-          "amount": 1,
-          "repeat": 5
+          "amount": 4,
+          "repeat": 2
         },
         "completionWindow": {
           "unit": "min",
