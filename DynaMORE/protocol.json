@@ -11,7 +11,7 @@
       "showIntroduction": true,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "esm",
+        "name": "ESM_DynaMORE",
         "avsc": "questionnaire"
       },
       "startText": {
@@ -47,8 +47,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-		  	630,
-			1922,
+		  	1922,
 			1982,
 			2112,
 			2246,
@@ -126,7 +125,7 @@
       "showIntroduction": true,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "esm",
+        "name": "ESM_DynaMORE_Evening",
         "avsc": "questionnaire"
       },
       "startText": {
