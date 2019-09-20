@@ -11,7 +11,7 @@
       "showIntroduction": true,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "ESM_DynaMORE",
+        "name": "esm",
         "avsc": "questionnaire"
       },
       "startText": {
@@ -125,7 +125,7 @@
       "showIntroduction": true,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "ESM_DynaMORE_Evening",
+        "name": "esm",
         "avsc": "questionnaire"
       },
       "startText": {
