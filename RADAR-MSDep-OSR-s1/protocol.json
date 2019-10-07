@@ -1,5 +1,5 @@
 {
-  "version": "0.1.11",
+  "version": "0.1.12",
   "schemaVersion": "0.0.2",
   "name": "RADAR MSDep OSR s1",
   "healthIssues": [
@@ -109,57 +109,6 @@
         "completionWindow": {
           "unit": "day",
           "amount": 3
-        }
-      }
-    },
-    {
-      "name": "PDQ",
-      "showIntroduction": false,
-      "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "perceived_deficits_questionnaire",
-        "avsc": "questionnaire"
-      },
-      "startText": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "endText": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "warn": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "estimatedCompletionTime": 1,
-      "protocol": {
-        "repeatProtocol": {
-          "unit": "day",
-          "amount": 42
-        },
-        "repeatQuestionnaire": {
-          "unit": "min",
-          "unitsFromZero": [
-            660
-          ]
-        },
-        "reminders": {
-          "unit": "day",
-          "amount": 0,
-          "repeat": 0
         }
       }
     },
