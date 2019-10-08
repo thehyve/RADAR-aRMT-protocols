@@ -1,10 +1,8 @@
 {
-  "version": "0.1.11",
+  "version": "0.0.1",
   "schemaVersion": "0.0.2",
-  "name": "RADAR MSDep RegionH s1",
-  "healthIssues": [
-    "depression"
-  ],
+  "name": "RADAR MDD IISPV s1",
+  "healthIssues": ["depression"],
   "protocols": [
     {
       "name": "THINC-IT",
@@ -46,9 +44,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [
-            660
-          ]
+          "unitsFromZero": [600]
         },
         "reminders": {
           "unit": "day",
@@ -59,14 +55,14 @@
     },
     {
       "name": "PHQ8",
-      "showIntroduction": true,
+      "showIntroduction": false,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "phq8",
         "avsc": "questionnaire"
       },
       "startText": {
-        "en": "",
+        "en": "This questionnaire is known as the PHQ8. Clinicians use it to assess current depression in patients. Please note that none of your answers will be collected today. Thank you for taking part in this focus group.",
         "it": "",
         "nl": "",
         "da": "",
@@ -74,7 +70,7 @@
         "es": ""
       },
       "endText": {
-        "en": "",
+        "en": "Thank you for taking the time today.",
         "it": "",
         "nl": "",
         "da": "",
@@ -89,7 +85,7 @@
         "de": "",
         "es": ""
       },
-      "estimatedCompletionTime": 1,
+      "estimatedCompletionTime": 3,
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
@@ -97,9 +93,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [
-            690
-          ]
+          "unitsFromZero": [540]
         },
         "reminders": {
           "unit": "day",
@@ -113,11 +107,11 @@
       }
     },
     {
-      "name": "PDQ",
+      "name": "RSES",
       "showIntroduction": false,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "perceived_deficits_questionnaire",
+        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "rses",
         "avsc": "questionnaire"
       },
       "startText": {
@@ -144,22 +138,24 @@
         "de": "",
         "es": ""
       },
-      "estimatedCompletionTime": 1,
+      "estimatedCompletionTime": 3,
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 42
+          "amount": 14
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [
-            660
-          ]
+          "unitsFromZero": [570]
         },
         "reminders": {
           "unit": "day",
           "amount": 0,
           "repeat": 0
+        },
+        "completionWindow": {
+          "unit": "day",
+          "amount": 3
         }
       }
     },
@@ -203,60 +199,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [
-            540
-          ]
-        },
-        "reminders": {
-          "unit": "day",
-          "amount": 0,
-          "repeat": 0
-        }
-      }
-    },
-    {
-      "name": "PDDS",
-      "showIntroduction": false,
-      "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "patient_determined_disease_step",
-        "avsc": "questionnaire"
-      },
-      "startText": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "endText": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "warn": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "estimatedCompletionTime": 1,
-      "protocol": {
-        "repeatProtocol": {
-          "unit": "day",
-          "amount": 42
-        },
-        "repeatQuestionnaire": {
-          "unit": "min",
-          "unitsFromZero": [
-            630
-          ]
+          "unitsFromZero": [990]
         },
         "reminders": {
           "unit": "day",
