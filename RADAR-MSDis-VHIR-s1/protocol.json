@@ -166,7 +166,7 @@
           "repeatAfterClinicVisit": {
             "unit": "min",
             "unitsFromZero": [
-              10080
+              1440
             ]
           }
         }
@@ -226,7 +226,7 @@
           "repeatAfterClinicVisit": {
             "unit": "min",
             "unitsFromZero": [
-              10080
+              1440
             ]
           }
         }
@@ -286,7 +286,7 @@
           "repeatAfterClinicVisit": {
             "unit": "min",
             "unitsFromZero": [
-              10080
+              1440
             ]
           }
         }
