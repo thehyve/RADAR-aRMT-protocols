@@ -122,9 +122,9 @@
             "type": "integer",
             "title": "Order for showing tasks in the home page",
             "description": "Order for choosing tasks to prioritize in the home page when multiple tasks are pending and order for showing clinical tasks, where 0 has the highest order/priority.",
-            "default": false,
+            "default": 0,
             "examples": [
-              true
+              0
             ]
           },
           "questionnaire": {
