@@ -10,6 +10,7 @@
         "name": "SAMPLE_INPUT_DEMO",
         "showIntroduction": false,
         "showInCalendar": false,
+        "isDemo": true,
         "order": 3,
         "questionnaire": {
           "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
@@ -490,6 +491,7 @@
         "name": "ESM_DEMO",
         "showIntroduction": true,
         "showInCalendar": true,
+        "isDemo": true,
         "order": 3,
         "questionnaire": {
           "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
