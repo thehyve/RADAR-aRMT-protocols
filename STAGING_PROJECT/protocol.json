@@ -10,6 +10,8 @@
         "name": "SAMPLE_INPUT_DEMO",
         "showIntroduction": false,
         "showInCalendar": false,
+        "isDemo": true,
+        "order": 3,
         "questionnaire": {
           "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
           "name": "sample-field-types",
@@ -71,6 +73,7 @@
         "name": "ROMBERG",
         "showIntroduction": false,
         "showInCalendar": false,
+        "order": 0,
         "questionnaire": {
           "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
           "name": "romberg_test",
@@ -142,6 +145,7 @@
         "name": "THINC-IT",
         "showIntroduction": false,
         "showInCalendar": true,
+        "order": 2,
         "questionnaire": {
           "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
           "name": "thinc_it",
@@ -194,6 +198,7 @@
         "name": "2MW",
         "showIntroduction": false,
         "showInCalendar": false,
+        "order": 2,
         "questionnaire": {
           "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
           "name": "2MW_test",
@@ -265,6 +270,7 @@
         "name": "TANDEM WALKING",
         "showIntroduction": false,
         "showInCalendar": false,
+        "order": 1,
         "questionnaire": {
           "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
           "name": "tandem_walking_test",
@@ -336,6 +342,7 @@
         "name": "PHQ8",
         "showIntroduction": false,
         "showInCalendar": true,
+        "order": 1,
         "questionnaire": {
           "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
           "name": "phq8",
@@ -392,6 +399,7 @@
         "name": "RSES",
         "showIntroduction": false,
         "showInCalendar": true,
+        "order": 2,
         "questionnaire": {
           "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
           "name": "rses",
@@ -448,6 +456,7 @@
         "name": "ESM",
         "showIntroduction": false,
         "showInCalendar": false,
+        "order": 0,
         "questionnaire": {
           "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
           "name": "esm",
@@ -512,6 +521,8 @@
         "name": "ESM_DEMO",
         "showIntroduction": true,
         "showInCalendar": true,
+        "isDemo": true,
+        "order": 3,
         "questionnaire": {
           "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
           "name": "esm-demo",
@@ -564,6 +575,7 @@
         "name": "AUDIO",
         "showIntroduction": false,
         "showInCalendar": true,
+        "order": 3,
         "questionnaire": {
           "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/audio-translations/questionnaires/",
           "name": "audio",
@@ -616,6 +628,7 @@
         "name": "AUDIO_2",
         "showIntroduction": false,
         "showInCalendar": true,
+        "order": 3,
         "questionnaire": {
           "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/audio-translations/questionnaires/",
           "name": "audio_2",
@@ -668,6 +681,7 @@
         "name": "AUDIO_3",
         "showIntroduction": false,
         "showInCalendar": true,
+        "order": 3,
         "questionnaire": {
           "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/audio-translations/questionnaires/",
           "name": "audio_3",
@@ -771,6 +785,7 @@
         "name": "PDDS",
         "showIntroduction": false,
         "showInCalendar": true,
+        "order": 3,
         "questionnaire": {
           "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
           "name": "patient_determined_disease_step",
@@ -827,6 +842,7 @@
         "name": "PDQ",
         "showIntroduction": false,
         "showInCalendar": true,
+        "order": 3,
         "questionnaire": {
           "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
           "name": "perceived_deficits_questionnaire",
