@@ -10,6 +10,7 @@
         "name": "SAMPLE_INPUT_DEMO",
         "showIntroduction": false,
         "showInCalendar": false,
+        "order": 3,
         "questionnaire": {
           "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
           "name": "sample-field-types",
@@ -71,6 +72,7 @@
         "name": "ROMBERG",
         "showIntroduction": false,
         "showInCalendar": false,
+        "order": 0,
         "questionnaire": {
           "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
           "name": "romberg_test",
@@ -185,6 +187,7 @@
         "name": "2MW",
         "showIntroduction": false,
         "showInCalendar": false,
+        "order": 2,
         "questionnaire": {
           "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
           "name": "2MW_test",
@@ -246,6 +249,7 @@
         "name": "TANDEM WALKING",
         "showIntroduction": false,
         "showInCalendar": false,
+        "order": 1,
         "questionnaire": {
           "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
           "name": "tandem_walking_test",
