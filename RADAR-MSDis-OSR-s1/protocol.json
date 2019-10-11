@@ -425,6 +425,7 @@
     {
       "name": "AUDIO_4",
       "showIntroduction": false,
+      "order": 3,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "audio_4",

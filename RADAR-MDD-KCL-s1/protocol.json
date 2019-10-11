@@ -212,6 +212,7 @@
     {
       "name": "AUDIO",
       "showIntroduction": false,
+      "order": 3,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "audio",
@@ -265,6 +266,7 @@
     {
       "name": "AUDIO_2",
       "showIntroduction": false,
+      "order": 3,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "audio_2",
@@ -318,6 +320,7 @@
     {
       "name": "AUDIO_3",
       "showIntroduction": false,
+      "order": 3,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "audio_3",
