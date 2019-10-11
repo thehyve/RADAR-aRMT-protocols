@@ -1,7 +1,7 @@
 {
-  "version": "0.2.5",
+  "version": "0.0.1",
   "schemaVersion": "0.0.2",
-  "name": "RADAR MDD KCL s1",
+  "name": "RADAR MDD IISPV s1",
   "healthIssues": ["depression"],
   "protocols": [
     {
@@ -44,7 +44,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [660]
+          "unitsFromZero": [600]
         },
         "reminders": {
           "unit": "day",
@@ -93,7 +93,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [570]
+          "unitsFromZero": [540]
         },
         "reminders": {
           "unit": "day",
@@ -146,7 +146,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [600]
+          "unitsFromZero": [570]
         },
         "reminders": {
           "unit": "day",
@@ -160,8 +160,8 @@
       }
     },
     {
-      "name": "DEMO",
-      "showIntroduction": true,
+      "name": "DEMO ESM",
+      "showIntroduction": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "esm-demo",
@@ -199,171 +199,12 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [540]
+          "unitsFromZero": [990]
         },
         "reminders": {
           "unit": "day",
           "amount": 0,
           "repeat": 0
-        }
-      }
-    },
-    {
-      "name": "AUDIO",
-      "showIntroduction": false,
-      "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "audio",
-        "avsc": "questionnaire"
-      },
-      "startText": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "endText": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "warn": {
-        "en": "Find a quiet space.",
-        "it": "Trova uno spazio tranquillo.",
-        "nl": "Zoek een stille ruimte.",
-        "da": "Find et roligt sted.",
-        "de": "Suchen Sie sich einen ruhigen Platz.",
-        "es": "Encuentra un espacio tranquilo."
-      },
-      "estimatedCompletionTime": 3,
-      "protocol": {
-        "repeatProtocol": {
-          "unit": "day",
-          "amount": 42
-        },
-        "repeatQuestionnaire": {
-          "unit": "min",
-          "unitsFromZero": [690]
-        },
-        "reminders": {
-          "unit": "day",
-          "amount": 0,
-          "repeat": 0
-        },
-        "completionWindow": {
-          "unit": "day",
-          "amount": 3
-        }
-      }
-    },
-    {
-      "name": "AUDIO_2",
-      "showIntroduction": false,
-      "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "audio_2",
-        "avsc": "questionnaire"
-      },
-      "startText": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "endText": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "warn": {
-        "en": "Find a quiet space.",
-        "it": "Trova uno spazio tranquillo.",
-        "nl": "Zoek een stille ruimte.",
-        "da": "Find et roligt sted.",
-        "de": "Suchen Sie sich einen ruhigen Platz.",
-        "es": "Encuentra un espacio tranquilo."
-      },
-      "estimatedCompletionTime": 3,
-      "protocol": {
-        "repeatProtocol": {
-          "unit": "day",
-          "amount": 42
-        },
-        "repeatQuestionnaire": {
-          "unit": "min",
-          "unitsFromZero": [20850]
-        },
-        "reminders": {
-          "unit": "day",
-          "amount": 0,
-          "repeat": 0
-        },
-        "completionWindow": {
-          "unit": "day",
-          "amount": 3
-        }
-      }
-    },
-    {
-      "name": "AUDIO_3",
-      "showIntroduction": false,
-      "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "audio_3",
-        "avsc": "questionnaire"
-      },
-      "startText": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "endText": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "warn": {
-        "en": "Find a quiet space.",
-        "it": "Trova uno spazio tranquillo.",
-        "nl": "Zoek een stille ruimte.",
-        "da": "Find et roligt sted.",
-        "de": "Suchen Sie sich einen ruhigen Platz.",
-        "es": "Encuentra un espacio tranquilo."
-      },
-      "estimatedCompletionTime": 3,
-      "protocol": {
-        "repeatProtocol": {
-          "unit": "day",
-          "amount": 42
-        },
-        "repeatQuestionnaire": {
-          "unit": "min",
-          "unitsFromZero": [41010]
-        },
-        "reminders": {
-          "unit": "day",
-          "amount": 0,
-          "repeat": 0
-        },
-        "completionWindow": {
-          "unit": "day",
-          "amount": 3
         }
       }
     }
