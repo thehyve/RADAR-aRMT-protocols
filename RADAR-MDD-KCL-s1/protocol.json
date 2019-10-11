@@ -162,6 +162,7 @@
     {
       "name": "DEMO",
       "showIntroduction": true,
+      "isDemo": true,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "esm-demo",
