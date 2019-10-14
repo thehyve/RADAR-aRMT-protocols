@@ -565,7 +565,7 @@
         "showIntroduction": false,
         "showInCalendar": true,
         "questionnaire": {
-          "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/audio-translations/questionnaires/",
+          "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
           "name": "audio",
           "avsc": "questionnaire"
         },
@@ -617,7 +617,7 @@
         "showIntroduction": false,
         "showInCalendar": true,
         "questionnaire": {
-          "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/audio-translations/questionnaires/",
+          "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
           "name": "audio_2",
           "avsc": "questionnaire"
         },
@@ -669,7 +669,7 @@
         "showIntroduction": false,
         "showInCalendar": true,
         "questionnaire": {
-          "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/audio-translations/questionnaires/",
+          "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
           "name": "audio_3",
           "avsc": "questionnaire"
         },
@@ -720,7 +720,7 @@
         "name": "AUDIO_4",
         "showIntroduction": false,
         "questionnaire": {
-          "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/audio-translations/questionnaires/",
+          "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
           "name": "audio_4",
           "avsc": "questionnaire"
         },
