@@ -1,5 +1,5 @@
 {
-  "version": "0.2.5",
+  "version": "0.2.6",
   "schemaVersion": "0.0.2",
   "name": "RADAR MDD KCL s1",
   "healthIssues": ["depression"],
@@ -7,6 +7,9 @@
     {
       "name": "THINC-IT",
       "showIntroduction": false,
+      "showInCalendar": true,
+      "isDemo": false,
+      "order": 2,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "thinc_it",
@@ -56,6 +59,9 @@
     {
       "name": "PHQ8",
       "showIntroduction": false,
+      "showInCalendar": true,
+      "isDemo": false,
+      "order": 0,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "phq8",
@@ -109,6 +115,9 @@
     {
       "name": "RSES",
       "showIntroduction": false,
+      "showInCalendar": true,
+      "isDemo": false,
+      "order": 1,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "rses",
@@ -162,6 +171,9 @@
     {
       "name": "DEMO",
       "showIntroduction": true,
+      "showInCalendar": true,
+      "isDemo": true,
+      "order": 5,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "esm-demo",
@@ -211,6 +223,9 @@
     {
       "name": "AUDIO",
       "showIntroduction": false,
+      "showInCalendar": true,
+      "isDemo": false,
+      "order": 3,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "audio",
@@ -264,6 +279,9 @@
     {
       "name": "AUDIO_2",
       "showIntroduction": false,
+      "showInCalendar": true,
+      "isDemo": false,
+      "order": 3,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "audio_2",
@@ -317,6 +335,9 @@
     {
       "name": "AUDIO_3",
       "showIntroduction": false,
+      "showInCalendar": true,
+      "isDemo": false,
+      "order": 3,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "audio_3",
