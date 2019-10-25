@@ -1,5 +1,5 @@
 {
-  "version": "0.2.3",
+  "version": "0.3.0",
   "schemaVersion": "0.0.2",
   "name": "RADAR MS TEST",
   "healthIssues": [
@@ -216,6 +216,16 @@
               10080
             ]
           }
+        },
+        "notification": {
+          "title": {
+            "en": "Task time",
+            "it": "E' il momento per un compito",
+            "es": "Momento para la tarea",
+            "nl": "Tijd voor een taak",
+            "da": "Tid til at udføre opgaver",
+            "de": "Zeit für Aufgaben"
+          }
         }
       }
     },
@@ -276,6 +286,16 @@
               10080
             ]
           }
+        },
+        "notification": {
+          "title": {
+            "en": "Task time",
+            "it": "E' il momento per un compito",
+            "es": "Momento para la tarea",
+            "nl": "Tijd voor een taak",
+            "da": "Tid til at udføre opgaver",
+            "de": "Zeit für Aufgaben"
+          }
         }
       }
     },
@@ -335,6 +355,16 @@
             "unitsFromZero": [
               10080
             ]
+          }
+        },
+        "notification": {
+          "title": {
+            "en": "Task time",
+            "it": "E' il momento per un compito",
+            "es": "Momento para la tarea",
+            "nl": "Tijd voor een taak",
+            "da": "Tid til at udføre opgaver",
+            "de": "Zeit für Aufgaben"
           }
         }
       }
