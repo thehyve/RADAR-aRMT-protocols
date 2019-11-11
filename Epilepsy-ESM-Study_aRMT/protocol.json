@@ -1,8 +1,8 @@
 {
   "version": "0.3.0",
   "schemaVersion": "0.0.2",
-  "name": "RADAR MDD KCL s1",
-  "healthIssues": ["depression"],
+  "name": "Epilepsy ESM Study aRMT",
+  "healthIssues": ["epilepsy"],
   "protocols": [
 
     {
