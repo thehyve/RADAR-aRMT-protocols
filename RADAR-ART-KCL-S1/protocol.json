@@ -1,7 +1,7 @@
 {
   "version": "0.0.1",
   "schemaVersion": "0.0.2",
-  "name": "RADAR ART KCL S1",
+  "name": "RADAR ART KCL s1",
   "healthIssues": ["ADHD"],
   "protocols": [
     {
@@ -46,8 +46,8 @@
           "amount": 28
         },
         "repeatQuestionnaire": {
-          "unit": "min",
-          "unitsFromZero": [2070]
+          "unit": "hour",
+          "unitsFromZero": [178.5]
         },
         "reminders": {
           "unit": "day",
@@ -102,8 +102,8 @@
           "amount": 28
         },
         "repeatQuestionnaire": {
-          "unit": "min",
-          "unitsFromZero": [2010]
+          "unit": "hour",
+          "unitsFromZero": [177.5]
         },
         "reminders": {
           "unit": "day",
@@ -158,8 +158,8 @@
           "amount": 28
         },
         "repeatQuestionnaire": {
-          "unit": "min",
-          "unitsFromZero": [2130]
+          "unit": "hour",
+          "unitsFromZero": [179.5]
         },
         "reminders": {
           "unit": "day",
@@ -214,8 +214,8 @@
           "amount": 28
         },
         "repeatQuestionnaire": {
-          "unit": "min",
-          "unitsFromZero": [2040]
+          "unit": "hour",
+          "unitsFromZero": [178]
         },
         "reminders": {
           "unit": "day",
@@ -270,8 +270,8 @@
           "amount": 28
         },
         "repeatQuestionnaire": {
-          "unit": "min",
-          "unitsFromZero": [2100]
+          "unit": "hour",
+          "unitsFromZero": [179]
         },
         "reminders": {
           "unit": "day",
@@ -326,8 +326,8 @@
           "amount": 28
         },
         "repeatQuestionnaire": {
-          "unit": "min",
-          "unitsFromZero": [1980]
+          "unit": "hour",
+          "unitsFromZero": [177]
         },
         "reminders": {
           "unit": "day",
@@ -382,8 +382,8 @@
           "amount": 28
         },
         "repeatQuestionnaire": {
-          "unit": "min",
-          "unitsFromZero": [1990]
+          "unit": "hour",
+          "unitsFromZero": [177.5]
         },
         "reminders": {
           "unit": "day",
