@@ -47,7 +47,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "hour",
-          "unitsFromZero": [178.5]
+          "unitsFromZero": [178]
         },
         "reminders": {
           "unit": "day",
@@ -103,7 +103,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "hour",
-          "unitsFromZero": [177.5]
+          "unitsFromZero": [177]
         },
         "reminders": {
           "unit": "day",
@@ -159,7 +159,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "hour",
-          "unitsFromZero": [179.5]
+          "unitsFromZero": [179]
         },
         "reminders": {
           "unit": "day",
@@ -383,7 +383,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "hour",
-          "unitsFromZero": [177.5]
+          "unitsFromZero": [177]
         },
         "reminders": {
           "unit": "day",
