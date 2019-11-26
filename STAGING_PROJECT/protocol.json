@@ -396,70 +396,14 @@
         }
       },
       {
-        "name": "RSES",
+        "name": "BAARSIV",
         "showIntroduction": false,
         "showInCalendar": true,
-        "order": 2,
+        "isDemo": false,
+        "order": 1,
         "questionnaire": {
-          "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-          "name": "rses",
-          "avsc": "questionnaire"
-        },
-        "startText": {
-          "en": "",
-          "it": "",
-          "nl": "",
-          "da": "",
-          "de": "",
-          "es": ""
-        },
-        "endText": {
-          "en": "",
-          "it": "",
-          "nl": "",
-          "da": "",
-          "de": "",
-          "es": ""
-        },
-        "warn": {
-          "en": "",
-          "it": "",
-          "nl": "",
-          "da": "",
-          "de": "",
-          "es": ""
-        },
-        "estimatedCompletionTime": 4,
-        "protocol": {
-          "repeatProtocol": {
-            "unit": "day",
-            "amount": 4
-          },
-          "repeatQuestionnaire": {
-            "unit": "min",
-            "unitsFromZero": [
-              600
-            ]
-          },
-          "reminders": {
-            "unit": "day",
-            "amount": 4,
-            "repeat": 1
-          },
-          "completionWindow": {
-            "unit": "day",
-            "amount": 3
-          }
-        }
-      },
-      {
-        "name": "ESM",
-        "showIntroduction": false,
-        "showInCalendar": false,
-        "order": 0,
-        "questionnaire": {
-          "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-          "name": "esm",
+          "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/art-test/questionnaires/",
+          "name": "baarsiv",
           "avsc": "questionnaire"
         },
         "startText": {
@@ -489,49 +433,12 @@
         "estimatedCompletionTime": 3,
         "protocol": {
           "repeatProtocol": {
-            "unit": "week",
-            "amount": 12
+            "unit": "day",
+            "amount": 1
           },
           "repeatQuestionnaire": {
             "unit": "min",
-            "unitsFromZero": [
-              1999,
-              2156,
-              2300,
-              2430,
-              2499,
-              2688,
-              3511,
-              3582,
-              3666,
-              3889,
-              3990,
-              4067,
-              4861,
-              5050,
-              5200,
-              5300,
-              5400,
-              5550,
-              6333,
-              6425,
-              6550,
-              6707,
-              6888,
-              6965,
-              7755,
-              7899,
-              8040,
-              8200,
-              8273,
-              8370,
-              9289,
-              9389,
-              9449,
-              9600,
-              9745,
-              9889
-            ]
+            "unitsFromZero": [2010]
           },
           "reminders": {
             "unit": "day",
@@ -539,20 +446,20 @@
             "repeat": 0
           },
           "completionWindow": {
-            "unit": "min",
-            "amount": 15
+            "unit": "day",
+            "amount": 1
           }
         }
       },
       {
-        "name": "ESM_DEMO",
-        "showIntroduction": true,
+        "name": "ARISELF",
+        "showIntroduction": false,
         "showInCalendar": true,
-        "isDemo": true,
-        "order": 3,
+        "isDemo": false,
+        "order": 1,
         "questionnaire": {
-          "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-          "name": "esm-demo",
+          "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/art-test/questionnaires/",
+          "name": "ariself",
           "avsc": "questionnaire"
         },
         "startText": {
@@ -582,297 +489,33 @@
         "estimatedCompletionTime": 3,
         "protocol": {
           "repeatProtocol": {
-            "unit": "year",
-            "amount": 9999
+            "unit": "day",
+            "amount": 1
           },
           "repeatQuestionnaire": {
             "unit": "min",
-            "unitsFromZero": [
-              540
-            ]
+            "unitsFromZero": [2130]
           },
           "reminders": {
             "unit": "day",
             "amount": 0,
             "repeat": 0
-          }
-        }
-      },
-      {
-        "name": "AUDIO",
-        "showIntroduction": false,
-        "showInCalendar": true,
-        "order": 3,
-        "questionnaire": {
-          "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-          "name": "audio",
-          "avsc": "questionnaire"
-        },
-        "startText": {
-          "en": "",
-          "it": "",
-          "nl": "",
-          "da": "",
-          "de": "",
-          "es": ""
-        },
-        "endText": {
-          "en": "",
-          "it": "",
-          "nl": "",
-          "da": "",
-          "de": "",
-          "es": ""
-        },
-        "warn": {
-          "en": "Find a quiet space.",
-          "it": "Trova uno spazio tranquillo.",
-          "nl": "Zoek een stille ruimte.",
-          "da": "Find et roligt sted.",
-          "de": "Suchen Sie sich einen ruhigen Platz.",
-          "es": "Encuentra un espacio tranquilo."
-        },
-        "estimatedCompletionTime": 3,
-        "protocol": {
-          "repeatProtocol": {
-            "unit": "day",
-            "amount": 3
-          },
-          "repeatQuestionnaire": {
-            "unit": "hour",
-            "unitsFromZero": [
-              12
-            ]
-          },
-          "reminders": {
-            "unit": "day",
-            "amount": 4,
-            "repeat": 1
-          }
-        }
-      },
-      {
-        "name": "AUDIO_2",
-        "showIntroduction": false,
-        "showInCalendar": true,
-        "order": 3,
-        "questionnaire": {
-          "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-          "name": "audio_2",
-          "avsc": "questionnaire"
-        },
-        "startText": {
-          "en": "",
-          "it": "",
-          "nl": "",
-          "da": "",
-          "de": "",
-          "es": ""
-        },
-        "endText": {
-          "en": "",
-          "it": "",
-          "nl": "",
-          "da": "",
-          "de": "",
-          "es": ""
-        },
-        "warn": {
-          "en": "Find a quiet space.",
-          "it": "Trova uno spazio tranquillo.",
-          "nl": "Zoek een stille ruimte.",
-          "da": "Find et roligt sted.",
-          "de": "Suchen Sie sich einen ruhigen Platz.",
-          "es": "Encuentra un espacio tranquilo."
-        },
-        "estimatedCompletionTime": 3,
-        "protocol": {
-          "repeatProtocol": {
-            "unit": "day",
-            "amount": 3
-          },
-          "repeatQuestionnaire": {
-            "unit": "hour",
-            "unitsFromZero": [
-              36
-            ]
-          },
-          "reminders": {
-            "unit": "day",
-            "amount": 4,
-            "repeat": 1
-          }
-        }
-      },
-      {
-        "name": "AUDIO_3",
-        "showIntroduction": false,
-        "showInCalendar": true,
-        "order": 3,
-        "questionnaire": {
-          "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-          "name": "audio_3",
-          "avsc": "questionnaire"
-        },
-        "startText": {
-          "en": "",
-          "it": "",
-          "nl": "",
-          "da": "",
-          "de": "",
-          "es": ""
-        },
-        "endText": {
-          "en": "",
-          "it": "",
-          "nl": "",
-          "da": "",
-          "de": "",
-          "es": ""
-        },
-        "warn": {
-          "en": "Find a quiet space.",
-          "it": "Trova uno spazio tranquillo.",
-          "nl": "Zoek een stille ruimte.",
-          "da": "Find et roligt sted.",
-          "de": "Suchen Sie sich einen ruhigen Platz.",
-          "es": "Encuentra un espacio tranquilo."
-        },
-        "estimatedCompletionTime": 3,
-        "protocol": {
-          "repeatProtocol": {
-            "unit": "day",
-            "amount": 3
-          },
-          "repeatQuestionnaire": {
-            "unit": "hour",
-            "unitsFromZero": [
-              60
-            ]
-          },
-          "reminders": {
-            "unit": "day",
-            "amount": 4,
-            "repeat": 1
-          }
-        }
-      },
-      {
-        "name": "AUDIO_4",
-        "showIntroduction": false,
-        "questionnaire": {
-          "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-          "name": "audio_4",
-          "avsc": "questionnaire"
-        },
-        "startText": {
-          "en": "",
-          "it": "",
-          "nl": "",
-          "da": "",
-          "de": "",
-          "es": ""
-        },
-        "endText": {
-          "en": "",
-          "it": "",
-          "nl": "",
-          "da": "",
-          "de": "",
-          "es": ""
-        },
-        "warn": {
-          "en": "Find a quiet space.",
-          "it": "Trova uno spazio tranquillo.",
-          "nl": "Zoek een stille ruimte.",
-          "da": "Find et roligt sted.",
-          "de": "Suchen Sie sich einen ruhigen Platz.",
-          "es": "Encuentra un espacio tranquilo."
-        },
-        "estimatedCompletionTime": 3,
-        "protocol": {
-          "repeatProtocol": {
-            "unit": "day",
-            "amount": 2
-          },
-          "repeatQuestionnaire": {
-            "unit": "hour",
-            "unitsFromZero": [
-              60
-            ]
-          },
-          "reminders": {
-            "unit": "day",
-            "amount": 4,
-            "repeat": 1
-          }
-        }
-      },
-      {
-        "name": "PDDS",
-        "showIntroduction": false,
-        "showInCalendar": true,
-        "order": 3,
-        "questionnaire": {
-          "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-          "name": "patient_determined_disease_step",
-          "avsc": "questionnaire"
-        },
-        "startText": {
-          "en": "",
-          "it": "",
-          "nl": "",
-          "da": "",
-          "de": "",
-          "es": ""
-        },
-        "endText": {
-          "en": "",
-          "it": "",
-          "nl": "",
-          "da": "",
-          "de": "",
-          "es": ""
-        },
-        "warn": {
-          "en": "",
-          "it": "",
-          "nl": "",
-          "da": "",
-          "de": "",
-          "es": ""
-        },
-        "estimatedCompletionTime": 1,
-        "protocol": {
-          "repeatProtocol": {
-            "unit": "day",
-            "amount": 3
-          },
-          "repeatQuestionnaire": {
-            "unit": "min",
-            "unitsFromZero": [
-              630
-            ]
-          },
-          "reminders": {
-            "unit": "day",
-            "amount": 4,
-            "repeat": 1
           },
           "completionWindow": {
             "unit": "day",
-            "amount": 3
+            "amount": 1
           }
         }
       },
       {
-        "name": "PDQ",
+        "name": "GAD7",
         "showIntroduction": false,
         "showInCalendar": true,
-        "order": 3,
+        "isDemo": false,
+        "order": 1,
         "questionnaire": {
-          "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-          "name": "perceived_deficits_questionnaire",
+          "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/art-test/questionnaires/",
+          "name": "gad7",
           "avsc": "questionnaire"
         },
         "startText": {
@@ -899,22 +542,192 @@
           "de": "",
           "es": ""
         },
-        "estimatedCompletionTime": 1,
+        "estimatedCompletionTime": 3,
         "protocol": {
           "repeatProtocol": {
             "unit": "day",
-            "amount": 2
+            "amount": 1
           },
           "repeatQuestionnaire": {
             "unit": "min",
-            "unitsFromZero": [
-              600
-            ]
+            "unitsFromZero": [2040]
           },
           "reminders": {
             "unit": "day",
             "amount": 0,
             "repeat": 0
+          },
+          "completionWindow": {
+            "unit": "day",
+            "amount": 1
+          }
+        }
+      },
+      {
+        "name": "RPQ",
+        "showIntroduction": false,
+        "showInCalendar": true,
+        "isDemo": false,
+        "order": 1,
+        "questionnaire": {
+          "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/art-test/questionnaires/",
+          "name": "rpq",
+          "avsc": "questionnaire"
+        },
+        "startText": {
+          "en": "",
+          "it": "",
+          "nl": "",
+          "da": "",
+          "de": "",
+          "es": ""
+        },
+        "endText": {
+          "en": "",
+          "it": "",
+          "nl": "",
+          "da": "",
+          "de": "",
+          "es": ""
+        },
+        "warn": {
+          "en": "",
+          "it": "",
+          "nl": "",
+          "da": "",
+          "de": "",
+          "es": ""
+        },
+        "estimatedCompletionTime": 3,
+        "protocol": {
+          "repeatProtocol": {
+            "unit": "day",
+            "amount": 1
+          },
+          "repeatQuestionnaire": {
+            "unit": "min",
+            "unitsFromZero": [2100]
+          },
+          "reminders": {
+            "unit": "day",
+            "amount": 0,
+            "repeat": 0
+          },
+          "completionWindow": {
+            "unit": "day",
+            "amount": 1
+          }
+        }
+      },
+      {
+        "name": "CPT GNG",
+        "showIntroduction": false,
+        "showInCalendar": true,
+        "isDemo": false,
+        "order": 1,
+        "questionnaire": {
+          "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/art-test/questionnaires/",
+          "name": "cpt_gng",
+          "avsc": "questionnaire"
+        },
+        "startText": {
+          "en": "",
+          "it": "",
+          "nl": "",
+          "da": "",
+          "de": "",
+          "es": ""
+        },
+        "endText": {
+          "en": "",
+          "it": "",
+          "nl": "",
+          "da": "",
+          "de": "",
+          "es": ""
+        },
+        "warn": {
+          "en": "",
+          "it": "",
+          "nl": "",
+          "da": "",
+          "de": "",
+          "es": ""
+        },
+        "estimatedCompletionTime": 3,
+        "protocol": {
+          "repeatProtocol": {
+            "unit": "day",
+            "amount": 1
+          },
+          "repeatQuestionnaire": {
+            "unit": "min",
+            "unitsFromZero": [1980]
+          },
+          "reminders": {
+            "unit": "day",
+            "amount": 0,
+            "repeat": 0
+          },
+          "completionWindow": {
+            "unit": "day",
+            "amount": 1
+          }
+        }
+      },
+      {
+        "name": "FAST TASK",
+        "showIntroduction": false,
+        "showInCalendar": true,
+        "isDemo": false,
+        "order": 1,
+        "questionnaire": {
+          "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/art-test/questionnaires/",
+          "name": "fast_task",
+          "avsc": "questionnaire"
+        },
+        "startText": {
+          "en": "",
+          "it": "",
+          "nl": "",
+          "da": "",
+          "de": "",
+          "es": ""
+        },
+        "endText": {
+          "en": "",
+          "it": "",
+          "nl": "",
+          "da": "",
+          "de": "",
+          "es": ""
+        },
+        "warn": {
+          "en": "",
+          "it": "",
+          "nl": "",
+          "da": "",
+          "de": "",
+          "es": ""
+        },
+        "estimatedCompletionTime": 3,
+        "protocol": {
+          "repeatProtocol": {
+            "unit": "day",
+            "amount": 1
+          },
+          "repeatQuestionnaire": {
+            "unit": "min",
+            "unitsFromZero": [1990]
+          },
+          "reminders": {
+            "unit": "day",
+            "amount": 0,
+            "repeat": 0
+          },
+          "completionWindow": {
+            "unit": "day",
+            "amount": 1
           }
         }
       }
