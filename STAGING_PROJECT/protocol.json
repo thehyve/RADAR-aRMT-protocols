@@ -64,14 +64,14 @@
         }
       },
       {
-        "name": "BAARSIV",
+        "name": "BAARS IV",
         "showIntroduction": false,
         "showInCalendar": true,
         "isDemo": false,
         "order": 1,
         "questionnaire": {
           "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/art-test/questionnaires/",
-          "name": "baarsiv",
+          "name": "baars_iv",
           "avsc": "questionnaire"
         },
         "startText": {
@@ -120,14 +120,14 @@
         }
       },
       {
-        "name": "ARISELF",
+        "name": "ARI SELF",
         "showIntroduction": false,
         "showInCalendar": true,
         "isDemo": false,
         "order": 1,
         "questionnaire": {
           "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/art-test/questionnaires/",
-          "name": "ariself",
+          "name": "ari_self",
           "avsc": "questionnaire"
         },
         "startText": {
