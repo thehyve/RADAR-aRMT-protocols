@@ -233,7 +233,7 @@
       },
       {
         "name": "RPQ",
-        "showIntroduction": "always",
+        "showIntroduction": false,
         "showInCalendar": true,
         "isDemo": false,
         "order": 1,
@@ -243,7 +243,7 @@
           "avsc": "questionnaire"
         },
         "startText": {
-          "en": "There are times when most of us feel angry, or have done things we should not have done. Do not spend a lot of time thinking about the items—just give your first response.",
+          "en": "",
           "it": "",
           "nl": "",
           "da": "",
