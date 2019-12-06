@@ -43,7 +43,7 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 7
+          "amount": 8
         },
         "repeatQuestionnaire": {
           "unit": "min",
@@ -192,8 +192,8 @@
           "repeat": 0
         },
         "completionWindow": {
-          "unit": "day",
-          "amount": 1
+          "unit": "min",
+          "amount": 300
         }
       }
     },
@@ -248,8 +248,8 @@
           "repeat": 0
         },
         "completionWindow": {
-          "unit": "day",
-          "amount": 1
+          "unit": "min",
+          "amount": 300
         }
       }
     },
@@ -302,6 +302,10 @@
           "unit": "day",
           "amount": 0,
           "repeat": 0
+        },
+        "completionWindow": {
+          "unit": "day",
+          "amount": 7
         }
       }
     },
@@ -354,6 +358,10 @@
           "unit": "day",
           "amount": 0,
           "repeat": 0
+        },
+        "completionWindow": {
+          "unit": "day",
+          "amount": 7
         }
       }
     },
