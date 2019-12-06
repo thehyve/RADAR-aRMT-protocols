@@ -47,16 +47,24 @@
         },
         "repeatQuestionnaire": {
           "unit": "hour",
-          "unitsFromZero": [178]
+          "unitsFromZero": [176]
         },
         "reminders": {
-          "unit": "day",
-          "amount": 0,
-          "repeat": 0
+          "unit": "hour",
+          "amount": 28,
+          "repeat": 2
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 1
+          "amount": 3
+        },
+        "notification": {
+          "title": {
+            "en": "Questionnaire time"
+          },
+          "text": {
+            "en": "Please finish them within 3 days. If you already finished them all, please ignore this notification."
+          }
         }
       }
     },
@@ -103,7 +111,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "hour",
-          "unitsFromZero": [177]
+          "unitsFromZero": [176]
         },
         "reminders": {
           "unit": "day",
@@ -112,7 +120,15 @@
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 1
+          "amount": 3
+        },
+        "notification": {
+          "title": {
+            "en": "Questionnaire time"
+          },
+          "text": {
+            "en": "Please finish them within 3 days. If you already finished them all, please ignore this notification."
+          }
         }
       }
     },
@@ -159,7 +175,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "hour",
-          "unitsFromZero": [179]
+          "unitsFromZero": [176]
         },
         "reminders": {
           "unit": "day",
@@ -168,7 +184,15 @@
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 1
+          "amount": 3
+        },
+        "notification": {
+          "title": {
+            "en": "Questionnaire time"
+          },
+          "text": {
+            "en": "Please finish them within 3 days. If you already finished them all, please ignore this notification."
+          }
         }
       }
     },
@@ -215,7 +239,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "hour",
-          "unitsFromZero": [178]
+          "unitsFromZero": [176]
         },
         "reminders": {
           "unit": "day",
@@ -224,7 +248,15 @@
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 1
+          "amount": 3
+        },
+        "notification": {
+          "title": {
+            "en": "Questionnaire time"
+          },
+          "text": {
+            "en": "Please finish them within 3 days. If you already finished them all, please ignore this notification."
+          }
         }
       }
     },
@@ -271,7 +303,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "hour",
-          "unitsFromZero": [179]
+          "unitsFromZero": [176]
         },
         "reminders": {
           "unit": "day",
@@ -280,7 +312,15 @@
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 1
+          "amount": 3
+        },
+        "notification": {
+          "title": {
+            "en": "Questionnaire time"
+          },
+          "text": {
+            "en": "Please finish them within 3 days. If you already finished them all, please ignore this notification."
+          }
         }
       }
     },
@@ -327,7 +367,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "hour",
-          "unitsFromZero": [180]
+          "unitsFromZero": [176]
         },
         "reminders": {
           "unit": "day",
@@ -336,7 +376,15 @@
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 1
+          "amount": 3
+        },
+        "notification": {
+          "title": {
+            "en": "Questionnaire time"
+          },
+          "text": {
+            "en": "Please finish them within 3 days. If you already finished them all, please ignore this notification."
+          }
         }
       }
     }
