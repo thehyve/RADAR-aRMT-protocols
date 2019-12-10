@@ -265,8 +265,8 @@
         },
         "reminders": {
           "unit": "day",
-          "amount": 4,
-          "repeat": 1
+          "amount": 0,
+          "repeat": 0
         }
       }
     },
@@ -315,8 +315,8 @@
         },
         "reminders": {
           "unit": "day",
-          "amount": 4,
-          "repeat": 1
+          "amount": 0,
+          "repeat": 0
         }
       }
     },
@@ -365,8 +365,8 @@
         },
         "reminders": {
           "unit": "day",
-          "amount": 4,
-          "repeat": 1
+          "amount": 0,
+          "repeat": 0
         }
       }
     }
