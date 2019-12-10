@@ -470,6 +470,10 @@
           "unit": "day",
           "amount": 0,
           "repeat": 0
+        },
+        "completionWindow": {
+          "unit": "day",
+          "amount": 3
         }
       }
     }
