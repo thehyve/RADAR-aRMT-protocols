@@ -1,5 +1,5 @@
 {
-  "version": "0.1.12",
+  "version": "0.2.2",
   "schemaVersion": "0.0.2",
   "name": "RADAR MSDis RegionH s1",
   "healthIssues": ["depression"],
@@ -7,6 +7,9 @@
     {
       "name": "THINC-IT",
       "showIntroduction": false,
+      "showInCalendar": true,
+      "isDemo": false,
+      "order": 2,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "thinc_it",
@@ -56,62 +59,12 @@
     {
       "name": "PHQ8",
       "showIntroduction": true,
+      "showInCalendar": true,
+      "isDemo": false,
+      "order": 0,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "phq8",
-        "avsc": "questionnaire"
-      },
-      "startText": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "endText": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "warn": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "estimatedCompletionTime": 1,
-      "protocol": {
-        "repeatProtocol": {
-          "unit": "day",
-          "amount": 14
-        },
-        "repeatQuestionnaire": {
-          "unit": "min",
-          "unitsFromZero": [690]
-        },
-        "reminders": {
-          "unit": "day",
-          "amount": 0,
-          "repeat": 0
-        },
-        "completionWindow": {
-          "unit": "day",
-          "amount": 3
-        }
-      }
-    },
-    {
-      "name": "PDQ",
-      "showIntroduction": false,
-      "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "perceived_deficits_questionnaire",
         "avsc": "questionnaire"
       },
       "startText": {
@@ -146,18 +99,25 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [660]
+          "unitsFromZero": [690]
         },
         "reminders": {
           "unit": "day",
           "amount": 0,
           "repeat": 0
+        },
+        "completionWindow": {
+          "unit": "day",
+          "amount": 3
         }
       }
     },
     {
       "name": "ROMBERG",
       "showIntroduction": false,
+      "showInCalendar": false,
+      "isDemo": false,
+      "order": 0,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "romberg_test",
@@ -206,7 +166,17 @@
           "requiresInClinicCompletion": true,
           "repeatAfterClinicVisit": {
             "unit": "min",
-            "unitsFromZero": [10080]
+            "unitsFromZero": [1440]
+          }
+        },
+        "notification": {
+          "title": {
+            "en": "Task time",
+            "it": "E' il momento per un compito",
+            "es": "Momento para la tarea",
+            "nl": "Tijd voor een taak",
+            "da": "Tid til at udføre opgaver",
+            "de": "Zeit für Aufgaben"
           }
         }
       }
@@ -214,6 +184,9 @@
     {
       "name": "2MW",
       "showIntroduction": false,
+      "showInCalendar": false,
+      "isDemo": false,
+      "order": 2,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "2MW_test",
@@ -262,7 +235,17 @@
           "requiresInClinicCompletion": true,
           "repeatAfterClinicVisit": {
             "unit": "min",
-            "unitsFromZero": [10080]
+            "unitsFromZero": [1440]
+          }
+        },
+        "notification": {
+          "title": {
+            "en": "Task time",
+            "it": "E' il momento per un compito",
+            "es": "Momento para la tarea",
+            "nl": "Tijd voor een taak",
+            "da": "Tid til at udføre opgaver",
+            "de": "Zeit für Aufgaben"
           }
         }
       }
@@ -270,6 +253,9 @@
     {
       "name": "TANDEM WALKING",
       "showIntroduction": false,
+      "showInCalendar": false,
+      "isDemo": false,
+      "order": 1,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "tandem_walking_test",
@@ -318,7 +304,17 @@
           "requiresInClinicCompletion": true,
           "repeatAfterClinicVisit": {
             "unit": "min",
-            "unitsFromZero": [10080]
+            "unitsFromZero": [1440]
+          }
+        },
+        "notification": {
+          "title": {
+            "en": "Task time",
+            "it": "E' il momento per un compito",
+            "es": "Momento para la tarea",
+            "nl": "Tijd voor een taak",
+            "da": "Tid til at udføre opgaver",
+            "de": "Zeit für Aufgaben"
           }
         }
       }
@@ -326,7 +322,9 @@
     {
       "name": "DEMO ESM",
       "showIntroduction": false,
+      "showInCalendar": true,
       "isDemo": true,
+      "order": 5,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "esm-demo",
@@ -376,6 +374,9 @@
     {
       "name": "PDDS",
       "showIntroduction": false,
+      "showInCalendar": true,
+      "isDemo": false,
+      "order": 4,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "patient_determined_disease_step",
