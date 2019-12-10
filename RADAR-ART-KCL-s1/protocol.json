@@ -75,7 +75,7 @@
       "isDemo": false,
       "order": 1,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/art-test/questionnaires/",
+        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "baars_iv",
         "avsc": "questionnaire"
       },
@@ -139,7 +139,7 @@
       "isDemo": false,
       "order": 1,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/art-test/questionnaires/",
+        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "ari_self",
         "avsc": "questionnaire"
       },
@@ -203,7 +203,7 @@
       "isDemo": false,
       "order": 1,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/art-test/questionnaires/",
+        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "gad7",
         "avsc": "questionnaire"
       },
@@ -267,7 +267,7 @@
       "isDemo": false,
       "order": 1,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/art-test/questionnaires/",
+        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "rpq",
         "avsc": "questionnaire"
       },
@@ -331,7 +331,7 @@
       "isDemo": false,
       "order": 1,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/art-test/questionnaires/",
+        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "art_cognitive_test",
         "avsc": "questionnaire"
       },
