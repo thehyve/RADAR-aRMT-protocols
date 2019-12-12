@@ -1,10 +1,9 @@
 {
-  "version": "0.3.0",
+  "version": "0.0.1",
   "schemaVersion": "0.0.2",
   "name": "Epilepsy ESM Study aRMT",
   "healthIssues": ["epilepsy"],
   "protocols": [
-
     {
       "name": "esm_epi_mod_1",
       "showIntroduction": false,
@@ -352,7 +351,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [2100]
+          "unitsFromZero": [3540]
         },
         "reminders": {
           "unit": "day",
@@ -362,58 +361,6 @@
         "completionWindow": {
           "unit": "day",
           "amount": 7
-        }
-      }
-    },
-    {
-      "name": "DEMO",
-      "showIntroduction": true,
-      "showInCalendar": true,
-      "isDemo": true,
-      "order": 5,
-      "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "esm-demo",
-        "avsc": "questionnaire"
-      },
-      "startText": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "endText": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "warn": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "estimatedCompletionTime": 3,
-      "protocol": {
-        "repeatProtocol": {
-          "unit": "year",
-          "amount": 9999
-        },
-        "repeatQuestionnaire": {
-          "unit": "min",
-          "unitsFromZero": [540]
-        },
-        "reminders": {
-          "unit": "day",
-          "amount": 0,
-          "repeat": 0
         }
       }
     }
