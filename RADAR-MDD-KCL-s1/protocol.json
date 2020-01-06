@@ -533,6 +533,14 @@
         "completionWindow": {
           "unit": "day",
           "amount": 1
+        },
+        "notification": {
+          "title": {
+            "en": "Diary task starting soon"
+          },
+          "text": {
+            "en": "Click for more information."
+          }
         }
       }
     }
