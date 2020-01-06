@@ -479,6 +479,62 @@
           "amount": 15
         }
       }
+    },
+    {
+      "name": "ESM28Q_INFO",
+      "showIntroduction": false,
+      "showInCalendar": true,
+      "isDemo": true,
+      "order": 4,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "esm28q_info",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 1,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "week",
+          "amount": 12
+        },
+        "repeatQuestionnaire": {
+          "unit": "hour",
+          "unitsFromZero": [9]
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 0,
+          "repeat": 0
+        },
+        "completionWindow": {
+          "unit": "day",
+          "amount": 1
+        }
+      }
     }
   ]
 }
