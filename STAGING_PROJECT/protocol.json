@@ -545,7 +545,7 @@
         }
       },
       {
-        "name": "ESM28Q_INFO",
+        "name": "esm28Q_INFO",
         "showIntroduction": false,
         "showInCalendar": true,
         "isDemo": true,
