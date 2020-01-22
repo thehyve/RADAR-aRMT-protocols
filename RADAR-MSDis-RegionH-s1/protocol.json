@@ -1,10 +1,8 @@
 {
-  "version": "0.2.1",
+  "version": "0.2.2",
   "schemaVersion": "0.0.2",
   "name": "RADAR MSDis RegionH s1",
-  "healthIssues": [
-    "depression"
-  ],
+  "healthIssues": ["depression"],
   "protocols": [
     {
       "name": "THINC-IT",
@@ -49,9 +47,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [
-            660
-          ]
+          "unitsFromZero": [660]
         },
         "reminders": {
           "unit": "day",
@@ -103,9 +99,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [
-            690
-          ]
+          "unitsFromZero": [690]
         },
         "reminders": {
           "unit": "day",
@@ -161,9 +155,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [
-            1060
-          ]
+          "unitsFromZero": [1060]
         },
         "reminders": {
           "unit": "day",
@@ -174,9 +166,7 @@
           "requiresInClinicCompletion": true,
           "repeatAfterClinicVisit": {
             "unit": "min",
-            "unitsFromZero": [
-              1440
-            ]
+            "unitsFromZero": [1440]
           }
         },
         "notification": {
@@ -234,9 +224,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [
-            1030
-          ]
+          "unitsFromZero": [1030]
         },
         "reminders": {
           "unit": "day",
@@ -247,9 +235,7 @@
           "requiresInClinicCompletion": true,
           "repeatAfterClinicVisit": {
             "unit": "min",
-            "unitsFromZero": [
-              1440
-            ]
+            "unitsFromZero": [1440]
           }
         },
         "notification": {
@@ -307,9 +293,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [
-            1060
-          ]
+          "unitsFromZero": [1060]
         },
         "reminders": {
           "unit": "day",
@@ -320,9 +304,7 @@
           "requiresInClinicCompletion": true,
           "repeatAfterClinicVisit": {
             "unit": "min",
-            "unitsFromZero": [
-              1440
-            ]
+            "unitsFromZero": [1440]
           }
         },
         "notification": {
@@ -380,9 +362,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [
-            540
-          ]
+          "unitsFromZero": [540]
         },
         "reminders": {
           "unit": "day",
@@ -434,14 +414,66 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [
-            630
-          ]
+          "unitsFromZero": [630]
         },
         "reminders": {
           "unit": "day",
           "amount": 0,
           "repeat": 0
+        }
+      }
+    },
+    {
+      "name": "AUDIO_4",
+      "showIntroduction": false,
+      "order": 3,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "audio_4",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "Find a quiet space.",
+        "it": "Trova uno spazio tranquillo.",
+        "nl": "Zoek een stille ruimte.",
+        "da": "Find et roligt sted.",
+        "de": "Suchen Sie sich einen ruhigen Platz.",
+        "es": "Encuentra un espacio tranquilo."
+      },
+      "estimatedCompletionTime": 3,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "day",
+          "amount": 42
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [690]
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 0,
+          "repeat": 0
+        },
+        "completionWindow": {
+          "unit": "day",
+          "amount": 3
         }
       }
     }
