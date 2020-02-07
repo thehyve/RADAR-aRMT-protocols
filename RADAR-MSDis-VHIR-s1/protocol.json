@@ -376,7 +376,7 @@
       "showIntroduction": false,
       "showInCalendar": true,
       "isDemo": false,
-      "order": 3,
+      "order": 0,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "patient_determined_disease_step",
