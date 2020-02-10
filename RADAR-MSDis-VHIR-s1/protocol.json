@@ -1,5 +1,5 @@
 {
-  "version": "0.2.2",
+  "version": "0.3.0",
   "schemaVersion": "0.0.2",
   "name": "RADAR MSDis VHIR s1",
   "healthIssues": ["depression"],
@@ -61,7 +61,7 @@
       "showIntroduction": true,
       "showInCalendar": true,
       "isDemo": false,
-      "order": 0,
+      "order": 1,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "phq8",
@@ -376,7 +376,7 @@
       "showIntroduction": false,
       "showInCalendar": true,
       "isDemo": false,
-      "order": 3,
+      "order": 0,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "patient_determined_disease_step",
