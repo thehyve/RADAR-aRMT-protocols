@@ -181,7 +181,7 @@
           "amount": 180
         },
         "clinicalProtocol": {
-                    "requiresInClinicCompletion": true,
+                    "requiresInClinicCompletion": false,
                     "repeatAfterClinicVisit": {
                         "unit": "min",
                         "unitsFromZero": [
@@ -261,7 +261,7 @@
           "amount": 180
         },
         "clinicalProtocol": {
-                    "requiresInClinicCompletion": true,
+                    "requiresInClinicCompletion": false,
                     "repeatAfterClinicVisit": {
                         "unit": "min",
                         "unitsFromZero": [
