@@ -1,0 +1,285 @@
+{
+  "version": "0.1.4",
+  "schemaVersion": "0.1.0",
+  "name": "ESM_DynaMINT",
+  "healthIssues": [
+    "general"
+  ],
+  "protocols": [
+    {
+      "name": "ESM_DynaMINT",
+      "showIntroduction": true,
+      "showInCalendar": false,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "ESM_DynaMORE",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "Time for a new questionnaire!",
+        "it": "",
+        "nl": "Tijd voor een nieuwe vragenlijst!",
+        "da": "",
+        "de": "Zeit fuer einen neuen Fragebogen!",
+        "es": ""
+      },
+      "endText": {
+        "en": "Thanks for filling this out!",
+        "it": "",
+        "nl": "Bedankt voor het invullen!",
+        "da": "",
+        "de": "Vielen Dank, dass Sie diese Fragen beantwortet haben!",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 3,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "year",
+          "amount": 9999
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+    1922,
+    1982,
+    2112,
+    2246,
+    2273,
+    2421,
+    2481,
+    2533,
+    2657,
+    2705,
+    3341,
+    3452,
+    3552,
+    3664,
+    3707,
+    3868,
+    3906,
+    4014,
+    4129,
+    4229,
+    4797,
+    4865,
+    5004,
+    5068,
+    5152,
+    5287,
+    5313,
+    5484,
+    5531,
+    5639,
+    6240,
+    6317,
+    6447,
+    6539,
+    6572,
+    6668,
+    6796,
+    6855,
+    6960,
+    7089,
+    7651,
+    7773,
+    7832,
+    7953,
+    8074,
+    8112,
+    8257,
+    8336,
+    8425,
+    8540,
+    9114,
+    9243,
+    9281,
+    9406,
+    9476,
+    9552,
+    9632,
+    9776,
+    9854,
+    9981
+          ]
+        },
+        "reminders": {
+          "unit": "min",
+          "amount": 4,
+          "repeat": 2
+        },
+        "completionWindow": {
+          "unit": "min",
+          "amount": 10
+        }
+      }
+    },
+    {
+      "name": "ESM_DynaMORE_Evening",
+      "showIntroduction": true,
+      "showInCalendar": false,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "ESM_DynaMORE_Evening",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "Time for a new questionnaire!",
+        "it": "",
+        "nl": "Tijd voor een nieuwe vragenlijst!",
+        "da": "",
+        "de": "Zeit fuer einen neuen Fragebogen!",
+        "es": ""
+      },
+      "endText": {
+        "en": "Thanks for filling this out!",
+        "it": "",
+        "nl": "Bedankt voor het invullen!",
+        "da": "",
+        "de": "Vielen Dank, dass Sie diese Fragen beantwortet haben!",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 2,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "year",
+          "amount": 9999
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+    2730,
+    4170,
+    5610,
+    7050,
+    8490,
+    9930     
+          ]
+        },
+        "reminders": {
+          "unit": "min",
+          "amount": 60,
+          "repeat": 3
+        },
+        "completionWindow": {
+          "unit": "min",
+          "amount": 180
+        },
+        "clinicalProtocol": {
+                    "requiresInClinicCompletion": true,
+                    "repeatAfterClinicVisit": {
+                        "unit": "min",
+                        "unitsFromZero": [
+                            1
+                        ]
+                    }
+                },
+        "notification": {
+            "title": {
+              "en": "Good evening, your evening questionnaire is ready for you.",
+              "it": "",
+              "es": "",
+              "nl": "Goedeavond, je avondvragenlijst staat voor je klaar.",
+              "da": "",
+              "de": ""
+        }
+      }
+    }
+    },
+    {
+      "name": "ESM_DynaMORE_Morning",
+      "showIntroduction": true,
+      "showInCalendar": false,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "ESM_DynaMORE_Evening",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "Time for a new questionnaire!",
+        "it": "",
+        "nl": "Tijd voor een nieuwe vragenlijst!",
+        "da": "",
+        "de": "Zeit fuer einen neuen Fragebogen!",
+        "es": ""
+      },
+      "endText": {
+        "en": "Thanks for filling this out!",
+        "it": "",
+        "nl": "Bedankt voor het invullen!",
+        "da": "",
+        "de": "Vielen Dank, dass Sie diese Fragen beantwortet haben!",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 1,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "year",
+          "amount": 9999
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+    1890,
+    3330,
+    4770,
+    6210,
+    7650,
+    9090   
+          ]
+        },
+        "reminders": {
+          "unit": "min",
+          "amount": 60,
+          "repeat": 3
+        },
+        "completionWindow": {
+          "unit": "min",
+          "amount": 180
+        },
+        "clinicalProtocol": {
+                    "requiresInClinicCompletion": true,
+                    "repeatAfterClinicVisit": {
+                        "unit": "min",
+                        "unitsFromZero": [
+                            1
+                        ]
+                    }
+                },
+        "notification": {
+            "title": {
+              "en": "Good morning, your morning questionnaire is ready for you.",
+              "it": "",
+              "es": "",
+              "nl": "Goedemorgen, je ochtendvragenlijst staat voor je klaar.",
+              "da": "",
+              "de": ""
+          }
+        }
+      }
+    }
+  ]
+}
