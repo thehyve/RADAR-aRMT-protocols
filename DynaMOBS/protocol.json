@@ -122,7 +122,7 @@
       }
     },
     {
-      "name": "ESM_DynaMORE_Evening",
+      "name": "ESM_DynaMOBS_Evening",
       "showIntroduction": true,
       "showInCalendar": false,
       "questionnaire": {
@@ -202,7 +202,7 @@
     }
     },
     {
-      "name": "ESM_DynaMORE_Morning",
+      "name": "ESM_DynaMOBS_Morning",
       "showIntroduction": true,
       "showInCalendar": false,
       "questionnaire": {
