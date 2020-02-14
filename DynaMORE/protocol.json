@@ -207,7 +207,7 @@
       "showInCalendar": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "ESM_DynaMORE_Evening",
+        "name": "ESM_DynaMORE_Morning",
         "avsc": "questionnaire"
       },
       "startText": {
