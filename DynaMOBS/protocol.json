@@ -181,7 +181,7 @@
           "amount": 180
         },
         "clinicalProtocol": {
-                    "requiresInClinicCompletion": true,
+                    "requiresInClinicCompletion": false,
                     "repeatAfterClinicVisit": {
                         "unit": "min",
                         "unitsFromZero": [
@@ -207,7 +207,7 @@
       "showInCalendar": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "ESM_DynaMORE_Evening",
+        "name": "ESM_DynaMORE_Morning",
         "avsc": "questionnaire"
       },
       "startText": {
@@ -261,7 +261,7 @@
           "amount": 180
         },
         "clinicalProtocol": {
-                    "requiresInClinicCompletion": true,
+                    "requiresInClinicCompletion": false,
                     "repeatAfterClinicVisit": {
                         "unit": "min",
                         "unitsFromZero": [
