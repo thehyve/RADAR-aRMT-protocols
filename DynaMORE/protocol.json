@@ -197,8 +197,9 @@
               "nl": "Goedeavond, je avondvragenlijst staat voor je klaar.",
               "da": "",
               "de": ""
-            }
+        }
       }
+    }
     },
     {
       "name": "ESM_DynaMORE_Morning",
@@ -276,7 +277,8 @@
               "nl": "Goedemorgen, je ochtendvragenlijst staat voor je klaar.",
               "da": "",
               "de": ""
-            }
+          }
+        }
       }
     }
   ]
