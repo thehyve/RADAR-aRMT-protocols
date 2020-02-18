@@ -42,12 +42,12 @@
       "estimatedCompletionTime": 2,
       "protocol": {
         "repeatProtocol": {
-          "unit": "day",
-          "amount": 28
+          "unit": "year",
+          "amount": 9999
         },
         "repeatQuestionnaire": {
           "unit": "hour",
-          "unitsFromZero": [344]
+          "unitsFromZero": [344, 1016, 1688]
         },
         "reminders": {
           "unit": "hour",
@@ -106,12 +106,12 @@
       "estimatedCompletionTime": 3,
       "protocol": {
         "repeatProtocol": {
-          "unit": "day",
-          "amount": 28
+          "unit": "year",
+          "amount": 9999
         },
         "repeatQuestionnaire": {
           "unit": "hour",
-          "unitsFromZero": [344]
+          "unitsFromZero": [344, 1016, 1688]
         },
         "reminders": {
           "unit": "day",
@@ -170,12 +170,12 @@
       "estimatedCompletionTime": 3,
       "protocol": {
         "repeatProtocol": {
-          "unit": "day",
-          "amount": 28
+          "unit": "year",
+          "amount": 9999
         },
         "repeatQuestionnaire": {
           "unit": "hour",
-          "unitsFromZero": [344]
+          "unitsFromZero": [344, 1016, 1688]
         },
         "reminders": {
           "unit": "day",
@@ -234,12 +234,12 @@
       "estimatedCompletionTime": 3,
       "protocol": {
         "repeatProtocol": {
-          "unit": "day",
-          "amount": 28
+          "unit": "year",
+          "amount": 9999
         },
         "repeatQuestionnaire": {
           "unit": "hour",
-          "unitsFromZero": [344]
+          "unitsFromZero": [344, 1016, 1688]
         },
         "reminders": {
           "unit": "day",
@@ -298,12 +298,12 @@
       "estimatedCompletionTime": 3,
       "protocol": {
         "repeatProtocol": {
-          "unit": "day",
-          "amount": 28
+          "unit": "year",
+          "amount": 9999
         },
         "repeatQuestionnaire": {
           "unit": "hour",
-          "unitsFromZero": [344]
+          "unitsFromZero": [344, 1016, 1688]
         },
         "reminders": {
           "unit": "day",
@@ -362,12 +362,12 @@
       "estimatedCompletionTime": 3,
       "protocol": {
         "repeatProtocol": {
-          "unit": "day",
-          "amount": 28
+          "unit": "year",
+          "amount": 9999
         },
         "repeatQuestionnaire": {
           "unit": "hour",
-          "unitsFromZero": [344]
+          "unitsFromZero": [344, 1016, 1688]
         },
         "reminders": {
           "unit": "day",
