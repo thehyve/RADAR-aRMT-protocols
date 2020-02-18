@@ -1,5 +1,5 @@
 {
-  "version": "0.1.7",
+  "version": "0.1.8",
   "schemaVersion": "0.1.0",
   "name": "ESM_DynaMORE",
   "healthIssues": [
@@ -124,7 +124,7 @@
     {
       "name": "Evening questionnaire",
       "showIntroduction": true,
-      "showInCalendar": false,
+      "showInCalendar": true,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "ESM_DynaMORE_Evening",
@@ -204,7 +204,7 @@
     {
       "name": "Morning questionnaire",
       "showIntroduction": true,
-      "showInCalendar": false,
+      "showInCalendar": true,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "ESM_DynaMORE_Morning",
