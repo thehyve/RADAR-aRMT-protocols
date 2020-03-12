@@ -112,8 +112,8 @@
         },
         "reminders": {
           "unit": "min",
-          "amount": 4,
-          "repeat": 2
+          "amount": 5,
+          "repeat": 1
         },
         "completionWindow": {
           "unit": "min",
