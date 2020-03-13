@@ -392,7 +392,7 @@
       "name": "ART STUDY END MESSAGE",
       "showIntroduction": false,
       "showInCalendar": true,
-      "isDemo": false,
+      "isDemo": true,
       "order": 4,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
