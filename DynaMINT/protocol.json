@@ -1,18 +1,18 @@
 {
-  "version": "0.1.9",
+  "version": "0.1.5",
   "schemaVersion": "0.1.0",
-  "name": "ESM_DynaMINT",
+  "name": "ESM_DynaMOBS",
   "healthIssues": [
     "general"
   ],
   "protocols": [
     {
-      "name": "ESM_DynaMINT",
+      "name": "ESM_DynaMOBS",
       "showIntroduction": true,
       "showInCalendar": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "ESM_DynaMINT",
+        "name": "ESM_DynaMORE",
         "avsc": "questionnaire"
       },
       "startText": {
@@ -122,12 +122,12 @@
       }
     },
     {
-      "name": "ESM_DynaMINT",
+      "name": "ESM_DynaMOBS_Evening",
       "showIntroduction": true,
       "showInCalendar": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "ESM_DynaMINT",
+        "name": "ESM_DynaMORE_Evening",
         "avsc": "questionnaire"
       },
       "startText": {
@@ -181,7 +181,7 @@
           "amount": 180
         },
         "clinicalProtocol": {
-                    "requiresInClinicCompletion": true,
+                    "requiresInClinicCompletion": false,
                     "repeatAfterClinicVisit": {
                         "unit": "min",
                         "unitsFromZero": [
@@ -202,7 +202,7 @@
     }
     },
     {
-      "name": "ESM_DynaMINT_Morning",
+      "name": "ESM_DynaMOBS_Morning",
       "showIntroduction": true,
       "showInCalendar": false,
       "questionnaire": {
