@@ -1,5 +1,5 @@
 {
-  "version": "0.1.5",
+  "version": "0.1.0",
   "schemaVersion": "0.1.0",
   "name": "DynaMNT",
   "healthIssues": [
@@ -11,7 +11,7 @@
       "showIntroduction": true,
       "showInCalendar": false,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/DynaMINT/",
         "name": "ESM_DynaMINT",
         "avsc": "questionnaire"
       },
@@ -126,7 +126,7 @@
       "showIntroduction": true,
       "showInCalendar": false,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/DynaMINT/",
         "name": "EMI_DynaMINT",
         "avsc": "questionnaire"
       },
@@ -154,32 +154,6 @@
         "de": "",
         "es": ""
       },
-      "estimatedCompletionTime": 2,
-      "protocol": {
-        "repeatProtocol": {
-          "unit": "year",
-          "amount": 9999
-        },
-        "repeatQuestionnaire": {
-          "unit": "min",
-          "unitsFromZero": [
-    2730,
-    4170,
-    5610,
-    7050,
-    8490,
-    9930     
-          ]
-        },
-        "reminders": {
-          "unit": "min",
-          "amount": 60,
-          "repeat": 3
-        },
-        "completionWindow": {
-          "unit": "min",
-          "amount": 180
-        },
         "clinicalProtocol": {
                     "requiresInClinicCompletion": false,
                     "repeatAfterClinicVisit": {
@@ -188,26 +162,15 @@
                             1
                         ]
                     }
-                },
-        "notification": {
-            "title": {
-              "en": "Good evening, your evening questionnaire is ready for you.",
-              "it": "",
-              "es": "",
-              "nl": "Goedeavond, je avondvragenlijst staat voor je klaar.",
-              "da": "",
-              "de": ""
         }
-      }
-    }
     },
-    {
-      "name": "ESM_DynaMOBS_Morning",
+        {
+      "name": "test ESM",
       "showIntroduction": true,
       "showInCalendar": false,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "ESM_DynaMORE_Morning",
+        "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/DynaMINT/",
+        "name": "ESM_DynaMINT",
         "avsc": "questionnaire"
       },
       "startText": {
@@ -234,32 +197,6 @@
         "de": "",
         "es": ""
       },
-      "estimatedCompletionTime": 1,
-      "protocol": {
-        "repeatProtocol": {
-          "unit": "year",
-          "amount": 9999
-        },
-        "repeatQuestionnaire": {
-          "unit": "min",
-          "unitsFromZero": [
-    1890,
-    3330,
-    4770,
-    6210,
-    7650,
-    9090   
-          ]
-        },
-        "reminders": {
-          "unit": "min",
-          "amount": 60,
-          "repeat": 3
-        },
-        "completionWindow": {
-          "unit": "min",
-          "amount": 180
-        },
         "clinicalProtocol": {
                     "requiresInClinicCompletion": false,
                     "repeatAfterClinicVisit": {
@@ -268,18 +205,7 @@
                             1
                         ]
                     }
-                },
-        "notification": {
-            "title": {
-              "en": "Good morning, your morning questionnaire is ready for you.",
-              "it": "",
-              "es": "",
-              "nl": "Goedemorgen, je ochtendvragenlijst staat voor je klaar.",
-              "da": "",
-              "de": ""
-          }
         }
-      }
     }
   ]
 }
