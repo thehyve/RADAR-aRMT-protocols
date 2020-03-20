@@ -1,5 +1,5 @@
 {
-  "version": "0.1.7",
+  "version": "0.1.8",
   "schemaVersion": "0.1.0",
   "name": "ESM_DynaMINT",
   "healthIssues": [
@@ -127,7 +127,7 @@
       "showInCalendar": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "EMI_DynaMINT",
+        "name": "ESM_DynaMINT",
         "avsc": "questionnaire"
       },
       "startText": {
