@@ -1,5 +1,5 @@
 {
-  "version": "0.1.6",
+  "version": "0.1.7",
   "schemaVersion": "0.1.0",
   "name": "ESM_DynaMINT",
   "healthIssues": [
@@ -11,7 +11,7 @@
       "showIntroduction": true,
       "showInCalendar": false,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/ESM_DynaMINT/",
+        "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "ESM_DynaMINT",
         "avsc": "questionnaire"
       },
@@ -126,7 +126,7 @@
       "showIntroduction": true,
       "showInCalendar": false,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/ESM_DynaMINT/",
+        "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "EMI_DynaMINT",
         "avsc": "questionnaire"
       },
