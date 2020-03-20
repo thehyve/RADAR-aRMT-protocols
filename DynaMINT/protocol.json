@@ -122,12 +122,12 @@
       }
     },
     {
-      "name": "EMI_DynaMINT",
+      "name": "Ecological momentary intervention",
       "showIntroduction": true,
       "showInCalendar": false,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "ESM_DynaMINT",
+        "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/ESM_DynaMINT/",
+        "name": "EMI_DynaMINT",
         "avsc": "questionnaire"
       },
       "startText": {
