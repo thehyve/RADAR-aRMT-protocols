@@ -1,5 +1,5 @@
 {
-  "version": "0.2.0",
+  "version": "0.2.1",
   "schemaVersion": "0.1.0",
   "name": "ESM_DynaMINT",
   "healthIssues": [
@@ -122,7 +122,7 @@
       }
     },
     {
-      "name": "Ecological momentary intervention",
+      "name": "EMI_DynaMINT",
       "showIntroduction": true,
       "showInCalendar": false,
       "questionnaire": {
