@@ -1,18 +1,18 @@
 {
   "version": "0.1.5",
   "schemaVersion": "0.1.0",
-  "name": "ESM_DynaMOBS",
+  "name": "DynaMNT",
   "healthIssues": [
     "general"
   ],
   "protocols": [
     {
-      "name": "ESM_DynaMOBS",
+      "name": "Daily Questionnaire",
       "showIntroduction": true,
       "showInCalendar": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "ESM_DynaMORE",
+        "name": "ESM_DynaMINT",
         "avsc": "questionnaire"
       },
       "startText": {
@@ -122,12 +122,12 @@
       }
     },
     {
-      "name": "ESM_DynaMOBS_Evening",
+      "name": "Ecological Momentary Intervention",
       "showIntroduction": true,
       "showInCalendar": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "ESM_DynaMORE_Evening",
+        "name": "EMI_DynaMINT",
         "avsc": "questionnaire"
       },
       "startText": {
