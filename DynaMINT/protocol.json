@@ -82,12 +82,12 @@
       }
     },
     {
-      "name": "ESM_DynaMOBS_Evening",
+      "name": "On the go EMI",
       "showIntroduction": true,
       "showInCalendar": false,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "ESM_DynaMORE_Evening",
+        "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/DynaMINT/",
+        "name": "EMI_DynaMINT",
         "avsc": "questionnaire"
       },
       "startText": {
