@@ -1,5 +1,5 @@
 {
-    "version": "0.3.11",
+    "version": "0.4.0",
     "schemaVersion": "0.0.2",
     "name": "RADAR STAGING Project",
     "healthIssues": [
@@ -716,59 +716,6 @@
         }
       },
       {
-        "name": "AUDIO_2",
-        "showIntroduction": false,
-        "showInCalendar": true,
-        "order": 3,
-        "questionnaire": {
-          "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-          "name": "audio_2",
-          "avsc": "questionnaire"
-        },
-        "startText": {
-          "en": "",
-          "it": "",
-          "nl": "",
-          "da": "",
-          "de": "",
-          "es": ""
-        },
-        "endText": {
-          "en": "",
-          "it": "",
-          "nl": "",
-          "da": "",
-          "de": "",
-          "es": ""
-        },
-        "warn": {
-          "en": "Find a quiet space.",
-          "it": "Trova uno spazio tranquillo.",
-          "nl": "Zoek een stille ruimte.",
-          "da": "Find et roligt sted.",
-          "de": "Suchen Sie sich einen ruhigen Platz.",
-          "es": "Encuentra un espacio tranquilo."
-        },
-        "estimatedCompletionTime": 3,
-        "protocol": {
-          "repeatProtocol": {
-            "unit": "day",
-            "amount": 3
-          },
-          "repeatQuestionnaire": {
-            "unit": "hour",
-            "unitsFromZero": [
-              36
-            ]
-          },
-          "reminders": {
-            "unit": "day",
-            "amount": 4,
-            "repeat": 1
-          }
-        }
-      },
-      {
         "name": "AUDIO_3",
         "showIntroduction": false,
         "showInCalendar": true,
@@ -831,11 +778,11 @@
         }
       },
       {
-        "name": "AUDIO_4",
+        "name": "COVID19_SYMPTOMS",
         "showIntroduction": false,
         "questionnaire": {
           "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-          "name": "audio_4",
+          "name": "covid19_symptoms",
           "avsc": "questionnaire"
         },
         "startText": {
@@ -855,29 +802,131 @@
           "es": ""
         },
         "warn": {
-          "en": "Find a quiet space.",
-          "it": "Trova uno spazio tranquillo.",
-          "nl": "Zoek een stille ruimte.",
-          "da": "Find et roligt sted.",
-          "de": "Suchen Sie sich einen ruhigen Platz.",
-          "es": "Encuentra un espacio tranquilo."
+          "en": "",
+          "it": "",
+          "nl": "",
+          "da": "",
+          "de": "",
+          "es": ""
         },
         "estimatedCompletionTime": 3,
         "protocol": {
           "repeatProtocol": {
             "unit": "day",
-            "amount": 4
+            "amount": 1
           },
           "repeatQuestionnaire": {
             "unit": "hour",
             "unitsFromZero": [
-              60
+              11
             ]
           },
           "reminders": {
             "unit": "day",
-            "amount": 4,
-            "repeat": 1
+            "amount": 0,
+            "repeat": 0
+          }
+        }
+      },
+      {
+        "name": "COVID19_CNS_BASELINE",
+        "showIntroduction": false,
+        "questionnaire": {
+          "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+          "name": "covid19_radarcns_baseline",
+          "avsc": "questionnaire"
+        },
+        "startText": {
+          "en": "",
+          "it": "",
+          "nl": "",
+          "da": "",
+          "de": "",
+          "es": ""
+        },
+        "endText": {
+          "en": "",
+          "it": "",
+          "nl": "",
+          "da": "",
+          "de": "",
+          "es": ""
+        },
+        "warn": {
+          "en": "",
+          "it": "",
+          "nl": "",
+          "da": "",
+          "de": "",
+          "es": ""
+        },
+        "estimatedCompletionTime": 3,
+        "protocol": {
+          "repeatProtocol": {
+            "unit": "day",
+            "amount": 1
+          },
+          "repeatQuestionnaire": {
+            "unit": "hour",
+            "unitsFromZero": [
+              11
+            ]
+          },
+          "reminders": {
+            "unit": "day",
+            "amount": 0,
+            "repeat": 0
+          }
+        }
+      },
+      {
+        "name": "COVID19_CNS_FOLLOWUP",
+        "showIntroduction": false,
+        "questionnaire": {
+          "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+          "name": "covid19_radarcns_followup",
+          "avsc": "questionnaire"
+        },
+        "startText": {
+          "en": "",
+          "it": "",
+          "nl": "",
+          "da": "",
+          "de": "",
+          "es": ""
+        },
+        "endText": {
+          "en": "",
+          "it": "",
+          "nl": "",
+          "da": "",
+          "de": "",
+          "es": ""
+        },
+        "warn": {
+          "en": "",
+          "it": "",
+          "nl": "",
+          "da": "",
+          "de": "",
+          "es": ""
+        },
+        "estimatedCompletionTime": 3,
+        "protocol": {
+          "repeatProtocol": {
+            "unit": "day",
+            "amount": 1
+          },
+          "repeatQuestionnaire": {
+            "unit": "hour",
+            "unitsFromZero": [
+              11
+            ]
+          },
+          "reminders": {
+            "unit": "day",
+            "amount": 0,
+            "repeat": 0
           }
         }
       },
