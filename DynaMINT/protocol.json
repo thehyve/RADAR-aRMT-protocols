@@ -1,5 +1,5 @@
 {
-  "version": "0.1.2",
+  "version": "0.1.3",
   "schemaVersion": "0.1.0",
   "name": "DynaMNT",
   "healthIssues": [
@@ -168,6 +168,646 @@
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/DynaMINT/",
         "name": "ESM_EMI_D1_DynaMINT",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "Time for a new questionnaire!",
+        "it": "",
+        "nl": "Tijd voor een nieuwe vragenlijst!",
+        "da": "",
+        "de": "Zeit fuer einen neuen Fragebogen!",
+        "es": ""
+      },
+      "endText": {
+        "en": "Thanks for filling this out!",
+        "it": "",
+        "nl": "Bedankt voor het invullen!",
+        "da": "",
+        "de": "Vielen Dank, dass Sie diese Fragen beantwortet haben!",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 2,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "year",
+          "amount": 9999
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+    2730,
+    4170,
+    5610,
+    7050,
+    8490,
+    9930     
+          ]
+        },
+        "reminders": {
+          "unit": "min",
+          "amount": 60,
+          "repeat": 3
+        },
+        "completionWindow": {
+          "unit": "min",
+          "amount": 180
+        },
+        "clinicalProtocol": {
+                    "requiresInClinicCompletion": false,
+                    "repeatAfterClinicVisit": {
+                        "unit": "min",
+                        "unitsFromZero": [
+                            1
+                        ]
+                    }
+                },
+        "notification": {
+            "title": {
+              "en": "Good evening, your evening questionnaire is ready for you.",
+              "it": "",
+              "es": "",
+              "nl": "Goedeavond, je avondvragenlijst staat voor je klaar.",
+              "da": "",
+              "de": ""
+        }
+      }
+    }
+    },
+    {
+      "name": "test 2",
+      "showIntroduction": true,
+      "showInCalendar": false,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/DynaMINT/",
+        "name": "ESM_EMI_D2_DynaMINT",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "Time for a new questionnaire!",
+        "it": "",
+        "nl": "Tijd voor een nieuwe vragenlijst!",
+        "da": "",
+        "de": "Zeit fuer einen neuen Fragebogen!",
+        "es": ""
+      },
+      "endText": {
+        "en": "Thanks for filling this out!",
+        "it": "",
+        "nl": "Bedankt voor het invullen!",
+        "da": "",
+        "de": "Vielen Dank, dass Sie diese Fragen beantwortet haben!",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 2,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "year",
+          "amount": 9999
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+    2730,
+    4170,
+    5610,
+    7050,
+    8490,
+    9930     
+          ]
+        },
+        "reminders": {
+          "unit": "min",
+          "amount": 60,
+          "repeat": 3
+        },
+        "completionWindow": {
+          "unit": "min",
+          "amount": 180
+        },
+        "clinicalProtocol": {
+                    "requiresInClinicCompletion": false,
+                    "repeatAfterClinicVisit": {
+                        "unit": "min",
+                        "unitsFromZero": [
+                            1
+                        ]
+                    }
+                },
+        "notification": {
+            "title": {
+              "en": "Good evening, your evening questionnaire is ready for you.",
+              "it": "",
+              "es": "",
+              "nl": "Goedeavond, je avondvragenlijst staat voor je klaar.",
+              "da": "",
+              "de": ""
+        }
+      }
+    }
+    },
+    {
+      "name": "test 3",
+      "showIntroduction": true,
+      "showInCalendar": false,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/DynaMINT/",
+        "name": "ESM_EMI_D3_DynaMINT",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "Time for a new questionnaire!",
+        "it": "",
+        "nl": "Tijd voor een nieuwe vragenlijst!",
+        "da": "",
+        "de": "Zeit fuer einen neuen Fragebogen!",
+        "es": ""
+      },
+      "endText": {
+        "en": "Thanks for filling this out!",
+        "it": "",
+        "nl": "Bedankt voor het invullen!",
+        "da": "",
+        "de": "Vielen Dank, dass Sie diese Fragen beantwortet haben!",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 2,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "year",
+          "amount": 9999
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+    2730,
+    4170,
+    5610,
+    7050,
+    8490,
+    9930     
+          ]
+        },
+        "reminders": {
+          "unit": "min",
+          "amount": 60,
+          "repeat": 3
+        },
+        "completionWindow": {
+          "unit": "min",
+          "amount": 180
+        },
+        "clinicalProtocol": {
+                    "requiresInClinicCompletion": false,
+                    "repeatAfterClinicVisit": {
+                        "unit": "min",
+                        "unitsFromZero": [
+                            1
+                        ]
+                    }
+                },
+        "notification": {
+            "title": {
+              "en": "Good evening, your evening questionnaire is ready for you.",
+              "it": "",
+              "es": "",
+              "nl": "Goedeavond, je avondvragenlijst staat voor je klaar.",
+              "da": "",
+              "de": ""
+        }
+      }
+    }
+    },
+    {
+      "name": "test 4",
+      "showIntroduction": true,
+      "showInCalendar": false,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/DynaMINT/",
+        "name": "ESM_EMI_D4_DynaMINT",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "Time for a new questionnaire!",
+        "it": "",
+        "nl": "Tijd voor een nieuwe vragenlijst!",
+        "da": "",
+        "de": "Zeit fuer einen neuen Fragebogen!",
+        "es": ""
+      },
+      "endText": {
+        "en": "Thanks for filling this out!",
+        "it": "",
+        "nl": "Bedankt voor het invullen!",
+        "da": "",
+        "de": "Vielen Dank, dass Sie diese Fragen beantwortet haben!",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 2,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "year",
+          "amount": 9999
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+    2730,
+    4170,
+    5610,
+    7050,
+    8490,
+    9930     
+          ]
+        },
+        "reminders": {
+          "unit": "min",
+          "amount": 60,
+          "repeat": 3
+        },
+        "completionWindow": {
+          "unit": "min",
+          "amount": 180
+        },
+        "clinicalProtocol": {
+                    "requiresInClinicCompletion": false,
+                    "repeatAfterClinicVisit": {
+                        "unit": "min",
+                        "unitsFromZero": [
+                            1
+                        ]
+                    }
+                },
+        "notification": {
+            "title": {
+              "en": "Good evening, your evening questionnaire is ready for you.",
+              "it": "",
+              "es": "",
+              "nl": "Goedeavond, je avondvragenlijst staat voor je klaar.",
+              "da": "",
+              "de": ""
+        }
+      }
+    }
+    },
+    {
+      "name": "test 5",
+      "showIntroduction": true,
+      "showInCalendar": false,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/DynaMINT/",
+        "name": "ESM_EMI_D5_DynaMINT",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "Time for a new questionnaire!",
+        "it": "",
+        "nl": "Tijd voor een nieuwe vragenlijst!",
+        "da": "",
+        "de": "Zeit fuer einen neuen Fragebogen!",
+        "es": ""
+      },
+      "endText": {
+        "en": "Thanks for filling this out!",
+        "it": "",
+        "nl": "Bedankt voor het invullen!",
+        "da": "",
+        "de": "Vielen Dank, dass Sie diese Fragen beantwortet haben!",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 2,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "year",
+          "amount": 9999
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+    2730,
+    4170,
+    5610,
+    7050,
+    8490,
+    9930     
+          ]
+        },
+        "reminders": {
+          "unit": "min",
+          "amount": 60,
+          "repeat": 3
+        },
+        "completionWindow": {
+          "unit": "min",
+          "amount": 180
+        },
+        "clinicalProtocol": {
+                    "requiresInClinicCompletion": false,
+                    "repeatAfterClinicVisit": {
+                        "unit": "min",
+                        "unitsFromZero": [
+                            1
+                        ]
+                    }
+                },
+        "notification": {
+            "title": {
+              "en": "Good evening, your evening questionnaire is ready for you.",
+              "it": "",
+              "es": "",
+              "nl": "Goedeavond, je avondvragenlijst staat voor je klaar.",
+              "da": "",
+              "de": ""
+        }
+      }
+    }
+    },
+    {
+      "name": "test 6",
+      "showIntroduction": true,
+      "showInCalendar": false,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/DynaMINT/",
+        "name": "ESM_EMI_D6_DynaMINT",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "Time for a new questionnaire!",
+        "it": "",
+        "nl": "Tijd voor een nieuwe vragenlijst!",
+        "da": "",
+        "de": "Zeit fuer einen neuen Fragebogen!",
+        "es": ""
+      },
+      "endText": {
+        "en": "Thanks for filling this out!",
+        "it": "",
+        "nl": "Bedankt voor het invullen!",
+        "da": "",
+        "de": "Vielen Dank, dass Sie diese Fragen beantwortet haben!",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 2,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "year",
+          "amount": 9999
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+    2730,
+    4170,
+    5610,
+    7050,
+    8490,
+    9930     
+          ]
+        },
+        "reminders": {
+          "unit": "min",
+          "amount": 60,
+          "repeat": 3
+        },
+        "completionWindow": {
+          "unit": "min",
+          "amount": 180
+        },
+        "clinicalProtocol": {
+                    "requiresInClinicCompletion": false,
+                    "repeatAfterClinicVisit": {
+                        "unit": "min",
+                        "unitsFromZero": [
+                            1
+                        ]
+                    }
+                },
+        "notification": {
+            "title": {
+              "en": "Good evening, your evening questionnaire is ready for you.",
+              "it": "",
+              "es": "",
+              "nl": "Goedeavond, je avondvragenlijst staat voor je klaar.",
+              "da": "",
+              "de": ""
+        }
+      }
+    }
+    },
+    {
+      "name": "test 7",
+      "showIntroduction": true,
+      "showInCalendar": false,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/DynaMINT/",
+        "name": "ESM_EMI_D7_DynaMINT",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "Time for a new questionnaire!",
+        "it": "",
+        "nl": "Tijd voor een nieuwe vragenlijst!",
+        "da": "",
+        "de": "Zeit fuer einen neuen Fragebogen!",
+        "es": ""
+      },
+      "endText": {
+        "en": "Thanks for filling this out!",
+        "it": "",
+        "nl": "Bedankt voor het invullen!",
+        "da": "",
+        "de": "Vielen Dank, dass Sie diese Fragen beantwortet haben!",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 2,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "year",
+          "amount": 9999
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+    2730,
+    4170,
+    5610,
+    7050,
+    8490,
+    9930     
+          ]
+        },
+        "reminders": {
+          "unit": "min",
+          "amount": 60,
+          "repeat": 3
+        },
+        "completionWindow": {
+          "unit": "min",
+          "amount": 180
+        },
+        "clinicalProtocol": {
+                    "requiresInClinicCompletion": false,
+                    "repeatAfterClinicVisit": {
+                        "unit": "min",
+                        "unitsFromZero": [
+                            1
+                        ]
+                    }
+                },
+        "notification": {
+            "title": {
+              "en": "Good evening, your evening questionnaire is ready for you.",
+              "it": "",
+              "es": "",
+              "nl": "Goedeavond, je avondvragenlijst staat voor je klaar.",
+              "da": "",
+              "de": ""
+        }
+      }
+    }
+    },
+            {
+      "name": "test 8",
+      "showIntroduction": true,
+      "showInCalendar": false,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/DynaMINT/",
+        "name": "ESM_bEMI_DynaMINT",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "Time for a new questionnaire!",
+        "it": "",
+        "nl": "Tijd voor een nieuwe vragenlijst!",
+        "da": "",
+        "de": "Zeit fuer einen neuen Fragebogen!",
+        "es": ""
+      },
+      "endText": {
+        "en": "Thanks for filling this out!",
+        "it": "",
+        "nl": "Bedankt voor het invullen!",
+        "da": "",
+        "de": "Vielen Dank, dass Sie diese Fragen beantwortet haben!",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 2,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "year",
+          "amount": 9999
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+    2730,
+    4170,
+    5610,
+    7050,
+    8490,
+    9930     
+          ]
+        },
+        "reminders": {
+          "unit": "min",
+          "amount": 60,
+          "repeat": 3
+        },
+        "completionWindow": {
+          "unit": "min",
+          "amount": 180
+        },
+        "clinicalProtocol": {
+                    "requiresInClinicCompletion": false,
+                    "repeatAfterClinicVisit": {
+                        "unit": "min",
+                        "unitsFromZero": [
+                            1
+                        ]
+                    }
+                },
+        "notification": {
+            "title": {
+              "en": "Good evening, your evening questionnaire is ready for you.",
+              "it": "",
+              "es": "",
+              "nl": "Goedeavond, je avondvragenlijst staat voor je klaar.",
+              "da": "",
+              "de": ""
+        }
+      }
+    }
+    },
+    {
+      "name": "test 9",
+      "showIntroduction": true,
+      "showInCalendar": false,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/DynaMINT/",
+        "name": "nESM_DynaMINT",
         "avsc": "questionnaire"
       },
       "startText": {
