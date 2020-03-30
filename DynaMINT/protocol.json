@@ -1,5 +1,5 @@
 {
-  "version": "0.1.5",
+  "version": "0.1.6",
   "schemaVersion": "0.1.0",
   "name": "DynaMNT",
   "healthIssues": [
@@ -48,7 +48,6 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-      25,
       1922,
       2246,
       2421,
@@ -200,7 +199,6 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-      27,
       1982,
       2273,
       2533
@@ -259,7 +257,6 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-      29,
       3452,
       3707,
       4014
@@ -278,7 +275,7 @@
     },
     {
       "name": "D3 Questionnaire",
-      "showIntroduction": true,
+      "showIntroduction": false,
       "showInCalendar": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/DynaMINT/",
@@ -318,7 +315,6 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-      31,
       4865,
       5152,
       5484
@@ -337,7 +333,7 @@
     },
     {
       "name": "D4 Questionnaire",
-      "showIntroduction": true,
+      "showIntroduction": false,
       "showInCalendar": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/DynaMINT/",
@@ -377,7 +373,6 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-      33,
       6317,
       6572,
       6855
@@ -396,7 +391,7 @@
     },
     {
       "name": "D5 Questionnaire",
-      "showIntroduction": true,
+      "showIntroduction": false,
       "showInCalendar": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/DynaMINT/",
@@ -436,7 +431,6 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-      35,
       7773,
       8074,
       8336
@@ -455,7 +449,7 @@
     },
         {
       "name": "D6 Questionnaire",
-      "showIntroduction": true,
+      "showIntroduction": false,
       "showInCalendar": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/DynaMINT/",
@@ -495,7 +489,6 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-      37,
       9243,
       9476,
       9776
@@ -514,7 +507,7 @@
     },
         {
       "name": "D7 Questionnaire",
-      "showIntroduction": true,
+      "showIntroduction": false,
       "showInCalendar": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/DynaMINT/",
@@ -554,7 +547,6 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-      39,
       10628,
       10915,
       11232
@@ -573,7 +565,7 @@
     },
         {
       "name": "Daily b Questionnaire",
-      "showIntroduction": true,
+      "showIntroduction": false,
       "showInCalendar": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/DynaMINT/",
@@ -613,7 +605,6 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-      41,      
       2112,
       2481,
       2657,
@@ -690,7 +681,6 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-      43,
       2705,
       4229,
       5639,
