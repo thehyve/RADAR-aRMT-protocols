@@ -1,5 +1,5 @@
 {
-  "version": "0.1.4",
+  "version": "0.1.5",
   "schemaVersion": "0.1.0",
   "name": "DynaMNT",
   "healthIssues": [
@@ -48,7 +48,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-      1182,
+      25,
       1922,
       2246,
       2421,
@@ -159,8 +159,8 @@
     }
     },
     {
-      "name": "Daily Questionnaire",
-      "showIntroduction": true,
+      "name": "D1 Questionnaire",
+      "showIntroduction": false,
       "showInCalendar": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/DynaMINT/",
@@ -200,7 +200,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-      1184,
+      27,
       1982,
       2273,
       2533
@@ -218,8 +218,8 @@
       }
     },
     {
-      "name": "Daily Questionnaire",
-      "showIntroduction": true,
+      "name": "D2 Questionnaire",
+      "showIntroduction": false,
       "showInCalendar": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/DynaMINT/",
@@ -259,7 +259,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-      1186,
+      29,
       3452,
       3707,
       4014
@@ -277,7 +277,7 @@
       }
     },
     {
-      "name": "Daily Questionnaire",
+      "name": "D3 Questionnaire",
       "showIntroduction": true,
       "showInCalendar": false,
       "questionnaire": {
@@ -318,7 +318,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-      1188,
+      31,
       4865,
       5152,
       5484
@@ -336,7 +336,7 @@
       }
     },
     {
-      "name": "Daily Questionnaire",
+      "name": "D4 Questionnaire",
       "showIntroduction": true,
       "showInCalendar": false,
       "questionnaire": {
@@ -377,7 +377,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-      1190,
+      33,
       6317,
       6572,
       6855
@@ -395,7 +395,7 @@
       }
     },
     {
-      "name": "Daily Questionnaire",
+      "name": "D5 Questionnaire",
       "showIntroduction": true,
       "showInCalendar": false,
       "questionnaire": {
@@ -436,7 +436,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-      1192,
+      35,
       7773,
       8074,
       8336
@@ -454,7 +454,7 @@
       }
     },
         {
-      "name": "Daily Questionnaire",
+      "name": "D6 Questionnaire",
       "showIntroduction": true,
       "showInCalendar": false,
       "questionnaire": {
@@ -495,7 +495,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-      1194,
+      37,
       9243,
       9476,
       9776
@@ -513,7 +513,7 @@
       }
     },
         {
-      "name": "Daily Questionnaire",
+      "name": "D7 Questionnaire",
       "showIntroduction": true,
       "showInCalendar": false,
       "questionnaire": {
@@ -554,7 +554,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-      1196,
+      39,
       10628,
       10915,
       11232
@@ -572,7 +572,7 @@
       }
     },
         {
-      "name": "Daily Questionnaire",
+      "name": "Daily b Questionnaire",
       "showIntroduction": true,
       "showInCalendar": false,
       "questionnaire": {
@@ -613,7 +613,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-      1198,      
+      41,      
       2112,
       2481,
       2657,
@@ -690,7 +690,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-      1200,
+      43,
       2705,
       4229,
       5639,
