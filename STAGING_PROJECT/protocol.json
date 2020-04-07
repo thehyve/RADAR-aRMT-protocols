@@ -1,5 +1,5 @@
 {
-    "version": "0.4.0",
+    "version": "0.4.1",
     "schemaVersion": "0.0.2",
     "name": "RADAR STAGING Project",
     "healthIssues": [
@@ -880,11 +880,11 @@
         }
       },
       {
-        "name": "COVID19_CNS_BASELINE",
+        "name": "CNS_COVID19_BASELINE",
         "showIntroduction": false,
         "questionnaire": {
           "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-          "name": "covid19_radarcns_baseline",
+          "name": "cns_covid19_baseline",
           "avsc": "questionnaire"
         },
         "startText": {
@@ -931,11 +931,11 @@
         }
       },
       {
-        "name": "COVID19_CNS_FOLLOWUP",
+        "name": "CNS_COVID19_FOLLOWUP",
         "showIntroduction": false,
         "questionnaire": {
           "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-          "name": "covid19_radarcns_followup",
+          "name": "cns_covid19_followup",
           "avsc": "questionnaire"
         },
         "startText": {
