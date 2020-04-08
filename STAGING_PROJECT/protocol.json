@@ -880,11 +880,11 @@
         }
       },
       {
-        "name": "COVID19_CNS_FOLLOWUP",
+        "name": "CNS_COVID19_FOLLOWUP",
         "showIntroduction": false,
         "questionnaire": {
           "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-          "name": "covid19_radarcns_followup",
+          "name": "cns_covid19_followup",
           "avsc": "questionnaire"
         },
         "startText": {
