@@ -434,7 +434,7 @@
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 3
+          "amount": 1
         }
       }
     }
