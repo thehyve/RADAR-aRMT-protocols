@@ -173,7 +173,7 @@
       },
       {
         "name": "CNS_COVID19_BASELINE",
-        "showIntroduction": "always",
+        "showIntroduction": false,
         "questionnaire": {
           "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
           "name": "cns_covid19_baseline",
@@ -224,7 +224,7 @@
       },
       {
         "name": "CNS_COVID19_FOLLOWUP",
-        "showIntroduction": "always",
+        "showIntroduction": false,
         "questionnaire": {
           "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
           "name": "cns_covid19_followup",
