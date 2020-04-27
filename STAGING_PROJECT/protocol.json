@@ -8,6 +8,7 @@
     "protocols": [
       {
         "name": "SAMPLE_INPUT_DEMO",
+        "type": "on_demand",
         "showIntroduction": false,
         "showInCalendar": false,
         "isDemo": true,
@@ -71,6 +72,7 @@
       },
       {
         "name": "ROMBERG",
+        "type": "on_demand",
         "showIntroduction": false,
         "showInCalendar": false,
         "order": 0,
@@ -143,6 +145,7 @@
       },
       {
         "name": "THINC-IT",
+        "type": "scheduled",
         "showIntroduction": false,
         "showInCalendar": true,
         "order": 2,
@@ -196,6 +199,7 @@
       },
       {
         "name": "2MW",
+        "type": "on_demand",
         "showIntroduction": false,
         "showInCalendar": false,
         "order": 2,
@@ -268,6 +272,7 @@
       },
       {
         "name": "TANDEM WALKING",
+        "type": "on_demand",
         "showIntroduction": false,
         "showInCalendar": false,
         "order": 1,
@@ -340,6 +345,7 @@
       },
       {
         "name": "PHQ8",
+        "type": "scheduled",
         "showIntroduction": false,
         "showInCalendar": true,
         "order": 1,
@@ -397,6 +403,7 @@
       },
       {
         "name": "RSES",
+        "type": "scheduled",
         "showIntroduction": false,
         "showInCalendar": true,
         "order": 2,
@@ -454,6 +461,7 @@
       },
       {
         "name": "ESM28Q",
+        "type": "scheduled",
         "showIntroduction": false,
         "showInCalendar": false,
         "order": 0,
@@ -546,6 +554,7 @@
       },
       {
         "name": "esm28Q_INFO",
+        "type": "scheduled",
         "showIntroduction": false,
         "showInCalendar": true,
         "isDemo": true,
@@ -610,6 +619,7 @@
       },
       {
         "name": "ESM_DEMO",
+        "type": "scheduled",
         "showIntroduction": true,
         "showInCalendar": true,
         "isDemo": true,
@@ -664,6 +674,7 @@
       },
       {
         "name": "AUDIO",
+        "type": "scheduled",
         "showIntroduction": false,
         "showInCalendar": true,
         "order": 3,
@@ -779,6 +790,7 @@
       },
       {
         "name": "COVID19_SYMPTOMS",
+        "type": "scheduled",
         "showIntroduction": false,
         "questionnaire": {
           "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
@@ -830,6 +842,7 @@
       },
       {
         "name": "COVID19_DIAGNOSIS",
+        "type": "scheduled",
         "showIntroduction": false,
         "questionnaire": {
           "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
@@ -881,6 +894,7 @@
       },
       {
         "name": "CNS_COVID19_BASELINE",
+        "type": "scheduled",
         "showIntroduction": false,
         "questionnaire": {
           "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
@@ -932,6 +946,7 @@
       },
       {
         "name": "CNS_COVID19_FOLLOWUP",
+        "type": "scheduled",
         "showIntroduction": false,
         "questionnaire": {
           "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
@@ -983,6 +998,7 @@
       },
       {
         "name": "PDDS",
+        "type": "scheduled",
         "showIntroduction": false,
         "showInCalendar": true,
         "order": 3,
