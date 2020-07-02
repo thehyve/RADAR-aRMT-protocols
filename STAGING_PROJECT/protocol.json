@@ -8,7 +8,7 @@
     "protocols": [
       {
         "name": "SAMPLE_INPUT_DEMO",
-        "type": "on_demand",
+        "type": "clinical",
         "showIntroduction": false,
         "showInCalendar": false,
         "isDemo": true,
@@ -998,7 +998,6 @@
       },
       {
         "name": "PDDS",
-        "type": "scheduled",
         "showIntroduction": false,
         "showInCalendar": true,
         "order": 3,
