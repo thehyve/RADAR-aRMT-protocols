@@ -1,5 +1,5 @@
 {
-  "version": "0.3.2",
+  "version": "0.0.1",
   "schemaVersion": "0.0.2",
   "name": "RAPID RADAR KCL s1",    
   "healthIssues": ["depression"],
@@ -47,7 +47,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [570]
+          "unitsFromZero": [660]
         },
         "reminders": {
           "unit": "day",
@@ -169,62 +169,6 @@
       }
     },
     {
-      "name": "Treatment Status",              
-      "showIntroduction": false,
-      "showInCalendar": true,
-      "isDemo": false,
-      "order": 0,
-      "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "treatment_status",
-        "avsc": "questionnaire"
-      },
-      "startText": {
-        "en": "The following questions relate to any IAPT treatment you may be receiving.",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "endText": {
-        "en": "Thank you for taking the time today.",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "warn": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "estimatedCompletionTime": 1,
-      "protocol": {
-        "repeatProtocol": {
-          "unit": "day",
-          "amount": 7
-        },
-        "repeatQuestionnaire": {
-          "unit": "min",
-          "unitsFromZero": [570]
-        },
-        "reminders": {
-          "unit": "day",
-          "amount": 0,
-          "repeat": 0
-        },
-        "completionWindow": {
-          "unit": "day",
-          "amount": 3
-        }
-      }
-    },
-    {
       "name": "Sleep Questions",              
       "showIntroduction": false,
       "showInCalendar": true,
@@ -277,62 +221,6 @@
         "completionWindow": {
           "unit": "day",
           "amount": 1
-        }
-      }
-    },
-    {
-      "name": "Social Activities",              
-      "showIntroduction": false,
-      "showInCalendar": true,
-      "isDemo": false,
-      "order": 0,
-      "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "social_activities",
-        "avsc": "questionnaire"
-      },
-      "startText": {
-        "en": "Below you will find a series of activities, please indicate the number of times you have done each of these things during the past 2 weeks by selecting the item that represents you answer.",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "endText": {
-        "en": "Thank you for taking the time today.",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "warn": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "estimatedCompletionTime": 3,
-      "protocol": {
-        "repeatProtocol": {
-          "unit": "day",
-          "amount": 14
-        },
-        "repeatQuestionnaire": {
-          "unit": "min",
-          "unitsFromZero": [570]
-        },
-        "reminders": {
-          "unit": "day",
-          "amount": 0,
-          "repeat": 0
-        },
-        "completionWindow": {
-          "unit": "day",
-          "amount": 8
         }
       }
     },
@@ -427,7 +315,7 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 14
+          "amount": 42
         },
         "repeatQuestionnaire": {
           "unit": "min",
@@ -483,7 +371,7 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 14
+          "amount": 42
         },
         "repeatQuestionnaire": {
           "unit": "min",
@@ -539,7 +427,7 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 14
+          "amount": 42
         },
         "repeatQuestionnaire": {
           "unit": "min",
