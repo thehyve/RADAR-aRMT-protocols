@@ -389,6 +389,70 @@
       }
     },
     {
+      "name": "ART COVID-19 FOLLWOWUP",
+      "showIntroduction": false,
+      "showInCalendar": true,
+      "isDemo": false,
+      "order": 3,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/art/questionnaires/",
+        "name": "art_covid19_followup",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 3,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "year",
+          "amount": 9999
+        },
+        "repeatQuestionnaire": {
+          "unit": "hour",
+          "unitsFromZero": [344, 680, 1016, 1352, 1688]
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 0,
+          "repeat": 0
+        },
+        "completionWindow": {
+          "unit": "day",
+          "amount": 3
+        },
+        "notification": {
+          "title": {
+            "en": "Questionnaire time"
+          },
+          "text": {
+            "en": "Please finish them within 3 days. If you already finished them all, please ignore this notification."
+          }
+        }
+      }
+    },
+    {
       "name": "ART STUDY END MESSAGE",
       "showIntroduction": false,
       "showInCalendar": true,
