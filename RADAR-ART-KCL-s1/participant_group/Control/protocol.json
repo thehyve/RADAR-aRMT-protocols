@@ -1,5 +1,5 @@
 {
-    "version": "1.0.2",
+    "version": "1.2.0",
     "schemaVersion": "0.0.2",
     "name": "RADAR ART KCL s1",
     "healthIssues": ["ADHD"],
@@ -42,12 +42,12 @@
         "estimatedCompletionTime": 2,
         "protocol": {
           "repeatProtocol": {
-            "unit": "year",
-            "amount": 9999
+            "unit": "day",
+            "amount": 1
           },
           "repeatQuestionnaire": {
             "unit": "hour",
-            "unitsFromZero": [344, 1016, 1688]
+            "unitsFromZero": [9, 1016, 1688]
           },
           "reminders": {
             "unit": "hour",
@@ -106,12 +106,12 @@
         "estimatedCompletionTime": 3,
         "protocol": {
           "repeatProtocol": {
-            "unit": "year",
-            "amount": 9999
+            "unit": "day",
+            "amount": 1
           },
           "repeatQuestionnaire": {
             "unit": "hour",
-            "unitsFromZero": [344, 1016, 1688]
+            "unitsFromZero": [9, 1016, 1688]
           },
           "reminders": {
             "unit": "day",
@@ -170,12 +170,12 @@
         "estimatedCompletionTime": 3,
         "protocol": {
           "repeatProtocol": {
-            "unit": "year",
-            "amount": 9999
+            "unit": "day",
+            "amount": 1
           },
           "repeatQuestionnaire": {
             "unit": "hour",
-            "unitsFromZero": [344, 1016, 1688]
+            "unitsFromZero": [9, 1016, 1688]
           },
           "reminders": {
             "unit": "day",
@@ -234,12 +234,12 @@
         "estimatedCompletionTime": 3,
         "protocol": {
           "repeatProtocol": {
-            "unit": "year",
-            "amount": 9999
+            "unit": "day",
+            "amount": 1
           },
           "repeatQuestionnaire": {
             "unit": "hour",
-            "unitsFromZero": [344, 1016, 1688]
+            "unitsFromZero": [9, 1016, 1688]
           },
           "reminders": {
             "unit": "day",
@@ -298,12 +298,12 @@
         "estimatedCompletionTime": 3,
         "protocol": {
           "repeatProtocol": {
-            "unit": "year",
-            "amount": 9999
+            "unit": "day",
+            "amount": 1
           },
           "repeatQuestionnaire": {
             "unit": "hour",
-            "unitsFromZero": [344, 1016, 1688]
+            "unitsFromZero": [9, 1016, 1688]
           },
           "reminders": {
             "unit": "day",
