@@ -87,7 +87,7 @@
       "type": "on_demand",
       "showIntroduction": true,
       "showInCalendar": false,
-      "order": 0,
+      "order": 1,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/DynaMINT/",
         "name": "EMI_DynaMINT",
