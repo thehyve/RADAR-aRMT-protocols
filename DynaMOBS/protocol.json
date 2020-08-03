@@ -123,6 +123,7 @@
     },
     {
       "name": "ESM_DynaMOBS_Evening",
+      "type": "on_demand",
       "showIntroduction": true,
       "showInCalendar": false,
       "questionnaire": {
@@ -203,6 +204,7 @@
     },
     {
       "name": "ESM_DynaMOBS_Morning",
+      "type": "on_demand",
       "showIntroduction": true,
       "showInCalendar": false,
       "questionnaire": {
