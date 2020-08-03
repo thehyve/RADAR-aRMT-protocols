@@ -123,8 +123,10 @@
     },
     {
       "name": "Evening questionnaire",
+      "type": "on_demand",
       "showIntroduction": true,
       "showInCalendar": true,
+      "order": 1,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "ESM_DynaMORE_Evening",
@@ -203,8 +205,10 @@
     },
     {
       "name": "Morning questionnaire",
+      "type": "on_demand",
       "showIntroduction": true,
       "showInCalendar": true,
+      "order": 0,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "ESM_DynaMORE_Morning",
