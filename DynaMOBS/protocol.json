@@ -247,7 +247,12 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-     36363636363636 
+    1890,
+    3330,
+    4770,
+    6210,
+    7650,
+    9090 
           ]
         },
         "reminders": {
