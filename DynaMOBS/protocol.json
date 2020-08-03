@@ -123,8 +123,10 @@
     },
     {
       "name": "ESM_DynaMOBS_Evening",
+      "type": "on_demand",
       "showIntroduction": true,
       "showInCalendar": false,
+      "order": 2,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "ESM_DynaMORE_Evening",
@@ -203,8 +205,10 @@
     },
     {
       "name": "ESM_DynaMOBS_Morning",
+      "type": "on_demand",
       "showIntroduction": true,
       "showInCalendar": false,
+      "order": 2,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "ESM_DynaMORE_Morning",
@@ -243,12 +247,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-    1890,
-    3330,
-    4770,
-    6210,
-    7650,
-    9090   
+     36363636363636 
           ]
         },
         "reminders": {
