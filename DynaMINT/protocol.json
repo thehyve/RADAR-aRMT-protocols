@@ -84,8 +84,10 @@
     },
     {
       "name": "On the go EMI",
+      "type": "on_demand",
       "showIntroduction": true,
       "showInCalendar": false,
+      "order": 0,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/DynaMINT/",
         "name": "EMI_DynaMINT",
