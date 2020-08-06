@@ -459,7 +459,7 @@
       "isDemo": false,
       "order": 3,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/art/questionnaires/",
         "name": "adhd_medication_use",
         "avsc": "questionnaire"
       },
