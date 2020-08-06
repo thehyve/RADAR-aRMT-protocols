@@ -453,14 +453,14 @@
         }
       },
       {
-        "name": "MEDICATION USE",
+        "name": "ADHD MEDICATION USE",
         "showIntroduction": false,
         "showInCalendar": true,
         "isDemo": false,
         "order": 3,
         "questionnaire": {
           "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/art/questionnaires/",
-          "name": "medication_use",
+          "name": "adhd_medication_use",
           "avsc": "questionnaire"
         },
         "startText": {
