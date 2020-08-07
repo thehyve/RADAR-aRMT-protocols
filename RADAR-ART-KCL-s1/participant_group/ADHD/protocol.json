@@ -395,7 +395,7 @@
       "isDemo": false,
       "order": 3,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/art/questionnaires/",
+        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "art_covid19_followup",
         "avsc": "questionnaire"
       },
@@ -459,7 +459,7 @@
       "isDemo": false,
       "order": 3,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/art/questionnaires/",
+        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "adhd_medication_use",
         "avsc": "questionnaire"
       },
