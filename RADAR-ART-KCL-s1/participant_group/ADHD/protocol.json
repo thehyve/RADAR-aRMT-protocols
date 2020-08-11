@@ -1,5 +1,5 @@
 {
-  "version": "1.0.3",
+  "version": "1.1.2",
   "schemaVersion": "0.0.2",
   "name": "RADAR ART KCL s1",
   "healthIssues": ["ADHD"],
@@ -452,6 +452,70 @@
         }
       }
     },
+    {
+      "name": "ADHD MEDICATION USE",
+      "showIntroduction": false,
+      "showInCalendar": true,
+      "isDemo": false,
+      "order": 3,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "adhd_medication_use",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 3,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "year",
+          "amount": 9999
+        },
+        "repeatQuestionnaire": {
+          "unit": "hour",
+          "unitsFromZero": [344, 1016, 1688]
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 0,
+          "repeat": 0
+        },
+        "completionWindow": {
+          "unit": "day",
+          "amount": 3
+        },
+        "notification": {
+          "title": {
+            "en": "Questionnaire time"
+          },
+          "text": {
+            "en": "Please finish them within 3 days. If you already finished them all, please ignore this notification."
+          }
+        }
+      }
+    },    
     {
       "name": "ART STUDY END MESSAGE",
       "showIntroduction": false,
