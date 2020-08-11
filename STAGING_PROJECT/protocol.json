@@ -1,5 +1,5 @@
 {
-    "version": "0.4.2",
+    "version": "0.4.3",
     "schemaVersion": "0.0.2",
     "name": "RADAR STAGING Project",
     "healthIssues": [
@@ -778,113 +778,11 @@
         }
       },
       {
-        "name": "COVID19_SYMPTOMS",
-        "showIntroduction": false,
-        "questionnaire": {
-          "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-          "name": "covid19_symptoms",
-          "avsc": "questionnaire"
-        },
-        "startText": {
-          "en": "",
-          "it": "",
-          "nl": "",
-          "da": "",
-          "de": "",
-          "es": ""
-        },
-        "endText": {
-          "en": "",
-          "it": "",
-          "nl": "",
-          "da": "",
-          "de": "",
-          "es": ""
-        },
-        "warn": {
-          "en": "",
-          "it": "",
-          "nl": "",
-          "da": "",
-          "de": "",
-          "es": ""
-        },
-        "estimatedCompletionTime": 3,
-        "protocol": {
-          "repeatProtocol": {
-            "unit": "day",
-            "amount": 1
-          },
-          "repeatQuestionnaire": {
-            "unit": "hour",
-            "unitsFromZero": [
-              11
-            ]
-          },
-          "reminders": {
-            "unit": "day",
-            "amount": 0,
-            "repeat": 0
-          }
-        }
-      },
-      {
-        "name": "COVID19_DIAGNOSIS",
-        "showIntroduction": false,
-        "questionnaire": {
-          "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-          "name": "covid19_diagnosis",
-          "avsc": "questionnaire"
-        },
-        "startText": {
-          "en": "",
-          "it": "",
-          "nl": "",
-          "da": "",
-          "de": "",
-          "es": ""
-        },
-        "endText": {
-          "en": "",
-          "it": "",
-          "nl": "",
-          "da": "",
-          "de": "",
-          "es": ""
-        },
-        "warn": {
-          "en": "",
-          "it": "",
-          "nl": "",
-          "da": "",
-          "de": "",
-          "es": ""
-        },
-        "estimatedCompletionTime": 3,
-        "protocol": {
-          "repeatProtocol": {
-            "unit": "day",
-            "amount": 1
-          },
-          "repeatQuestionnaire": {
-            "unit": "min",
-            "unitsFromZero": [
-              630
-            ]
-          },
-          "reminders": {
-            "unit": "day",
-            "amount": 0,
-            "repeat": 0
-          }
-        }
-      },
-      {
         "name": "CNS_COVID19_FOLLOWUP",
-        "showIntroduction": false,
+        "showIntroduction": true,
         "questionnaire": {
           "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-          "name": "cns_covid19_followup",
+          "name": "cns_covid19_followup_v2",
           "avsc": "questionnaire"
         },
         "startText": {
@@ -931,13 +829,11 @@
         }
       },
       {
-        "name": "PDDS",
-        "showIntroduction": false,
-        "showInCalendar": true,
-        "order": 3,
+        "name": "CNS_COVID19_FOLLOWUP_V3",
+        "showIntroduction": true,
         "questionnaire": {
           "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-          "name": "patient_determined_disease_step",
+          "name": "cns_covid19_followup_v3",
           "avsc": "questionnaire"
         },
         "startText": {
@@ -964,26 +860,22 @@
           "de": "",
           "es": ""
         },
-        "estimatedCompletionTime": 1,
+        "estimatedCompletionTime": 3,
         "protocol": {
           "repeatProtocol": {
             "unit": "day",
-            "amount": 3
+            "amount": 1
           },
           "repeatQuestionnaire": {
-            "unit": "min",
+            "unit": "hour",
             "unitsFromZero": [
-              630
+              11
             ]
           },
           "reminders": {
             "unit": "day",
-            "amount": 4,
-            "repeat": 1
-          },
-          "completionWindow": {
-            "unit": "day",
-            "amount": 3
+            "amount": 0,
+            "repeat": 0
           }
         }
       }
