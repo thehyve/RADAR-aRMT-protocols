@@ -2,7 +2,9 @@
   "version": "0.4.3",
   "schemaVersion": "0.0.2",
   "name": "RADAR STAGING Project",
-  "healthIssues": ["depression"],
+  "healthIssues": [
+    "depression"
+  ],
   "protocols": [
     {
       "name": "SAMPLE_INPUT_DEMO",
@@ -47,7 +49,23 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [4]
+          "unitsFromZero": [
+            1000
+          ]
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 0,
+          "repeat": 0
+        },
+        "clinicalProtocol": {
+          "requiresInClinicCompletion": true,
+          "repeatAfterClinicVisit": {
+            "unit": "min",
+            "unitsFromZero": [
+              4
+            ]
+          }
         }
       }
     },
@@ -93,7 +111,9 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [1060]
+          "unitsFromZero": [
+            1060
+          ]
         },
         "reminders": {
           "unit": "day",
@@ -104,7 +124,9 @@
           "requiresInClinicCompletion": true,
           "repeatAfterClinicVisit": {
             "unit": "min",
-            "unitsFromZero": [4]
+            "unitsFromZero": [
+              4
+            ]
           }
         },
         "notification": {
@@ -161,7 +183,9 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [660]
+          "unitsFromZero": [
+            660
+          ]
         },
         "reminders": {
           "unit": "day",
@@ -212,7 +236,9 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [1090]
+          "unitsFromZero": [
+            1090
+          ]
         },
         "reminders": {
           "unit": "day",
@@ -223,7 +249,9 @@
           "requiresInClinicCompletion": true,
           "repeatAfterClinicVisit": {
             "unit": "min",
-            "unitsFromZero": [10]
+            "unitsFromZero": [
+              10
+            ]
           }
         },
         "notification": {
@@ -280,7 +308,9 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [1120]
+          "unitsFromZero": [
+            1120
+          ]
         },
         "reminders": {
           "unit": "day",
@@ -291,7 +321,9 @@
           "requiresInClinicCompletion": true,
           "repeatAfterClinicVisit": {
             "unit": "min",
-            "unitsFromZero": [1]
+            "unitsFromZero": [
+              1
+            ]
           }
         },
         "notification": {
@@ -348,7 +380,9 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [540]
+          "unitsFromZero": [
+            540
+          ]
         },
         "reminders": {
           "unit": "day",
@@ -403,7 +437,9 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [600]
+          "unitsFromZero": [
+            600
+          ]
         },
         "reminders": {
           "unit": "day",
@@ -615,7 +651,9 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [540]
+          "unitsFromZero": [
+            540
+          ]
         },
         "reminders": {
           "unit": "day",
@@ -666,7 +704,9 @@
         },
         "repeatQuestionnaire": {
           "unit": "hour",
-          "unitsFromZero": [12]
+          "unitsFromZero": [
+            12
+          ]
         },
         "reminders": {
           "unit": "day",
@@ -717,7 +757,9 @@
         },
         "repeatQuestionnaire": {
           "unit": "hour",
-          "unitsFromZero": [60]
+          "unitsFromZero": [
+            60
+          ]
         },
         "reminders": {
           "unit": "day",
@@ -728,164 +770,19 @@
           "requiresInClinicCompletion": true,
           "repeatAfterClinicVisit": {
             "unit": "min",
-            "unitsFromZero": [1]
+            "unitsFromZero": [
+              1
+            ]
           }
         }
       }
     },
     {
-      "name": "COVID19_SYMPTOMS",
-      "showIntroduction": false,
-      "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "covid19_symptoms",
-        "avsc": "questionnaire"
-      },
-      "startText": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "endText": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "warn": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "estimatedCompletionTime": 3,
-      "protocol": {
-        "repeatProtocol": {
-          "unit": "day",
-          "amount": 1
-        },
-        "repeatQuestionnaire": {
-          "unit": "hour",
-          "unitsFromZero": [11]
-        },
-        "reminders": {
-          "unit": "day",
-          "amount": 0,
-          "repeat": 0
-        }
-      }
-    },
-    {
-      "name": "COVID19_DIAGNOSIS",
-      "showIntroduction": false,
-      "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "covid19_diagnosis",
-        "avsc": "questionnaire"
-      },
-      "startText": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "endText": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "warn": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "estimatedCompletionTime": 3,
-      "protocol": {
-        "repeatProtocol": {
-          "unit": "day",
-          "amount": 1
-        },
-        "repeatQuestionnaire": {
-          "unit": "min",
-          "unitsFromZero": [630]
-        },
-        "reminders": {
-          "unit": "day",
-          "amount": 0,
-          "repeat": 0
-        }
-      }
-    },
-    {
-      "name": "CNS_COVID19_BASELINE",
-      "showIntroduction": false,
-      "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "cns_covid19_baseline",
-        "avsc": "questionnaire"
-      },
-      "startText": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "endText": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "warn": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "estimatedCompletionTime": 3,
-      "protocol": {
-        "repeatProtocol": {
-          "unit": "day",
-          "amount": 1
-        },
-        "repeatQuestionnaire": {
-          "unit": "hour",
-          "unitsFromZero": [11]
-        },
-        "reminders": {
-          "unit": "day",
-          "amount": 0,
-          "repeat": 0
-        }
-      }
-    },
-    {
       "name": "CNS_COVID19_FOLLOWUP",
-      "showIntroduction": false,
+      "showIntroduction": true,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "cns_covid19_followup",
+        "name": "cns_covid19_followup_v2",
         "avsc": "questionnaire"
       },
       "startText": {
@@ -920,7 +817,9 @@
         },
         "repeatQuestionnaire": {
           "unit": "hour",
-          "unitsFromZero": [11]
+          "unitsFromZero": [
+            11
+          ]
         },
         "reminders": {
           "unit": "day",
@@ -930,13 +829,11 @@
       }
     },
     {
-      "name": "PDDS",
-      "showIntroduction": false,
-      "showInCalendar": true,
-      "order": 3,
+      "name": "CNS_COVID19_FOLLOWUP_V3",
+      "showIntroduction": true,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "patient_determined_disease_step",
+        "name": "cns_covid19_followup_v3",
         "avsc": "questionnaire"
       },
       "startText": {
@@ -963,24 +860,22 @@
         "de": "",
         "es": ""
       },
-      "estimatedCompletionTime": 1,
+      "estimatedCompletionTime": 3,
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 3
+          "amount": 1
         },
         "repeatQuestionnaire": {
-          "unit": "min",
-          "unitsFromZero": [630]
+          "unit": "hour",
+          "unitsFromZero": [
+            11
+          ]
         },
         "reminders": {
           "unit": "day",
-          "amount": 4,
-          "repeat": 1
-        },
-        "completionWindow": {
-          "unit": "day",
-          "amount": 3
+          "amount": 0,
+          "repeat": 0
         }
       }
     }
