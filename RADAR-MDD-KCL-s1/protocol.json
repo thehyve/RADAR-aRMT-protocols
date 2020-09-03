@@ -1,5 +1,5 @@
 {
-  "version": "0.4.0",
+  "version": "0.4.3",
   "schemaVersion": "0.0.2",
   "name": "RADAR MDD KCL s1",
   "healthIssues": ["depression"],
@@ -545,14 +545,14 @@
       }
     },
     {
-      "name": "CNS_COVID19_BASELINE",
+      "name": "CNS_COVID19_FOLLOWUP",
       "showIntroduction": false,
       "showInCalendar": true,
       "isDemo": false,
       "order": 2,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "cns_covid19_baseline",
+        "name": "cns_covid19_followup_v3",
         "avsc": "questionnaire"
       },
       "startText": {
