@@ -1,7 +1,7 @@
 {
-  "version": "0.4.0",
+  "version": "0.0.1",
   "schemaVersion": "0.0.2",
-  "name": "RADAR MDD VUmc s1",
+  "name": "RAPID RADAR KCL s1",    
   "healthIssues": ["depression"],
   "protocols": [
     {
@@ -43,11 +43,11 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 42
+          "amount": 28
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [600]
+          "unitsFromZero": [660]
         },
         "reminders": {
           "unit": "day",
@@ -57,18 +57,74 @@
       }
     },
     {
-      "name": "PHQ8",
+      "name": "QIDS",              
       "showIntroduction": false,
       "showInCalendar": true,
       "isDemo": false,
       "order": 0,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "phq8",
+        "name": "qids",
         "avsc": "questionnaire"
       },
       "startText": {
-        "en": "This questionnaire is known as the PHQ8. Clinicians use it to assess current depression in patients. Please note that none of your answers will be collected today. Thank you for taking part in this focus group.",
+        "en": "This questionnaire is known as the QIDS. Please select the one response that best describes you for the past seven days. Please note that none of your answers will be reviewed today.",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "Thank you for taking the time today.",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 7,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "day",
+          "amount": 7
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [570]
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 0,
+          "repeat": 0
+        },
+        "completionWindow": {
+          "unit": "day",
+          "amount": 3
+        }
+      }
+    },
+    {
+      "name": "WSAS",              
+      "showIntroduction": false,
+      "showInCalendar": true,
+      "isDemo": false,
+      "order": 0,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "wsas",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "People's mental health problems sometimes affect their ability to do certain day-to-day tasks in their lives. To rate your problems look at each section and determine on the scale provided how much your problem impairs your ability to carry out the activity.",
         "it": "",
         "nl": "",
         "da": "",
@@ -95,63 +151,7 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 14
-        },
-        "repeatQuestionnaire": {
-          "unit": "min",
-          "unitsFromZero": [540]
-        },
-        "reminders": {
-          "unit": "day",
-          "amount": 0,
-          "repeat": 0
-        },
-        "completionWindow": {
-          "unit": "day",
-          "amount": 3
-        }
-      }
-    },
-    {
-      "name": "RSES",
-      "showIntroduction": false,
-      "showInCalendar": true,
-      "isDemo": false,
-      "order": 1,
-      "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "rses",
-        "avsc": "questionnaire"
-      },
-      "startText": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "endText": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "warn": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "estimatedCompletionTime": 3,
-      "protocol": {
-        "repeatProtocol": {
-          "unit": "day",
-          "amount": 14
+          "amount": 7
         },
         "repeatQuestionnaire": {
           "unit": "min",
@@ -169,8 +169,64 @@
       }
     },
     {
-      "name": "DEMO ESM",
+      "name": "Sleep Questions",              
       "showIntroduction": false,
+      "showInCalendar": true,
+      "isDemo": false,
+      "order": 0,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "sleep_questions",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "Please rate the following statements as they relate to how you slept last night.",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "Thank you for taking the time today.",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 1,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "day",
+          "amount": 1
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [570]
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 0,
+          "repeat": 0
+        },
+        "completionWindow": {
+          "unit": "day",
+          "amount": 1
+        }
+      }
+    },
+    {
+      "name": "DEMO",
+      "showIntroduction": true,
       "showInCalendar": true,
       "isDemo": true,
       "order": 5,
@@ -211,7 +267,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [990]
+          "unitsFromZero": [540]
         },
         "reminders": {
           "unit": "day",
@@ -223,6 +279,8 @@
     {
       "name": "AUDIO",
       "showIntroduction": false,
+      "showInCalendar": true,
+      "isDemo": false,
       "order": 3,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
@@ -260,8 +318,8 @@
           "amount": 42
         },
         "repeatQuestionnaire": {
-          "unit": "hour",
-          "unitsFromZero": [9]
+          "unit": "min",
+          "unitsFromZero": [690]
         },
         "reminders": {
           "unit": "day",
@@ -270,13 +328,15 @@
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 3
+          "amount": 7
         }
       }
     },
     {
       "name": "AUDIO_2",
       "showIntroduction": false,
+      "showInCalendar": true,
+      "isDemo": false,
       "order": 3,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
@@ -314,8 +374,8 @@
           "amount": 42
         },
         "repeatQuestionnaire": {
-          "unit": "hour",
-          "unitsFromZero": [345]
+          "unit": "min",
+          "unitsFromZero": [20850]
         },
         "reminders": {
           "unit": "day",
@@ -324,13 +384,15 @@
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 3
+          "amount": 7
         }
       }
     },
     {
       "name": "AUDIO_3",
       "showIntroduction": false,
+      "showInCalendar": true,
+      "isDemo": false,
       "order": 3,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
@@ -368,64 +430,8 @@
           "amount": 42
         },
         "repeatQuestionnaire": {
-          "unit": "hour",
-          "unitsFromZero": [681]
-        },
-        "reminders": {
-          "unit": "day",
-          "amount": 0,
-          "repeat": 0
-        },
-        "completionWindow": {
-          "unit": "day",
-          "amount": 3
-        }
-      }
-    },
-    {
-      "name": "CNS_COVID19_BASELINE",
-      "showIntroduction": false,
-      "showInCalendar": true,
-      "isDemo": false,
-      "order": 2,
-      "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "cns_covid19_baseline",
-        "avsc": "questionnaire"
-      },
-      "startText": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "endText": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "warn": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "estimatedCompletionTime": 2,
-      "protocol": {
-        "repeatProtocol": {
-          "unit": "day",
-          "amount": 14
-        },
-        "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [600]
+          "unitsFromZero": [41010]
         },
         "reminders": {
           "unit": "day",
@@ -434,163 +440,7 @@
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 3
-        }
-      }
-    },
-    {
-      "name": "ESM28Q",
-      "showIntroduction": false,
-      "showInCalendar": false,
-      "order": 0,
-      "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "esm28q",
-        "avsc": "questionnaire"
-      },
-      "startText": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "endText": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "warn": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "estimatedCompletionTime": 2,
-      "protocol": {
-        "repeatProtocol": {
-          "unit": "week",
-          "amount": 12
-        },
-        "repeatQuestionnaire": {
-          "unit": "min",
-          "unitsFromZero": [
-            2006,
-            2156,
-            2300,
-            2421,
-            2499,
-            2688,
-            3519,
-            3585,
-            3666,
-            3889,
-            3992,
-            4067,
-            4870,
-            5050,
-            5200,
-            5300,
-            5396,
-            5550,
-            6343,
-            6425,
-            6550,
-            6707,
-            6888,
-            6965,
-            7755,
-            7899,
-            8040,
-            8200,
-            8273,
-            8374,
-            9289,
-            9389,
-            9449,
-            9600,
-            9745,
-            9889
-          ]
-        },
-        "reminders": {
-          "unit": "day",
-          "amount": 0,
-          "repeat": 0
-        },
-        "completionWindow": {
-          "unit": "min",
-          "amount": 15
-        }
-      }
-    },
-    {
-      "name": "esm28Q_INFO",
-      "showIntroduction": false,
-      "showInCalendar": true,
-      "isDemo": true,
-      "order": 4,
-      "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "esm28q_info",
-        "avsc": "questionnaire"
-      },
-      "startText": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "endText": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "warn": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "estimatedCompletionTime": 1,
-      "protocol": {
-        "repeatProtocol": {
-          "unit": "week",
-          "amount": 12
-        },
-        "repeatQuestionnaire": {
-          "unit": "hour",
-          "unitsFromZero": [9]
-        },
-        "reminders": {
-          "unit": "day",
-          "amount": 0,
-          "repeat": 0
-        },
-        "completionWindow": {
-          "unit": "day",
-          "amount": 1
-        },
-        "notification": {
-          "title": {
-            "nl": "Dagboek taak begint binnenkort."
-          },
-          "text": {
-            "nl": "Klik voor meer information."
-          }
+          "amount": 7
         }
       }
     }
