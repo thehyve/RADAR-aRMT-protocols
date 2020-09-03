@@ -1,5 +1,5 @@
 {
-  "version": "0.3.0",
+  "version": "0.4.0",
   "schemaVersion": "0.0.2",
   "name": "RADAR MDD VUmc s1",
   "healthIssues": ["depression"],
@@ -586,10 +586,10 @@
         },
         "notification": {
           "title": {
-            "en": "Dagboek taak begint binnenkort."
+            "nl": "Dagboek taak begint binnenkort."
           },
           "text": {
-            "en": "Klik voor meer information."
+            "nl": "Klik voor meer information."
           }
         }
       }
