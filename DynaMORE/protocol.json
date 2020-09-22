@@ -48,7 +48,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-    1401,
+    1403,
     1922,
     1982,
     2112,
@@ -119,22 +119,6 @@
         "completionWindow": {
           "unit": "min",
           "amount": 10
-        },
-        "notification": {
-          "title": {
-            "en": "Questionnaire time",
-            "nl": "Tijd voor een vragenlijst!",
-            "de": "",
-            "pl": "",
-            "hb": ""
-          },
-          "text": {
-            "en": "If you have already filled in the questionniare this time, you can ignore this notification.",
-            "nl": "Als je de vragenlijst deze keer al hebt ingevuld, kun je deze melding negeren.",
-            "de": "Falls Du diesen Fragebogen gerade schon ausgefüllt hast, kannst Du diese Benachrichtigung ignorieren.",
-            "pl": "Jeśli ten kwestionariusz już został  przez Ciebie wypełniony, możesz zignorować to powiadomienie.",
-            "hb": "אם כבר מילאת את השאלון, אתה יכול להתעלם מהתראה זו"
-          }
         }
       }
     },
