@@ -48,7 +48,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-    1397,
+    1399,
     1922,
     1982,
     2112,
@@ -114,7 +114,7 @@
         "reminders": {
           "unit": "min",
           "amount": 5,
-          "repeat": 0
+          "repeat": 1
         },
         "completionWindow": {
           "unit": "min",
