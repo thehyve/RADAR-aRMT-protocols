@@ -48,9 +48,9 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-      1060,
-      1062,
-      1064,
+      1070,
+      1085,
+      1090,
       1922,
       2246,
       2421,
@@ -75,7 +75,7 @@
           ]
         },
 "reminders": [
-  {"offset": {"unit": "min", "amount": 2}, 
+  {"offset": {"unit": "min", "amount": 5}, 
   	"notification": {
         "title": {
             "en": "Questionnaire time",
@@ -93,7 +93,7 @@
      	}
    	 }
    	},
-  {"offset": {"unit": "min", "amount": 1063}, 
+  {"offset": {"unit": "min", "amount": 10}, 
   	"notification": {
         "title": {
             "en": "Questionnaire time",
