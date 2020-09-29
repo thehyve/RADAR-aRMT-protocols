@@ -75,7 +75,7 @@
           ]
         },
 "reminders": [
-  {"offset": {"unit": "min", "amount": 1061}, 
+  {"offset": {"unit": "min", "amount": 2}, 
   	"notification": {
         "title": {
             "en": "Questionnaire time",
