@@ -154,7 +154,7 @@
         "completionWindow": {
           "unit": "min",
           "amount": 10
-        },
+        }
       }
     },
     {
