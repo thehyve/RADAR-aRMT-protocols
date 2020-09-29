@@ -48,7 +48,9 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-      1047,
+      1055,
+      1056,
+      1057,
       1922,
       2246,
       2421,
@@ -72,11 +74,44 @@
       11016
           ]
         },
-        "reminders": {
-          "unit": "min",
-          "amount": 5,
-          "repeat": 1
+"reminders": [
+  {"offset": {"unit": "min", "amount": 1055}, 
+  	"notification": {
+        "title": {
+            "en": "Questionnaire time",
+            "nl": "Tijd voor een vragenlijst!",
+            "de": "",
+            "pl": "",
+            "hb": ""
         },
+    	 "text": {
+            "en": "If you have already filled in the questionniare this time, you can ignore this notification.",
+            "nl": "Als je de vragenlijst deze keer al hebt ingevuld, kun je deze melding negeren.",
+            "de": "Falls Du diesen Fragebogen gerade schon ausgefüllt hast, kannst Du diese Benachrichtigung ignorieren.",
+            "pl": "Jeśli ten kwestionariusz już został  przez Ciebie wypełniony, możesz zignorować to powiadomienie.",
+            "hb": "אם כבר מילאת את השאלון, אתה יכול להתעלם מהתראה זו"
+     	}
+   	 }
+   	},
+  {"offset": {"unit": "min", "amount": 1060}, 
+  	"notification": {
+        "title": {
+            "en": "Questionnaire time",
+            "nl": "Tijd voor een vragenlijst!",
+            "de": "",
+            "pl": "",
+            "hb": ""
+        },
+    	 "text": {
+            "en": "If you have already filled in the questionniare this time, you can ignore this notification.",
+            "nl": "Als je de vragenlijst deze keer al hebt ingevuld, kun je deze melding negeren.",
+            "de": "Falls Du diesen Fragebogen gerade schon ausgefüllt hast, kannst Du diese Benachrichtigung ignorieren.",
+            "pl": "Jeśli ten kwestionariusz już został  przez Ciebie wypełniony, możesz zignorować to powiadomienie.",
+            "hb": "אם כבר מילאת את השאלון, אתה יכול להתעלם מהתראה זו"
+     	}
+   	 }
+   	},   
+   ],
         "completionWindow": {
           "unit": "min",
           "amount": 10
