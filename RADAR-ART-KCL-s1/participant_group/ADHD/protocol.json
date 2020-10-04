@@ -1,5 +1,5 @@
 {
-  "version": "1.1.2",
+  "version": "1.1.3",
   "schemaVersion": "0.0.2",
   "name": "RADAR ART KCL s1",
   "healthIssues": ["ADHD"],
@@ -434,9 +434,9 @@
           "unitsFromZero": [344, 680, 1016, 1352, 1688]
         },
         "reminders": {
-          "unit": "day",
-          "amount": 0,
-          "repeat": 0
+          "unit": "hour",
+          "amount": 28,
+          "repeat": 2
         },
         "completionWindow": {
           "unit": "day",
