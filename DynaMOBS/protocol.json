@@ -1,13 +1,13 @@
 {
-  "version": "0.1.5",
+  "version": "0.1.9",
   "schemaVersion": "0.1.0",
-  "name": "ESM_DynaMOBS",
+  "name": "ESM_DynaMORE",
   "healthIssues": [
     "general"
   ],
   "protocols": [
     {
-      "name": "ESM_DynaMOBS",
+      "name": "ESM_DynaMORE",
       "showIntroduction": true,
       "showInCalendar": false,
       "questionnaire": {
@@ -110,11 +110,26 @@
     9981
           ]
         },
-        "reminders": {
-          "unit": "min",
-          "amount": 5,
-          "repeat": 1
-        },
+      "reminders": [
+        {"offset": {"unit": "min", "amount": 5}, 
+          "notification": {
+              "title": {
+                  "en": "Questionnaire time",
+                  "nl": "Tijd voor een vragenlijst!",
+                  "de": "",
+                  "pl": "",
+                  "hb": ""
+              },
+             "text": {
+                  "en": "If you have already filled in the questionniare this time, you can ignore this notification.",
+                  "nl": "Als je de vragenlijst deze keer al hebt ingevuld, kun je deze melding negeren.",
+                  "de": "Falls Du diesen Fragebogen gerade schon ausgefüllt hast, kannst Du diese Benachrichtigung ignorieren.",
+                  "pl": "Jeśli wypełniłeś już ten kwestionariusz, zignoruj to powiadomienie.",
+                  "hb": "אם כבר מילאת את השאלון, אתה יכול להתעלם מהתראה זו"
+            }
+           }
+          }   
+         ],
         "completionWindow": {
           "unit": "min",
           "amount": 10
@@ -122,10 +137,10 @@
       }
     },
     {
-      "name": "ESM_DynaMOBS_Evening",
+      "name": "Evening questionnaire",
       "type": "on_demand",
       "showIntroduction": true,
-      "showInCalendar": false,
+      "showInCalendar": true,
       "order": 1,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
@@ -146,7 +161,8 @@
         "nl": "Bedankt voor het invullen!",
         "da": "",
         "de": "Vielen Dank, dass Sie diese Fragen beantwortet haben!",
-        "es": ""
+        "es": "",
+        "hb": "תודה שענית על השאלון!"      
       },
       "warn": {
         "en": "",
@@ -204,10 +220,10 @@
     }
     },
     {
-      "name": "ESM_DynaMOBS_Morning",
+      "name": "Morning questionnaire",
       "type": "on_demand",
       "showIntroduction": true,
-      "showInCalendar": false,
+      "showInCalendar": true,
       "order": 0,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
@@ -252,7 +268,7 @@
     4770,
     6210,
     7650,
-    9090 
+    9090   
           ]
         },
         "reminders": {
