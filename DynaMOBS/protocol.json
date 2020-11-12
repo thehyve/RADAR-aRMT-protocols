@@ -21,7 +21,9 @@
         "nl": "Tijd voor een nieuwe vragenlijst!",
         "da": "",
         "de": "Zeit fuer einen neuen Fragebogen!",
-        "es": ""
+        "es": "",
+        "pl": "",
+        "hb": ""
       },
       "endText": {
         "en": "Thanks for filling this out!",
@@ -29,7 +31,9 @@
         "nl": "Bedankt voor het invullen!",
         "da": "",
         "de": "Vielen Dank, dass Sie diese Fragen beantwortet haben!",
-        "es": ""
+        "es": "",
+        "pl": "",
+        "hb": ""
       },
       "warn": {
         "en": "",
@@ -37,7 +41,9 @@
         "nl": "",
         "da": "",
         "de": "",
-        "es": ""
+        "es": "",
+        "pl": "",
+        "hb": ""
       },
       "estimatedCompletionTime": 3,
       "protocol": {
@@ -153,7 +159,9 @@
         "nl": "Tijd voor een nieuwe vragenlijst!",
         "da": "",
         "de": "Zeit fuer einen neuen Fragebogen!",
-        "es": ""
+        "es": "",
+        "pl": "",
+        "hb": ""
       },
       "endText": {
         "en": "Thanks for filling this out!",
@@ -162,6 +170,7 @@
         "da": "",
         "de": "Vielen Dank, dass Sie diese Fragen beantwortet haben!",
         "es": "",
+        "pl": "",
         "hb": "תודה שענית על השאלון!"      
       },
       "warn": {
@@ -170,7 +179,9 @@
         "nl": "",
         "da": "",
         "de": "",
-        "es": ""
+        "es": "",
+        "pl": "",
+        "hb": ""
       },
       "estimatedCompletionTime": 2,
       "protocol": {
@@ -214,7 +225,9 @@
               "es": "",
               "nl": "Goedeavond, je avondvragenlijst staat voor je klaar.",
               "da": "",
-              "de": ""
+              "de": "",
+              "pl": "",
+              "hb": ""
         }
       }
     }
@@ -236,7 +249,9 @@
         "nl": "Tijd voor een nieuwe vragenlijst!",
         "da": "",
         "de": "Zeit fuer einen neuen Fragebogen!",
-        "es": ""
+        "es": "",
+        "pl": "",
+        "hb": ""
       },
       "endText": {
         "en": "Thanks for filling this out!",
@@ -244,7 +259,9 @@
         "nl": "Bedankt voor het invullen!",
         "da": "",
         "de": "Vielen Dank, dass Sie diese Fragen beantwortet haben!",
-        "es": ""
+        "es": "",
+        "pl": "",
+        "hb": ""
       },
       "warn": {
         "en": "",
@@ -252,7 +269,9 @@
         "nl": "",
         "da": "",
         "de": "",
-        "es": ""
+        "es": "",
+        "pl": "",
+        "hb": ""
       },
       "estimatedCompletionTime": 1,
       "protocol": {
@@ -296,7 +315,9 @@
               "es": "",
               "nl": "Goedemorgen, je ochtendvragenlijst staat voor je klaar.",
               "da": "",
-              "de": ""
+              "de": "",
+              "pl": "",
+              "hb": ""
           }
         }
       }
