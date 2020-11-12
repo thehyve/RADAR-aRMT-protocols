@@ -7,7 +7,7 @@
   ],
   "protocols": [
     {
-      "name": "ESM_DynaMORE",
+      "name": "ESM assessment",
       "showIntroduction": true,
       "showInCalendar": false,
       "questionnaire": {
