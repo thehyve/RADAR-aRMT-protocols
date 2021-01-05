@@ -1,7 +1,7 @@
 {
   "version": "0.0.1",
   "schemaVersion": "0.0.2",
-  "name": "RADAR AIMS2T KCL s1",
+  "name": "RADAR AIIMS-2 TRIALS KCL s1",
   "healthIssues": ["autism"],
   "protocols": [
     {
