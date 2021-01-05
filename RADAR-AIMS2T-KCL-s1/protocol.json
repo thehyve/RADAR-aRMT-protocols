@@ -226,9 +226,9 @@
     },
     {
       "name": "Sleep Quality",
-      "showIntroduction": true,
+      "showIntroduction": false,
       "showInCalendar": true,
-      "isDemo": true,
+      "isDemo": false,
       "order": 5,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/aims/questionnaires/",
