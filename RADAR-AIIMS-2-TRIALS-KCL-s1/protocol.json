@@ -11,7 +11,7 @@
       "isDemo": false,
       "order": 0,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/aims/questionnaires/",
+        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "technology_usage",
         "avsc": "notification"
       },
@@ -53,6 +53,10 @@
           "unit": "day",
           "amount": 0,
           "repeat": 0
+        },
+        "completionWindow": {
+          "unit": "min",
+          "amount": 960
         }
       }
     },
@@ -63,7 +67,7 @@
       "isDemo": false,
       "order": 1,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/aims/questionnaires/",
+        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "regular_activities",
         "avsc": "questionnaire"
       },
@@ -107,8 +111,8 @@
           "repeat": 0
         },
         "completionWindow": {
-          "unit": "day",
-          "amount": 3
+          "unit": "min",
+          "amount": 960
         }
       }
     },
@@ -119,7 +123,7 @@
       "isDemo": false,
       "order": 2,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/aims/questionnaires/",
+        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "nonregular_activities",
         "avsc": "questionnaire"
       },
@@ -163,8 +167,8 @@
           "repeat": 0
         },
         "completionWindow": {
-          "unit": "day",
-          "amount": 3
+          "unit": "min",
+          "amount": 960
         }
       }
     },
@@ -175,7 +179,7 @@
       "isDemo": false,
       "order": 0,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/aims/questionnaires/",
+        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "autism_symptoms",
         "avsc": "questionnaire"
       },
@@ -231,7 +235,7 @@
       "isDemo": false,
       "order": 5,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/aims/questionnaires/",
+        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "sleep_quality",
         "avsc": "questionnaire"
       },
@@ -267,12 +271,16 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [510]
+          "unitsFromZero": [1950]
         },
         "reminders": {
           "unit": "day",
           "amount": 0,
           "repeat": 0
+        },
+        "completionWindow": {
+          "unit": "min",
+          "amount": 930
         }
       }
     },
@@ -283,7 +291,7 @@
       "isDemo": false,
       "order": 3,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/aims/questionnaires/",
+        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "adhd_symptoms",
         "avsc": "questionnaire"
       },
@@ -328,7 +336,7 @@
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 7
+          "amount": 1
         }
       }
     },
@@ -339,7 +347,7 @@
       "isDemo": false,
       "order": 3,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/aims/questionnaires/",
+        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "user_feedback",
         "avsc": "questionnaire"
       },
