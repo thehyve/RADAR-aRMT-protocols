@@ -327,7 +327,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [1110]
+          "unitsFromZero": [6870]
         },
         "reminders": {
           "unit": "day",
