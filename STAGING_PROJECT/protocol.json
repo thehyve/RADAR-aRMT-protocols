@@ -8,7 +8,7 @@
     "protocols": [
       {
         "name": "CAT",
-        "showIntroduction": false,
+        "showIntroduction": true,
         "showInCalendar": true,
         "isDemo": true,
         "order": 3,
@@ -57,21 +57,12 @@
             "unit": "day",
             "amount": 0,
             "repeat": 0
-          },
-          "clinicalProtocol": {
-            "requiresInClinicCompletion": true,
-            "repeatAfterClinicVisit": {
-              "unit": "min",
-              "unitsFromZero": [
-                4
-              ]
-            }
           }
         }
       },
       {
         "name": "LIPF",
-        "showIntroduction": false,
+        "showIntroduction": true,
         "showInCalendar": true,
         "order": 0,
         "questionnaire": {
@@ -120,15 +111,6 @@
             "amount": 0,
             "repeat": 0
           },
-          "clinicalProtocol": {
-            "requiresInClinicCompletion": true,
-            "repeatAfterClinicVisit": {
-              "unit": "min",
-              "unitsFromZero": [
-                4
-              ]
-            }
-          },
           "notification": {
             "title": {
               "en": "Task time",
@@ -143,7 +125,7 @@
       },
       {
         "name": "PCFS",
-        "showIntroduction": false,
+        "showIntroduction": true,
         "showInCalendar": true,
         "order": 2,
         "questionnaire": {
@@ -196,7 +178,7 @@
       },
       {
         "name": "PSQI",
-        "showIntroduction": false,
+        "showIntroduction": true,
         "showInCalendar": true,
         "order": 2,
         "questionnaire": {
@@ -244,15 +226,6 @@
             "unit": "day",
             "amount": 0,
             "repeat": 0
-          },
-          "clinicalProtocol": {
-            "requiresInClinicCompletion": true,
-            "repeatAfterClinicVisit": {
-              "unit": "min",
-              "unitsFromZero": [
-                10
-              ]
-            }
           },
           "notification": {
             "title": {
@@ -340,7 +313,7 @@
       },
       {
         "name": "FSS",
-        "showIntroduction": false,
+        "showIntroduction": true,
         "showInCalendar": true,
         "order": 1,
         "questionnaire": {
