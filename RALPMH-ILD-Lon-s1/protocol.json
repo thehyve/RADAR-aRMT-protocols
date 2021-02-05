@@ -1,0 +1,416 @@
+{
+  "version": "0.1.0",
+  "schemaVersion": "0.0.2",
+  "name": "RALPMH ILD/IPF Project",
+  "healthIssues": [
+    "respiratory"
+  ],
+  "protocols": [
+    {
+      "name": "CAT",
+      "showIntroduction": "always",
+      "showInCalendar": true,
+      "isDemo": false,
+      "order": 3,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/new-questionnaires/questionnaires/",
+        "name": "cat",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "This questionnaire will help you and your healthcare professional to measure the impact that COPD (Chronic Obstructive Pulmonary Disease) is having on your wellbeing and daily life. Your answers and test score can be used by you and your healthcare professional to help improve the management of your COPD and gain the greatest benefit from the treatment.",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "Thank you for taking the time today.",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 2,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "day",
+          "amount": 1
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            1000
+          ]
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 0,
+          "repeat": 0
+        },
+        "completionWindow": {
+          "unit": "day",
+          "amount": 1
+        },
+        "notification": {
+          "title": {
+            "en": "Questionnaire time",
+            "it": "E' il momento per un compito",
+            "es": "Momento para la tarea",
+            "nl": "Tijd voor een taak",
+            "da": "Tid til at udføre opgaver",
+            "de": "Zeit für Aufgaben"
+          },
+          "text": {
+            "en": "Help us measure the impact that COPD (Chronic Obstructive Pulmonary Disease) is having on your wellbeing and daily life."
+          }
+        }
+      }
+    },
+    {
+      "name": "LIPF",
+      "showIntroduction": "always",
+      "showInCalendar": true,
+      "order": 0,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "lipf",
+        "avsc": "task"
+      },
+      "startText": {
+        "en": "This questionnaire is designed to assess the symptoms you may have experienced from Idiopathic Pulmonary Fibrosis (IPF) over the last 24 hours. Keep in mind you are not being asked to compare yourself to anyone else and you are not being asked to compare how you are now with any time in the past",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "Thank you for taking the time today.",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 2,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "month",
+          "amount": 1
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            600
+          ]
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 5,
+          "repeat": 2
+        },
+        "completionWindow": {
+          "unit": "day",
+          "amount": 10
+        },
+        "notification": {
+          "title": {
+            "en": "Questionnaire time",
+            "it": "E' il momento per un compito",
+            "es": "Momento para la tarea",
+            "nl": "Tijd voor een taak",
+            "da": "Tid til at udføre opgaver",
+            "de": "Zeit für Aufgaben"
+          },
+          "text": {
+            "en": "Help us assess the symptoms you may have experienced from Idiopathic Pulmonary Fibrosis (IPF)."
+          }
+        }
+      }
+    },
+    {
+      "name": "PSQI",
+      "showIntroduction": "always",
+      "showInCalendar": true,
+      "order": 0,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "psqi",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "The following questions relate to your usual sleep habits during the past month only. Your answers should indicate the most accurate reply for the majority of days and nights in the past month. Please answer all questions.",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "Thank you for taking the time today.",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 2,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "month",
+          "amount": 1
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            550
+          ]
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 5,
+          "repeat": 2
+        },
+        "completionWindow": {
+          "unit": "day",
+          "amount": 10
+        },
+        "notification": {
+          "title": {
+            "en": "Questionnaire time",
+            "it": "E' il momento per un compito",
+            "es": "Momento para la tarea",
+            "nl": "Tijd voor een taak",
+            "da": "Tid til at udføre opgaver",
+            "de": "Zeit für Aufgaben"
+          },
+          "text": {
+            "en": "Help us understand your usual sleep habits during the past month."
+          }
+        }
+      }
+    },
+    {
+      "name": "FSS",
+      "showIntroduction": "always",
+      "showInCalendar": true,
+      "order": 1,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "fss",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "Thank you for taking the time today.",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 2,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "day",
+          "amount": 7
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            540
+          ]
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 3,
+          "repeat": 1
+        },
+        "completionWindow": {
+          "unit": "day",
+          "amount": 3
+        }
+      }
+    },
+    {
+      "name": "PHQ8",
+      "showIntroduction": true,
+      "showInCalendar": true,
+      "isDemo": false,
+      "order": 0,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "phq8",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "This questionnaire is known as the PHQ8. Clinicians use it to assess current depression in patients. Please note that none of your answers will be collected today. Thank you for taking part in this focus group.",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "Thank you for taking the time today.",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 3,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "day",
+          "amount": 14
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [570]
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 3,
+          "repeat": 2
+        },
+        "completionWindow": {
+          "unit": "day",
+          "amount": 6
+        },
+        "notification": {
+          "title": {
+            "en": "Questionnaire time",
+            "it": "E' il momento per un compito",
+            "es": "Momento para la tarea",
+            "nl": "Tijd voor een taak",
+            "da": "Tid til at udføre opgaver",
+            "de": "Zeit für Aufgaben"
+          },
+          "text": {
+            "en": "Help us assess the impact on your mental health and wellbeing."
+          }
+        }
+      }
+    },
+    {
+      "name": "GAD7",
+      "showIntroduction": true,
+      "showInCalendar": true,
+      "isDemo": false,
+      "order": 1,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "gad7",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 3,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "day",
+          "amount": 14
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [570]
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 3,
+          "repeat": 2
+        },
+        "completionWindow": {
+          "unit": "day",
+          "amount": 6
+        },
+        "notification": {
+          "title": {
+            "en": "Questionnaire time",
+            "it": "E' il momento per un compito",
+            "es": "Momento para la tarea",
+            "nl": "Tijd voor een taak",
+            "da": "Tid til at udføre opgaver",
+            "de": "Zeit für Aufgaben"
+          },
+          "text": {
+            "en": "Help us assess the impact on your mental health and wellbeing."
+          }
+        }
+      }
+    }
+  ]
+}
