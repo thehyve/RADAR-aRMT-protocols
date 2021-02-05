@@ -13,7 +13,7 @@
         "isDemo": true,
         "order": 3,
         "questionnaire": {
-          "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/new-questionnaires/questionnaires/",
+          "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
           "name": "cat",
           "avsc": "questionnaire"
         },
@@ -66,7 +66,7 @@
         "showInCalendar": true,
         "order": 0,
         "questionnaire": {
-          "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/new-questionnaires/questionnaires/",
+          "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
           "name": "lipf",
           "avsc": "task"
         },
@@ -129,7 +129,7 @@
         "showInCalendar": true,
         "order": 2,
         "questionnaire": {
-          "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/new-questionnaires/questionnaires/",
+          "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
           "name": "pcfs",
           "avsc": "questionnaire"
         },
@@ -182,7 +182,7 @@
         "showInCalendar": true,
         "order": 2,
         "questionnaire": {
-          "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/new-questionnaires/questionnaires/",
+          "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
           "name": "psqi",
           "avsc": "questionnaire"
         },
@@ -245,7 +245,7 @@
         "showInCalendar": false,
         "order": 1,
         "questionnaire": {
-          "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/new-questionnaires/questionnaires/",
+          "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
           "name": "tandem_walking_test",
           "avsc": "task"
         },
@@ -317,7 +317,7 @@
         "showInCalendar": true,
         "order": 1,
         "questionnaire": {
-          "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/new-questionnaires/questionnaires/",
+          "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
           "name": "fss",
           "avsc": "questionnaire"
         },
