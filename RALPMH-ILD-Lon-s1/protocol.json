@@ -50,7 +50,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            1000
+            580
           ]
         },
         "reminders": {
@@ -271,6 +271,77 @@
         "completionWindow": {
           "unit": "day",
           "amount": 3
+        }
+      }
+    },
+    {
+      "name": "PULSE_OX_RESPONSE",
+      "showIntroduction": "always",
+      "showInCalendar": true,
+      "isDemo": false,
+      "order": 3,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "pulse_ox_response",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "Thank you for taking the time today.",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 2,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "day",
+          "amount": 1
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            550
+          ]
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 0,
+          "repeat": 0
+        },
+        "completionWindow": {
+          "unit": "day",
+          "amount": 1
+        },
+        "notification": {
+          "title": {
+            "en": "Questionnaire time",
+            "it": "E' il momento per un compito",
+            "es": "Momento para la tarea",
+            "nl": "Tijd voor een taak",
+            "da": "Tid til at udføre opgaver",
+            "de": "Zeit für Aufgaben"
+          },
+          "text": {
+            "en": "Time to record your pulse oximetery values."
+          }
         }
       }
     },
