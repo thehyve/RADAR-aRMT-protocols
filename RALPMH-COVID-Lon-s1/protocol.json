@@ -13,7 +13,7 @@
       "isDemo": false,
       "order": 3,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/new-questionnaires/questionnaires/",
+        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "cat",
         "avsc": "questionnaire"
       },

@@ -13,7 +13,7 @@
       "isDemo": false,
       "order": 3,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/new-questionnaires/questionnaires/",
+        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "cat",
         "avsc": "questionnaire"
       },
@@ -72,7 +72,7 @@
             "de": "Zeit für Aufgaben"
           },
           "text": {
-            "en": "Help us measure the impact that COPD (Chronic Obstructive Pulmonary Disease) is having on your wellbeing and daily life."
+            "en": "Help us measure the impact that COPD is having on your wellbeing and daily life."
           }
         }
       }
