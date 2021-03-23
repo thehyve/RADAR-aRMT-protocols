@@ -1,5 +1,5 @@
 {
-  "version": "0.0.3",
+  "version": "0.0.4",
   "schemaVersion": "0.0.2",
   "name": "RADAR ENGAGE",
   "healthIssues": ["depression"],
@@ -60,10 +60,10 @@
         },
         "notification": {
           "title": {
-            "en": "Questionnaire time"
+            "en": "Questionnaire Time. Complete any time today."
           },
           "text": {
-            "en": "Tracking your symptoms through a smartphone and Fitbit might help research to better understand health conditions. Complete any time today."
+            "en": "Tracking symptoms remotely might help research to better understand health conditions."
           }
         }
       }
@@ -124,10 +124,10 @@
         },
         "notification": {
           "title": {
-            "en": "Questionnaire time"
+            "en": "Questionnaire Time. Complete any time today."
           },
           "text": {
-            "en": "Symptom tracking is a technique often used in treatment to increase insight into your symptoms (Kramer et al., 2014). Complete any time today."
+            "en": "Symptom tracking is often used in treatment to increase symptom insight (Kramer et al., 2014)."
           }
         }
       }
@@ -188,10 +188,10 @@
         },
         "notification": {
           "title": {
-            "en": "Questionnaire time"
+            "en": "Questionnaire Time. Complete any time today."
           },
           "text": {
-            "en": "Symptom tracking might increase self-awareness of your emotions (Bakker & Rickard, 2018). Complete any time today."
+            "en": "Symptom tracking might increase self-awareness of your emotions (Bakker & Rickard, 2018)."
           }
         }
       }
@@ -252,10 +252,10 @@
         },
         "notification": {
           "title": {
-            "en": "Questionnaire time"
+            "en": "Questionnaire Time. Complete any time today."
           },
           "text": {
-            "en": "Symptom tracking might increase self-awareness of your emotions (Bakker & Rickard, 2018). Complete any time today."
+            "en": "Symptom tracking might increase self-awareness of your emotions (Bakker & Rickard, 2018)."
           }
         }
       }
@@ -316,10 +316,10 @@
         },
         "notification": {
           "title": {
-            "en": "Questionnaire time"
+            "en": "Questionnaire Time. Complete any time today."
           },
           "text": {
-            "en": "Symptom tracking might increase self-awareness of your emotions (Bakker & Rickard, 2018). Complete any time today."
+            "en": "Symptom tracking might increase self-awareness of your emotions (Bakker & Rickard, 2018)."
           }
         }
       }
