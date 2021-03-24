@@ -1,5 +1,5 @@
 {
-  "version": "0.0.1",
+  "version": "0.0.2",
   "schemaVersion": "0.0.2",
   "name": "RADAR AIIMS-2 TRIALS KCL s1",
   "healthIssues": ["autism"],
@@ -266,12 +266,41 @@
       "estimatedCompletionTime": 3,
       "protocol": {
         "repeatProtocol": {
-          "unit": "day",
-          "amount": 1
+          "unit": "year",
+          "amount": 9999
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [1950]
+          "unitsFromZero": [
+            1950,
+            3390,
+            4830,
+            6270,
+            7710,
+            9150,
+            10590,
+            12030,
+            13470,
+            14910,
+            16350,
+            17790,
+            19230,
+            20670,
+            22110,
+            23550,
+            24990,
+            26430,
+            27870,
+            29310,
+            30750,
+            32190,
+            33630,
+            35070,
+            36510,
+            37950,
+            39390,
+            40830
+          ]
         },
         "reminders": {
           "unit": "day",
@@ -322,12 +351,12 @@
       "estimatedCompletionTime": 3,
       "protocol": {
         "repeatProtocol": {
-          "unit": "day",
-          "amount": 4
+          "unit": "year",
+          "amount": 9999
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [6870]
+          "unitsFromZero": [6870, 12630, 18390, 24150, 29910, 35670, 41430]
         },
         "reminders": {
           "unit": "day",
