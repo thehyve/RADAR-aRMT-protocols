@@ -1,5 +1,5 @@
 {
-  "version": "0.0.1",
+  "version": "0.0.2",
   "schemaVersion": "0.0.2",
   "name": "RADAR ENGAGE",
   "healthIssues": ["depression"],
@@ -56,7 +56,7 @@
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 3
+          "amount": 1
         }
       }
     },
@@ -112,7 +112,7 @@
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 3
+          "amount": 1
         }
       }
     },
@@ -168,7 +168,7 @@
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 3
+          "amount": 1
         }
       }
     },
@@ -224,7 +224,7 @@
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 3
+          "amount": 1
         }
       }
     },
@@ -280,7 +280,7 @@
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 3
+          "amount": 1
         }
       }
     }
