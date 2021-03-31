@@ -1,5 +1,5 @@
 {
-  "version": "0.2.1",
+  "version": "0.2.2",
   "schemaVersion": "0.0.2",
   "name": "RADAR ENGAGE",
   "healthIssues": ["depression"],
@@ -152,7 +152,7 @@
         "es": ""
       },
       "endText": {
-        "en": "",
+        "en": "Weekly questionnaires complete. Don't forget you can check your Progress Report by clicking on the data icon in the bottom left of the app homepage. This will update tomorrow. If you need to contact the team, you can find contact details in the top left corner of the app homepage.",
         "it": "",
         "nl": "",
         "da": "",
@@ -216,7 +216,7 @@
         "es": ""
       },
       "endText": {
-        "en": "",
+        "en": "Weekly questionnaires complete. Don't forget you can check your Progress Report by clicking on the data icon in the bottom left of the app homepage. This will update tomorrow. If you need to contact the team, you can find contact details in the top left corner of the app homepage.",
         "it": "",
         "nl": "",
         "da": "",
@@ -280,7 +280,7 @@
         "es": ""
       },
       "endText": {
-        "en": "",
+        "en": "Weekly questionnaires complete. Don't forget you can check your Progress Report by clicking on the data icon in the bottom left of the app homepage. This will update tomorrow. If you need to contact the team, you can find contact details in the top left corner of the app homepage.",
         "it": "",
         "nl": "",
         "da": "",
