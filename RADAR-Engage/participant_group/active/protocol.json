@@ -1,5 +1,5 @@
 {
-  "version": "0.2.2",
+  "version": "0.2.4",
   "schemaVersion": "0.0.2",
   "name": "RADAR ENGAGE",
   "healthIssues": ["depression"],
@@ -42,12 +42,25 @@
       "estimatedCompletionTime": 3,
       "protocol": {
         "repeatProtocol": {
-          "unit": "day",
-          "amount": 7
+          "unit": "year",
+          "amount": 9999
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [570]
+          "unitsFromZero": [
+            570,
+            10650,
+            20730,
+            30810,
+            40890,
+            50970,
+            61050,
+            71130,
+            81210,
+            91290,
+            101370,
+            111450
+          ]
         },
         "reminders": {
           "unit": "day",
@@ -106,12 +119,25 @@
       "estimatedCompletionTime": 3,
       "protocol": {
         "repeatProtocol": {
-          "unit": "day",
-          "amount": 7
+          "unit": "year",
+          "amount": 9999
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [600]
+          "unitsFromZero": [
+            600,
+            10680,
+            20760,
+            30840,
+            40920,
+            51000,
+            61080,
+            71160,
+            81240,
+            91320,
+            101400,
+            111480
+          ]
         },
         "reminders": {
           "unit": "day",
@@ -133,14 +159,14 @@
       }
     },
     {
-      "name": "AUDIO",
+      "name": "AUDIO_WITHOUT_UNSCRIPTED",
       "showIntroduction": false,
       "showInCalendar": true,
       "isDemo": false,
       "order": 3,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "audio",
+        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/engage/questionnaires/",
+        "name": "audio_without_unscripted",
         "avsc": "questionnaire"
       },
       "startText": {
@@ -170,12 +196,12 @@
       "estimatedCompletionTime": 3,
       "protocol": {
         "repeatProtocol": {
-          "unit": "day",
-          "amount": 21
+          "unit": "year",
+          "amount": 9999
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [690]
+          "unitsFromZero": [690, 30930, 61170, 91410]
         },
         "reminders": {
           "unit": "day",
@@ -197,14 +223,14 @@
       }
     },
     {
-      "name": "AUDIO_2",
+      "name": "AUDIO_WITHOUT_UNSCRIPTED_2",
       "showIntroduction": false,
       "showInCalendar": true,
       "isDemo": false,
       "order": 3,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "audio_2",
+        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/engage/questionnaires/",
+        "name": "audio_without_unscripted_2",
         "avsc": "questionnaire"
       },
       "startText": {
@@ -234,12 +260,12 @@
       "estimatedCompletionTime": 3,
       "protocol": {
         "repeatProtocol": {
-          "unit": "day",
-          "amount": 21
+          "unit": "year",
+          "amount": 9999
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [10770]
+          "unitsFromZero": [10770, 41010, 71250, 101490]
         },
         "reminders": {
           "unit": "day",
@@ -261,14 +287,14 @@
       }
     },
     {
-      "name": "AUDIO_3",
+      "name": "AUDIO_WITHOUT_UNSCRIPTED_3",
       "showIntroduction": false,
       "showInCalendar": true,
       "isDemo": false,
       "order": 3,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "audio_3",
+        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/engage/questionnaires/",
+        "name": "audio_without_unscripted_3",
         "avsc": "questionnaire"
       },
       "startText": {
@@ -298,12 +324,12 @@
       "estimatedCompletionTime": 3,
       "protocol": {
         "repeatProtocol": {
-          "unit": "day",
-          "amount": 21
+          "unit": "year",
+          "amount": 9999
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [20850]
+          "unitsFromZero": [20850, 51090, 81330, 111570]
         },
         "reminders": {
           "unit": "day",
