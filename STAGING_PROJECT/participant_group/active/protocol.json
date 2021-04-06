@@ -1,5 +1,5 @@
 {
-  "version": "0.0.7",
+  "version": "0.2.5",
   "schemaVersion": "0.0.2",
   "name": "RADAR ENGAGE",
   "healthIssues": ["depression"],
@@ -70,6 +70,14 @@
         "completionWindow": {
           "unit": "day",
           "amount": 1
+        },
+        "notification": {
+          "title": {
+            "en": "Questionnaire Time. Complete any time today."
+          },
+          "text": {
+            "en": "Tracking symptoms remotely might help research to better understand health conditions."
+          }
         }
       }
     },
@@ -139,6 +147,14 @@
         "completionWindow": {
           "unit": "day",
           "amount": 1
+        },
+        "notification": {
+          "title": {
+            "en": "Questionnaire Time. Complete any time today."
+          },
+          "text": {
+            "en": "Symptom tracking is often used in treatment to increase symptom insight (Kramer et al., 2014)."
+          }
         }
       }
     },
@@ -162,7 +178,7 @@
         "es": ""
       },
       "endText": {
-        "en": "Weekly tasks complete. Don't forget you can check your Progress Report by clicking on the data icon in the bottom left of the app homepage. This will update tomorrow. If you need to contact the team, you can find contact details in the top left corner of the app homepage. If you need to contact the team, you can find contact details in the top left corner of the app homepage.",
+        "en": "Weekly tasks complete. Don't forget you can check your Progress Report by clicking on the data icon in the bottom left of the app homepage. This will update tomorrow. If you need to contact the team, you can find contact details in the top left corner of the app homepage.",
         "it": "",
         "nl": "",
         "da": "",
@@ -195,6 +211,14 @@
         "completionWindow": {
           "unit": "day",
           "amount": 1
+        },
+        "notification": {
+          "title": {
+            "en": "Questionnaire Time. Complete any time today."
+          },
+          "text": {
+            "en": "Symptom tracking might increase self-awareness of your emotions (Bakker & Rickard, 2018)."
+          }
         }
       }
     },
@@ -218,7 +242,7 @@
         "es": ""
       },
       "endText": {
-        "en": "Weekly tasks complete. Don't forget you can check your Progress Report by clicking on the data icon in the bottom left of the app homepage. This will update tomorrow.",
+        "en": "Weekly tasks complete. Don't forget you can check your Progress Report by clicking on the data icon in the bottom left of the app homepage. This will update tomorrow. If you need to contact the team, you can find contact details in the top left corner of the app homepage.",
         "it": "",
         "nl": "",
         "da": "",
@@ -251,6 +275,14 @@
         "completionWindow": {
           "unit": "day",
           "amount": 1
+        },
+        "notification": {
+          "title": {
+            "en": "Questionnaire Time. Complete any time today."
+          },
+          "text": {
+            "en": "Symptom tracking might increase self-awareness of your emotions (Bakker & Rickard, 2018)."
+          }
         }
       }
     },
@@ -307,6 +339,14 @@
         "completionWindow": {
           "unit": "day",
           "amount": 1
+        },
+        "notification": {
+          "title": {
+            "en": "Questionnaire Time. Complete any time today."
+          },
+          "text": {
+            "en": "Symptom tracking might increase self-awareness of your emotions (Bakker & Rickard, 2018)."
+          }
         }
       }
     }
