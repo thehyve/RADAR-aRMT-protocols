@@ -158,7 +158,7 @@
         "avsc": "questionnaire"
       },
       "startText": {
-        "en": "",
+        "en": "This questionnaire is a method of evaluating the impact of fatigue on your activities and lifestyle. The FSS is a 9-item scale and it only takes two minutes.",
         "it": "",
         "nl": "",
         "da": "",
@@ -201,6 +201,19 @@
         "completionWindow": {
           "unit": "day",
           "amount": 3
+        },
+        "notification": {
+          "title": {
+            "en": "Questionnaire time",
+            "it": "E' il momento per un compito",
+            "es": "Momento para la tarea",
+            "nl": "Tijd voor een taak",
+            "da": "Tid til at udføre opgaver",
+            "de": "Zeit für Aufgaben"
+          },
+          "text": {
+            "en": "Help us assess the impact of fatigue on your activities and lifestyle."
+          }
         }
       }
     },
