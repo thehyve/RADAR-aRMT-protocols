@@ -7,77 +7,6 @@
   ],
   "protocols": [
     {
-      "name": "CAT",
-      "showIntroduction": "always",
-      "showInCalendar": true,
-      "isDemo": false,
-      "order": 3,
-      "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "cat",
-        "avsc": "questionnaire"
-      },
-      "startText": {
-        "en": "This questionnaire will help you and your healthcare professional to measure the impact on your wellbeing and daily life. Your answers and test score can be used by you and your healthcare professional to help improve the management of your health and gain the greatest benefit from the treatment.",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "endText": {
-        "en": "Thank you for taking the time today.",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "warn": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "estimatedCompletionTime": 2,
-      "protocol": {
-        "repeatProtocol": {
-          "unit": "day",
-          "amount": 1
-        },
-        "repeatQuestionnaire": {
-          "unit": "min",
-          "unitsFromZero": [
-            580
-          ]
-        },
-        "reminders": {
-          "unit": "day",
-          "amount": 0,
-          "repeat": 0
-        },
-        "completionWindow": {
-          "unit": "day",
-          "amount": 1
-        },
-        "notification": {
-          "title": {
-            "en": "Questionnaire time",
-            "it": "E' il momento per un compito",
-            "es": "Momento para la tarea",
-            "nl": "Tijd voor een taak",
-            "da": "Tid til at udføre opgaver",
-            "de": "Zeit für Aufgaben"
-          },
-          "text": {
-            "en": "Help us measure the impact on your wellbeing and daily life."
-          }
-        }
-      }
-    },
-    {
       "name": "PSQI",
       "showIntroduction": "always",
       "showInCalendar": true,
@@ -158,7 +87,7 @@
         "avsc": "questionnaire"
       },
       "startText": {
-        "en": "",
+        "en": "This questionnaire is a method of evaluating the impact of fatigue on your activities and lifestyle. The FSS is a 9-item scale and it only takes two minutes.",
         "it": "",
         "nl": "",
         "da": "",
@@ -201,6 +130,19 @@
         "completionWindow": {
           "unit": "day",
           "amount": 3
+        },
+        "notification": {
+          "title": {
+            "en": "Questionnaire time",
+            "it": "E' il momento per un compito",
+            "es": "Momento para la tarea",
+            "nl": "Tijd voor een taak",
+            "da": "Tid til at udføre opgaver",
+            "de": "Zeit für Aufgaben"
+          },
+          "text": {
+            "en": "Help us assess the impact of fatigue on your activities and lifestyle."
+          }
         }
       }
     },

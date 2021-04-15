@@ -7,18 +7,18 @@
   ],
   "protocols": [
     {
-      "name": "CAT",
+      "name": "VAS",
       "showIntroduction": "always",
       "showInCalendar": true,
       "isDemo": false,
       "order": 3,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "cat",
+        "name": "vas",
         "avsc": "questionnaire"
       },
       "startText": {
-        "en": "This questionnaire will help you and your healthcare professional to measure the impact that COPD (Chronic Obstructive Pulmonary Disease) is having on your wellbeing and daily life. Your answers and test score can be used by you and your healthcare professional to help improve the management of your COPD and gain the greatest benefit from the treatment.",
+        "en": "",
         "it": "",
         "nl": "",
         "da": "",
@@ -41,7 +41,7 @@
         "de": "",
         "es": ""
       },
-      "estimatedCompletionTime": 2,
+      "estimatedCompletionTime": 1,
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
@@ -72,7 +72,7 @@
             "de": "Zeit für Aufgaben"
           },
           "text": {
-            "en": "Help us measure the impact that COPD is having on your wellbeing and daily life."
+            "en": "Help us measure the severity of your cough."
           }
         }
       }
@@ -88,7 +88,7 @@
         "avsc": "task"
       },
       "startText": {
-        "en": "This questionnaire is designed to assess the symptoms you may have experienced from Idiopathic Pulmonary Fibrosis (IPF) over the last 24 hours. Keep in mind you are not being asked to compare yourself to anyone else and you are not being asked to compare how you are now with any time in the past",
+        "en": "This questionnaire is designed to assess the symptoms you may have experienced over the last 24 hours. Keep in mind you are not being asked to compare yourself to anyone else and you are not being asked to compare how you are now with any time in the past.",
         "it": "",
         "nl": "",
         "da": "",
@@ -114,7 +114,7 @@
       "estimatedCompletionTime": 2,
       "protocol": {
         "repeatProtocol": {
-          "unit": "month",
+          "unit": "day",
           "amount": 1
         },
         "repeatQuestionnaire": {
@@ -125,8 +125,8 @@
         },
         "reminders": {
           "unit": "day",
-          "amount": 5,
-          "repeat": 2
+          "amount": 0,
+          "repeat": 0
         },
         "completionWindow": {
           "unit": "day",
@@ -142,7 +142,7 @@
             "de": "Zeit für Aufgaben"
           },
           "text": {
-            "en": "Help us assess the symptoms you may have experienced from Idiopathic Pulmonary Fibrosis (IPF)."
+            "en": "Help us assess the symptoms you may have experienced."
           }
         }
       }
@@ -228,7 +228,7 @@
         "avsc": "questionnaire"
       },
       "startText": {
-        "en": "",
+        "en": "This questionnaire is a method of evaluating the impact of fatigue on your activities and lifestyle. The FSS is a 9-item scale and it only takes two minutes.",
         "it": "",
         "nl": "",
         "da": "",
@@ -271,6 +271,19 @@
         "completionWindow": {
           "unit": "day",
           "amount": 3
+        },
+        "notification": {
+          "title": {
+            "en": "Questionnaire time",
+            "it": "E' il momento per un compito",
+            "es": "Momento para la tarea",
+            "nl": "Tijd voor een taak",
+            "da": "Tid til at udføre opgaver",
+            "de": "Zeit für Aufgaben"
+          },
+          "text": {
+            "en": "Help us assess the impact of fatigue on your activities and lifestyle."
+          }
         }
       }
     },
