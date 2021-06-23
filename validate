@@ -5,7 +5,7 @@ yarn install
 
 HAS_ERROR=false
 for p in $(find . -name protocol.json); do
-  if ! "$(yarn bin)/ajv" -s docs/protocol-schema.json -d "$p"; then
+  if ! "$(yarn bin)/ajv" --spec=draft2020 -c ajv-formats --validate-formats -s docs/protocol-schema.json -d "$p"; then
     HAS_ERROR=true
   fi
 done
