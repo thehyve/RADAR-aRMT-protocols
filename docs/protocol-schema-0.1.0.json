@@ -12,26 +12,26 @@
   ],
   "properties": {
     "version": {
-      "$ref": "#/$defs/version",
-      "title": "Protocol version",
-      "description": "Update this version whenever the aRMT app should read any changes."
+      "allOf": [
+        { "$ref": "#/$defs/version" },
+        {
+          "title": "Protocol version",
+          "description": "Update this version whenever the aRMT app should read any changes."
+        }
+      ]
     },
     "schemaVersion": {
       "type": "string",
       "format": "uri-reference",
       "title": "Reference to this schema",
       "description": "The version of this schema describing the protocol structure.",
-      "examples": [
-        "https://radar-base.org/armt/protocol/0.1.0"
-      ]          
+      "examples": [ "https://radar-base.org/armt/protocol/0.1.0" ]
     },
     "name": {
       "type": "string",
       "title": "Protocol set name",
       "description": "The name of the set of protocols. It should match the study that the protocol is being used in.",
-      "examples": [
-        "RADAR MDD KCL s1"
-      ]
+      "examples": [ "RADAR MDD KCL s1" ]
     },
     "healthIssues": {
       "type": "array",
@@ -39,11 +39,7 @@
       "description": "Study area of health issues that are covered by the questionnaire.",
       "items": {
         "type": "string",
-        "title": "Health issue",
-        "default": "",
-        "examples": [
-          "depression"
-        ]
+        "examples": [ "depression" ]
       }
     },
     "protocols": {
@@ -72,20 +68,14 @@
         "name": {
           "type": "string",
           "title": "Protocol name",
-          "examples": [
-            "PHQ8"
-          ]
+          "examples": [ "PHQ8" ]
         },
         "showIntroduction": {
           "anyOf": [
             { "type": "boolean" },
             {
               "type": "string",
-              "enum": [
-                "always",
-                "once",
-                "never"
-              ]
+              "enum": [ "always", "once", "never" ]
             }
           ],
           "title": "Show an introduction",
@@ -96,28 +86,19 @@
           "type": "boolean",
           "title": "Whether the questionnaire should show up on the task calendar.",
           "description": "True if the questionnaire should show up on the task calendar and show task information, or false, if it should be hidden (for example, for randomised questionnaires).",
-          "default": true,
-          "examples": [
-            false
-          ]
+          "default": true
         },
         "isDemo": {
           "type": "boolean",
           "title": "Whether the questionnaire is only a demo",
           "description": "True if the questionnaire is only a demo, so the data for the questionnaire should not be sent to the server.",
-          "default": false,
-          "examples": [
-            true
-          ]
+          "default": false
         },
         "order": {
           "type": "integer",
           "title": "Order for showing tasks in the home page",
           "description": "Order for choosing tasks to prioritize in the home page when multiple tasks are pending and order for showing clinical tasks, where 0 has the highest order/priority.",
-          "default": 0,
-          "examples": [
-            0
-          ]
+          "default": 0
         },
         "questionnaire": { "$ref": "#/$defs/questionnaire" },
         "startText": {
@@ -151,9 +132,7 @@
           "type": "integer",
           "title": "Estimated completion time",
           "description": "Estimated completion time in minutes.",
-          "examples": [
-            1
-          ]
+          "examples": [ 1 ]
         },
         "protocol": { "$ref": "#/$defs/schedule" }
       }
@@ -183,50 +162,33 @@
           ]
         },
         "repeatQuestionnaire": {
-          "type": "object",
-          "title": "Questionnaire repetitions",
-          "description": "What time of day questionnaires should be posed. The day that questionnaires are posed are specified with repeatProtocol, the local time is defined by this repeatQuestionnaire (units offset from repeat from midnight repeatProtocol day).",
-          "required": [
-            "unit",
-            "unitsFromZero"
-          ],
-          "properties": {
-            "unit": {
-              "$ref": "#/$defs/unit"
-            },
-            "unitsFromZero": {
-              "$ref": "#/$defs/unitsFromZero"
+          "allOf": [
+            { "$ref": "#/$defs/offsetList" },
+            {
+              "title": "Questionnaire repetitions",
+              "description": "What time of day questionnaires should be posed. The day that questionnaires are posed are specified with repeatProtocol, the local time is defined by this repeatQuestionnaire (units offset from repeat from midnight repeatProtocol day)."
             }
-          }
+          ]
         },
         "clinicalProtocol": {
           "type": "object",
           "title": "Clinical protocol",
           "description": "Defines repetitions of the protocol after a clinical visit.",
-          "required": [
-            "repeatAfterClinicVisit"
-          ],
+          "required": [ "repeatAfterClinicVisit" ],
           "properties": {
             "requiresInClinicCompletion": {
               "type": "boolean",
               "title": "Requires in-clinic completion.",
-              "description": "Whether the test should be performed during a clinical visit.",
-              "examples": [
-                true
-              ]
+              "description": "Whether the test should be performed during a clinical visit."
             },
             "repeatAfterClinicVisit": {
-              "type": "object",
-              "title": "Test repetitions",
-              "description": "When to repeat the test after a clinic visit.",
-              "required": [
-                "unit",
-                "unitsFromZero"
-              ],
-              "properties": {
-                "unit": { "$ref": "#/$defs/unit" },
-                "unitsFromZero": { "$ref": "#/$defs/unitsFromZero" }
-              }
+              "allOf": [
+                { "$ref": "#/$defs/offsetList" },
+                {
+                  "title": "Test repetitions",
+                  "description": "When to repeat the test after a clinic visit."
+                }
+              ]
             },
             "onDemandProtocol": {
               "type": "boolean",
@@ -259,26 +221,20 @@
           "title": "Repository URL",
           "format": "uri",
           "default": "",
-          "examples": [
-            "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/"
-          ]
+          "examples": [ "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/" ]
         },
         "name": {
           "type": "string",
           "title": "Questionnaire name",
           "description": "Name should match file name under the URL provided in the repository property.",
           "default": "",
-          "examples": [
-            "phq8"
-          ]
+          "examples": [ "phq8" ]
         },
         "avsc": {
           "type": "string",
           "title": "Schema",
           "description": "Avro Schema name as defined in RADAR-Schemas.",
-          "examples": [
-            "notification"
-          ]
+          "examples": [ "notification" ]
         }
       }
     },
@@ -292,20 +248,13 @@
         "repeat"
       ],
       "properties": {
-        "unit": {
-          "$ref": "#/$defs/unit"
-        },
-        "amount": {
-          "$ref": "#/$defs/amount"
-        },
+        "unit": { "$ref": "#/$defs/unit" },
+        "amount": { "$ref": "#/$defs/amount" },
         "repeat": {
           "type": "integer",
           "title": "Repetitions",
           "description": "Number of reminders to send.",
-          "default": 0,
-          "examples": [
-            0
-          ]
+          "default": 0
         }
       },
       "additionalProperties": false
@@ -328,6 +277,19 @@
       "properties": {
         "unit": { "$ref": "#/$defs/unit" },
         "amount": { "$ref": "#/$defs/amount" }
+      }
+    },
+    "offsetList": {
+      "type": "object",
+      "required": [ "unit", "unitsFromZero" ],
+      "properties": {
+        "unit": { "$ref": "#/$defs/unit" },
+        "unitsFromZero": {
+          "type": "array",
+          "title": "Times starting at midnight",
+          "description": "Times, starting from midnight, that a protocol should be suggested.",
+          "items": { "$ref": "#/$defs/amount" }
+        }
       }
     },
     "unit": {
@@ -353,12 +315,6 @@
       "examples": [
         7
       ]
-    },
-    "unitsFromZero": {
-      "type": "array",
-      "title": "Times starting at midnight",
-      "description": "Times, starting from midnight, that a protocol should be suggested.",
-      "items": { "$ref": "#/$defs/amount" }
     },
     "version": {
       "type": "string",
