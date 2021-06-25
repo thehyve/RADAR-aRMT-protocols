@@ -120,7 +120,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            550
+            580
           ]
         },
         "reminders": {
@@ -190,7 +190,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            540
+            580
           ]
         },
         "reminders": {
@@ -261,7 +261,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            550
+            580
           ]
         },
         "reminders": {
@@ -331,7 +331,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [570]
+          "unitsFromZero": [580]
         },
         "reminders": {
           "unit": "day",
@@ -400,7 +400,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [570]
+          "unitsFromZero": [580]
         },
         "reminders": {
           "unit": "day",
