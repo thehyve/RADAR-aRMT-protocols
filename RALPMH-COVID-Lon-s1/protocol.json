@@ -10,7 +10,7 @@
       "name": "PSQI",
       "showIntroduction": "always",
       "showInCalendar": true,
-      "order": 0,
+      "order": 2,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "psqi",
@@ -49,7 +49,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            550
+            580
           ]
         },
         "reminders": {
@@ -119,7 +119,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            540
+            580
           ]
         },
         "reminders": {
@@ -189,7 +189,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [600]
+          "unitsFromZero": [580]
         },
         "reminders": {
           "unit": "day",
@@ -258,7 +258,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [520]
+          "unitsFromZero": [580]
         },
         "reminders": {
           "unit": "day",
@@ -328,7 +328,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            550
+            580
           ]
         },
         "reminders": {
@@ -360,7 +360,7 @@
       "showIntroduction": true,
       "showInCalendar": true,
       "isDemo": false,
-      "order": 0,
+      "order": 3,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "phq8",
@@ -398,7 +398,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [570]
+          "unitsFromZero": [580]
         },
         "reminders": {
           "unit": "day",
@@ -429,7 +429,7 @@
       "showIntroduction": true,
       "showInCalendar": true,
       "isDemo": false,
-      "order": 1,
+      "order": 3,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "gad7",
@@ -467,7 +467,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [570]
+          "unitsFromZero": [580]
         },
         "reminders": {
           "unit": "day",
@@ -490,6 +490,174 @@
           "text": {
             "en": "Help us assess the impact on your mental health and wellbeing."
           }
+        }
+      }
+    },
+    {
+      "name": "AUDIO",
+      "showIntroduction": false,
+      "showInCalendar": true,
+      "isDemo": false,
+      "order": 3,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "audio_without_unscripted_4",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "Find a quiet space.",
+        "it": "Trova uno spazio tranquillo.",
+        "nl": "Zoek een stille ruimte.",
+        "da": "Find et roligt sted.",
+        "de": "Suchen Sie sich einen ruhigen Platz.",
+        "es": "Encuentra un espacio tranquilo."
+      },
+      "estimatedCompletionTime": 3,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "day",
+          "amount": 21
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [580]
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 2,
+          "repeat": 1
+        },
+        "completionWindow": {
+          "unit": "day",
+          "amount": 3
+        }
+      }
+    },
+    {
+      "name": "AUDIO_2",
+      "showIntroduction": false,
+      "showInCalendar": true,
+      "isDemo": false,
+      "order": 3,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "audio_count",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "Find a quiet space.",
+        "it": "Trova uno spazio tranquillo.",
+        "nl": "Zoek een stille ruimte.",
+        "da": "Find et roligt sted.",
+        "de": "Suchen Sie sich einen ruhigen Platz.",
+        "es": "Encuentra un espacio tranquilo."
+      },
+      "estimatedCompletionTime": 3,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "day",
+          "amount": 21
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [10660]
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 2,
+          "repeat": 1
+        },
+        "completionWindow": {
+          "unit": "day",
+          "amount": 3
+        }
+      }
+    },
+    {
+      "name": "AUDIO_3",
+      "showIntroduction": false,
+      "showInCalendar": true,
+      "isDemo": false,
+      "order": 3,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "audio_vocalisation",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "Find a quiet space.",
+        "it": "Trova uno spazio tranquillo.",
+        "nl": "Zoek een stille ruimte.",
+        "da": "Find et roligt sted.",
+        "de": "Suchen Sie sich einen ruhigen Platz.",
+        "es": "Encuentra un espacio tranquilo."
+      },
+      "estimatedCompletionTime": 3,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "day",
+          "amount": 21
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [20740]
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 2,
+          "repeat": 1
+        },
+        "completionWindow": {
+          "unit": "day",
+          "amount": 3
         }
       }
     }
