@@ -1,21 +1,21 @@
 {
   "version": "0.1.0",
   "schemaVersion": "0.0.2",
-  "name": "{Proper Name} Pilot",
+  "name": "HLH_Pilot_Study",
   "healthIssues": [
-    "depression"
+    "general"
   ],
   "protocols": [
     {
-      "name": "PHQ8",
+      "name": "BP",
       "showIntroduction": true,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "phq8",
+        "name": "bp",
         "avsc": "questionnaire"
       },
       "startText": {
-        "en": "This questionnaire is known as the PHQ8. Clinicians use it to assess current depression in patients. Please note that none of your answers will be collected today. Thank you for taking part in this focus group.",
+        "en": "This data collection form will allow us to capture your blood pressure at regular intervals from the comfort of your home. You will be asked to take a reading of your blood pressure every week",
         "it": "",
         "nl": "",
         "da": "",
@@ -23,7 +23,7 @@
         "es": ""
       },
       "endText": {
-        "en": "Thank you for taking the time today.",
+        "en": "Thank you for submitting your blood pressure readings.",
         "it": "",
         "nl": "",
         "da": "",
@@ -38,39 +38,42 @@
         "de": "",
         "es": ""
       },
-      "estimatedCompletionTime": 7,
+      "estimatedCompletionTime": 5,
       "protocol": {
         "repeatProtocol": {
-          "unit": "day",
+          "unit": "week",
           "amount": 1
         },
         "repeatQuestionnaire": {
-          "unit": "min",
+          "unit": "hour",
           "unitsFromZero": [
-            1100,
-            1300
+            8
           ]
         },
         "reminders": {
-          "unit": "min",
-          "amount": 15,
-          "repeat": 2
+          "unit": "hour",
+          "amount": 24,
+          "repeat": 1
+        },
+        "completionWindow": {
+          "unit": "hour",
+          "amount": 25
         }
       }
     }, {
-      "name": "RSES",
-      "showIntroduction": false,
+      "name": "hlh",
+      "showIntroduction": true,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "rses",
+        "name": "hlh",
         "avsc": "questionnaire"
       },
       "startText": {
-        "en": "This questionnaire is known as the Rses.",
+        "en": "Please complete this questionnaire to help us understand your feelings towards the exercise classes",
         "nl":""
       },
       "endText": {
-        "en": "Thank you for taking the time today.",
+        "en": "Thank you for completing the exercise classes and the questionnaire, we hope you are finding them enjoyable so far",
         "it": ""
       },
       "warn": {
@@ -80,59 +83,19 @@
       "estimatedCompletionTime": 7,
       "protocol": {
         "repeatProtocol": {
-          "unit": "day",
+          "unit": "week",
           "amount": 1
         },
         "repeatQuestionnaire": {
-          "unit": "min",
+          "unit": "hour",
           "unitsFromZero": [
-            1100,
-            1300
+            17
           ]
         },
         "reminders": {
-          "unit": "min",
-          "amount": 15,
-          "repeat": 2
-        }
-      }
-    }, {
-      "name": "ESM",
-      "showIntroduction": true,
-      "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "esm",
-        "avsc": "questionnaire"
-      },
-      "startText": {
-        "en": "This questionnaire is known as the ESM.",
-        "nl":""
-      },
-      "endText": {
-        "en": "Thank you for taking the time today.",
-        "it": ""
-      },
-      "warn": {
-        "en": "",
-        "es": ""
-      },
-      "estimatedCompletionTime": 7,
-      "protocol": {
-        "repeatProtocol": {
           "unit": "day",
-          "amount": 1
-        },
-        "repeatQuestionnaire": {
-          "unit": "min",
-          "unitsFromZero": [
-            1100,
-            1300
-          ]
-        },
-        "reminders": {
-          "unit": "min",
-          "amount": 15,
-          "repeat": 2
+          "amount": 1,
+          "repeat": 3
         }
       }
     }
