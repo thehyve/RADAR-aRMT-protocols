@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "schemaVersion": "0.0.2",
   "name": "RALPMH ILD/IPF Project",
   "healthIssues": [
@@ -85,7 +85,7 @@
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "lipf",
-        "avsc": "task"
+        "avsc": "questionnaire"
       },
       "startText": {
         "en": "This questionnaire is designed to assess the symptoms you may have experienced over the last 24 hours. Keep in mind you are not being asked to compare yourself to anyone else and you are not being asked to compare how you are now with any time in the past.",
@@ -130,7 +130,7 @@
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 10
+          "amount": 1
         },
         "notification": {
           "title": {
