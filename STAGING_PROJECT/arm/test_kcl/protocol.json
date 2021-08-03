@@ -116,7 +116,7 @@
       "showInCalendar": true,
       "order": 1,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions-Private/master/questionnaires/",
+        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions-Private/master/questionnaires/",
         "name": "k_build_private",
         "avsc": "questionnaire"
       },
