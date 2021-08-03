@@ -218,14 +218,14 @@
       }
     },
     {
-      "name": "PULSE_OX_RESPONSE",
+      "name": "PULSE_OX",
       "showIntroduction": "always",
       "showInCalendar": true,
       "isDemo": false,
       "order": 3,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "pulse_ox_response",
+        "name": "pulse_ox",
         "avsc": "questionnaire"
       },
       "startText": {
