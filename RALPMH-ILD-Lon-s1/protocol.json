@@ -288,7 +288,7 @@
       }
     },
     {
-      "name": "PULSE_OX_RESPONSE",
+      "name": "PULSE_OX",
       "showIntroduction": "always",
       "showInCalendar": true,
       "isDemo": false,
