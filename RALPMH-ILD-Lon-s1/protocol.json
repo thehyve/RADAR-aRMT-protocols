@@ -88,7 +88,7 @@
         "avsc": "questionnaire"
       },
       "startText": {
-        "en": "This questionnaire is designed to assess the symptoms you may have experienced over the last 24 hours. Keep in mind you are not being asked to compare yourself to anyone else and you are not being asked to compare how you are now with any time in the past.",
+        "en": "This questionnaire is designed to assess the symptoms you may have experienced over the last 2 weeks. Keep in mind you are not being asked to compare yourself to anyone else and you are not being asked to compare how you are now with any time in the past.",
         "it": "",
         "nl": "",
         "da": "",
@@ -115,7 +115,7 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 1
+          "amount": 14
         },
         "repeatQuestionnaire": {
           "unit": "min",
