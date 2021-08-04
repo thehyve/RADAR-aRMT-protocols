@@ -596,7 +596,7 @@
     },
     {
       "name": "EXACERBATION_DIARY",
-      "showIntroduction": "false",
+      "showIntroduction": false,
       "showInCalendar": true,
       "isDemo": false,
       "order": 3,
