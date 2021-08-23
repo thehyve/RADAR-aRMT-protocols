@@ -1,5 +1,5 @@
 {
-  "version": "0.1.1",
+  "version": "0.1.2",
   "schemaVersion": "0.0.2",
   "name": "RALPMH ILD/IPF Project",
   "healthIssues": [
@@ -116,6 +116,76 @@
         "repeatProtocol": {
           "unit": "day",
           "amount": 1
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            580
+          ]
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 0,
+          "repeat": 0
+        },
+        "completionWindow": {
+          "unit": "day",
+          "amount": 1
+        },
+        "notification": {
+          "title": {
+            "en": "Questionnaire time",
+            "it": "E' il momento per un compito",
+            "es": "Momento para la tarea",
+            "nl": "Tijd voor een taak",
+            "da": "Tid til at udføre opgaver",
+            "de": "Zeit für Aufgaben"
+          },
+          "text": {
+            "en": "Help us assess the symptoms you may have experienced."
+          }
+        }
+      }
+    },
+    {
+      "name": "K_Build_Private",
+      "showIntroduction": true,
+      "showInCalendar": true,
+      "order": 0,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions-Private/master/questionnaires/",
+        "name": "k_build_private",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "This questionnaire is designed to assess the symptoms you may have experienced over the last 2 weeks. Keep in mind you are not being asked to compare yourself to anyone else and you are not being asked to compare how you are now with any time in the past.",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "Thank you for taking the time today.",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 2,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "day",
+          "amount": 14
         },
         "repeatQuestionnaire": {
           "unit": "min",
