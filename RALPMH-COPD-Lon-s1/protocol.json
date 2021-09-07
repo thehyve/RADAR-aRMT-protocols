@@ -50,7 +50,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            580
+            450
           ]
         },
         "reminders": {
@@ -120,7 +120,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            580
+            450
           ]
         },
         "reminders": {
@@ -190,7 +190,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            580
+            450
           ]
         },
         "reminders": {
@@ -261,7 +261,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            580
+            450
           ]
         },
         "reminders": {
@@ -331,7 +331,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [580]
+          "unitsFromZero": [450]
         },
         "reminders": {
           "unit": "day",
@@ -400,7 +400,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [580]
+          "unitsFromZero": [450]
         },
         "reminders": {
           "unit": "day",
@@ -469,7 +469,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [580]
+          "unitsFromZero": [450]
         },
         "reminders": {
           "unit": "day",
@@ -525,7 +525,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [10660]
+          "unitsFromZero": [10530]
         },
         "reminders": {
           "unit": "day",
@@ -581,7 +581,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [20740]
+          "unitsFromZero": [20610]
         },
         "reminders": {
           "unit": "day",
@@ -638,7 +638,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            580
+            450
           ]
         },
         "reminders": {
@@ -708,7 +708,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [580]
+          "unitsFromZero": [450]
         },
         "reminders": {
           "unit": "day",
