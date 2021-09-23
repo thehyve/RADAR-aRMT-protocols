@@ -663,8 +663,6 @@
           "amount": 3
         }
       }
-<<<<<<< Updated upstream
-=======
     },
     {
       "name": "EXACERBATION_DIARY_ILD",
@@ -805,7 +803,6 @@
           }
         }
       }
->>>>>>> Stashed changes
     }
   ]
 }
