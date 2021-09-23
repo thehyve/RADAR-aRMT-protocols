@@ -49,7 +49,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            580
+            450
           ]
         },
         "reminders": {
@@ -119,7 +119,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            580
+            450
           ]
         },
         "reminders": {
@@ -189,7 +189,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [580]
+          "unitsFromZero": [450]
         },
         "reminders": {
           "unit": "day",
@@ -258,7 +258,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [580]
+          "unitsFromZero": [450]
         },
         "reminders": {
           "unit": "day",
@@ -328,7 +328,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            580
+            450
           ]
         },
         "reminders": {
@@ -398,7 +398,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [580]
+          "unitsFromZero": [450]
         },
         "reminders": {
           "unit": "day",
@@ -467,7 +467,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [580]
+          "unitsFromZero": [450]
         },
         "reminders": {
           "unit": "day",
@@ -536,7 +536,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [580]
+          "unitsFromZero": [450]
         },
         "reminders": {
           "unit": "day",
@@ -592,7 +592,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [10660]
+          "unitsFromZero": [10530]
         },
         "reminders": {
           "unit": "day",
@@ -648,7 +648,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [20740]
+          "unitsFromZero": [20610]
         },
         "reminders": {
           "unit": "day",
@@ -658,6 +658,75 @@
         "completionWindow": {
           "unit": "day",
           "amount": 3
+        }
+      }
+    },
+    {
+      "name": "NUVOAIR_SPIROMETRY",
+      "showIntroduction": false,
+      "showInCalendar": true,
+      "isDemo": false,
+      "order": 2,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "nuvoair_spirometry",
+        "avsc": "notification"
+      },
+      "startText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "Requires a quiet space.",
+        "it": "Richiede uno spazio tranquillo.",
+        "nl": "Vereist een rustige ruimte.",
+        "da": "Kræver et stille rum.",
+        "de": "Benötigt einen ruhigen Platz.",
+        "es": "Requiere un espacio tranquilo."
+      },
+      "estimatedCompletionTime": 1,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "day",
+          "amount": 1
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [450]
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 0,
+          "repeat": 0
+        },
+        "completionWindow": {
+          "unit": "day",
+          "amount": 1
+        },
+        "notification": {
+          "title": {
+            "en": "Questionnaire time",
+            "it": "E' il momento per un compito",
+            "es": "Momento para la tarea",
+            "nl": "Tijd voor een taak",
+            "da": "Tid til at udføre opgaver",
+            "de": "Zeit für Aufgaben"
+          },
+          "text": {
+            "en": "Time to complete spirometry tasks."
+          }
         }
       }
     }
