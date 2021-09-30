@@ -1,5 +1,5 @@
 {
-  "version": "0.0.3",
+  "version": "0.0.4",
   "schemaVersion": "0.0.2",
   "name": "RADAR AIIMS-2 TRIALS KCL s1",
   "healthIssues": ["autism"],
@@ -468,7 +468,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [12630, 25230, 36030, 46830]
+          "unitsFromZero": [11190, 21270, 31350, 41430]
         },
         "reminders": {
           "unit": "day",
