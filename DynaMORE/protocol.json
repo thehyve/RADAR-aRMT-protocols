@@ -234,14 +234,14 @@
     }
     },
     {
-      "name": "Morning questionnaire",
+      "name": "EMI_self-triggered",
       "type": "on_demand",
       "showIntroduction": true,
       "showInCalendar": true,
       "order": 0,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "ESM_DynaMORE_Morning",
+        "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/DynaMINT-TEST/Imager/",
+        "name": "EMI_self-triggered",
         "avsc": "questionnaire"
       },
       "startText": {
