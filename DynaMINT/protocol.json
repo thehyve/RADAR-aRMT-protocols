@@ -514,7 +514,7 @@
         }
       }
     }
-    }
+    },
     {
       "name": "IMAGER self-triggered EMI",
       "type": "on_demand",
