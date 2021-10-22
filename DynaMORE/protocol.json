@@ -240,8 +240,8 @@
       "showInCalendar": true,
       "order": 0,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/DynaMINT-TEST/Imager/",
-        "name": "EMI_self-triggered",
+        "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "EMI_imager_selfT",
         "avsc": "questionnaire"
       },
       "startText": {
