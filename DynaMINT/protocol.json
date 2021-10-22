@@ -56,12 +56,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-    2730,
-    4170,
-    5610,
-    7050,
-    8490,
-    9930     
+    999999999999999999    
           ]
         },
         "reminders": {
@@ -97,7 +92,7 @@
     }
     },
     {
-      "name": "EMI_self-triggered",
+      "name": "IMAGER self-triggered EMI",
       "type": "on_demand",
       "showIntroduction": true,
       "showInCalendar": true,
@@ -146,12 +141,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-    1890,
-    3330,
-    4770,
-    6210,
-    7650,
-    9090   
+    99999999999999999   
           ]
         },
         "reminders": {
