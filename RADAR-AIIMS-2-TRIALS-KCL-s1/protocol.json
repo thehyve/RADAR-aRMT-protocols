@@ -1,5 +1,5 @@
 {
-  "version": "0.0.5",
+  "version": "0.0.6",
   "schemaVersion": "0.0.3",
   "name": "RADAR AIIMS-2 TRIALS KCL s1",
   "healthIssues": ["autism"],
@@ -429,7 +429,7 @@
       "showIntroduction": false,
       "showInCalendar": true,
       "isDemo": false,
-      "order": 3,
+      "order": 4,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "user_feedback",
@@ -467,7 +467,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [42870]
+          "unitsFromZero": [41430]
         },
         "reminders": {
           "unit": "day",
