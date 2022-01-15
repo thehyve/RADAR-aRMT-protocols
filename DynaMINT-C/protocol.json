@@ -1,7 +1,7 @@
 {
-  "version": "0.1.9",
-  "schemaVersion": "0.1.0",
-  "name": "ESM_DynaMORE",
+  "version": "0.0.1",
+  "schemaVersion": "0.0.1",
+  "name": "ESM_DynaMINT_calibration",
   "healthIssues": [
     "general"
   ],
@@ -48,8 +48,8 @@
       "estimatedCompletionTime": 3,
       "protocol": {
         "repeatProtocol": {
-          "unit": "day",
-          "amount": 6
+          "unit": "year",
+          "amount": 69
         },
         "repeatQuestionnaire": {
           "unit": "min",
