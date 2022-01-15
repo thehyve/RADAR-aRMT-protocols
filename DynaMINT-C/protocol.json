@@ -53,17 +53,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [
-    474,
-    603,
-    641,
-    766,
-    836,
-    912,
-    992,
-    1136,
-    1214,
-    1341,        
+          "unitsFromZero": [    
     1922,
     1982,
     2112,
