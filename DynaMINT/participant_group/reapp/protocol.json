@@ -1,0 +1,487 @@
+{
+  "version": "0.0.1",
+  "schemaVersion": "0.0.1",
+  "name": "ESM_DynaMINT_B_REAPP",
+  "healthIssues": [
+    "general"
+  ],
+  "protocols": [
+
+
+
+    {
+      "name": "ESM assessment",
+      "showIntroduction": true,
+      "showInCalendar": false,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "ESM_DynaMINT",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "Time for a new questionnaire!",
+        "it": "",
+        "nl": "Tijd voor een nieuwe vragenlijst!",
+        "da": "",
+        "de": "Zeit fuer einen neuen Fragebogen!",
+        "es": "",
+        "pl": "Czas na nowy kwestionariusz",
+        "hb": ""
+      },
+      "endText": {
+        "en": "Thanks for filling this out!",
+        "it": "",
+        "nl": "Bedankt voor het invullen!",
+        "da": "",
+        "de": "Vielen Dank, dass Sie diese Fragen beantwortet haben!",
+        "es": "",
+        "pl": "",
+        "hb": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": "",
+        "pl": "",
+        "hb": ""
+      },
+      "estimatedCompletionTime": 3,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "day",
+          "amount": 6
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            474,
+            641,
+            766,
+            912,
+            992,
+            1214,
+            1341,
+            1922,
+            2112,
+            2246,
+            2421,
+            2481,
+            2657,
+            2705,
+            3341,
+            3552,
+            3664,
+            3868,
+            3906,
+            4129,
+            4229,
+            4797,
+            5004,
+            5068,
+            5287,
+            5313,
+            5531,
+            5639,
+            6240,
+            6447,
+            6539,
+            6668,
+            6796,
+            6960,
+            7089,
+            7651,
+            7832,
+            7953,
+            8112,
+            8257,
+            8425,
+            8540
+          ]
+        },
+      "reminders": [
+        {"offset": {"unit": "min", "amount": 5}, 
+          "notification": {
+              "title": {
+                  "en": "Questionnaire time",
+                  "nl": "Tijd voor een vragenlijst!",
+                  "de": "",
+                  "pl": "Czas na nowy kwestionariusz",
+                  "hb": ""
+              },
+             "text": {
+                  "en": "If you have already filled in the questionniare this time, you can ignore this notification.",
+                  "nl": "Als je de vragenlijst deze keer al hebt ingevuld, kun je deze melding negeren.",
+                  "de": "Wenn Sie diesen Fragebogen gerade ausgefüllt haben, können Sie diese Meldung ignorieren.",
+                  "pl": "W razie wykonania przedtem tego kwestionariusza, zignoruj to powiadomienie.",
+                  "hb": "אם כבר מילאת את השאלון, אתה יכול להתעלם מהתראה זו"
+            }
+           }
+          }   
+         ],
+        "completionWindow": {
+          "unit": "min",
+          "amount": 10
+        }
+      }
+    },
+
+    {
+      "name": "ESM assessment 2",
+      "showIntroduction": false,
+      "showInCalendar": false,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "EMI_ReApp",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "Time for a new questionnaire!",
+        "it": "",
+        "nl": "Tijd voor een nieuwe vragenlijst!",
+        "da": "",
+        "de": "Zeit fuer einen neuen Fragebogen!",
+        "es": "",
+        "pl": "Czas na nowy kwestionariusz",
+        "hb": ""
+      },
+      "endText": {
+        "en": "Thanks for filling this out!",
+        "it": "",
+        "nl": "Bedankt voor het invullen!",
+        "da": "",
+        "de": "Vielen Dank, dass Sie diese Fragen beantwortet haben!",
+        "es": "",
+        "pl": "",
+        "hb": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": "",
+        "pl": "",
+        "hb": ""
+      },
+      "estimatedCompletionTime": 3,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "day",
+          "amount": 6
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            603,
+            836,
+            1136,
+            1982,
+            2273,
+            2533,
+            3452,
+            3707,
+            4014,
+            4865,
+            5152,
+            5484,
+            6317,
+            6572,
+            6855,
+            7773,
+            8074,
+            8336
+          ]
+        },
+      "reminders": [
+        {"offset": {"unit": "min", "amount": 5}, 
+          "notification": {
+              "title": {
+                  "en": "Questionnaire time",
+                  "nl": "Tijd voor een vragenlijst!",
+                  "de": "",
+                  "pl": "Czas na nowy kwestionariusz",
+                  "hb": ""
+              },
+             "text": {
+                  "en": "If you have already filled in the questionniare this time, you can ignore this notification.",
+                  "nl": "Als je de vragenlijst deze keer al hebt ingevuld, kun je deze melding negeren.",
+                  "de": "Wenn Sie diesen Fragebogen gerade ausgefüllt haben, können Sie diese Meldung ignorieren.",
+                  "pl": "W razie wykonania przedtem tego kwestionariusza, zignoruj to powiadomienie.",
+                  "hb": "אם כבר מילאת את השאלון, אתה יכול להתעלם מהתראה זו"
+            }
+           }
+          }   
+         ],
+        "completionWindow": {
+          "unit": "min",
+          "amount": 10
+        }
+      }
+    },
+
+    {
+      "name": "Evening questionnaire",
+      "type": "on_demand",
+      "showIntroduction": true,
+      "showInCalendar": true,
+      "order": 2,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "EMI_ReApp_n",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "Time for a new questionnaire!",
+        "it": "",
+        "nl": "Tijd voor een nieuwe vragenlijst!",
+        "da": "",
+        "de": "Zeit fuer einen neuen Fragebogen!",
+        "es": "",
+        "pl": "",
+        "hb": ""
+      },
+      "endText": {
+        "en": "Thanks for filling this out!",
+        "it": "",
+        "nl": "Bedankt voor het invullen!",
+        "da": "",
+        "de": "Vielen Dank, dass Sie diese Fragen beantwortet haben!",
+        "es": "",
+        "pl": "",
+        "hb": "תודה שענית על השאלון!"      
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": "",
+        "pl": "",
+        "hb": ""
+      },
+      "estimatedCompletionTime": 2,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "year",
+          "amount": 9999
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+    999999999999999999    
+          ]
+        },
+        "reminders": {
+          "unit": "min",
+          "amount": 60,
+          "repeat": 3
+        },
+        "completionWindow": {
+          "unit": "min",
+          "amount": 180
+        },
+        "clinicalProtocol": {
+                    "requiresInClinicCompletion": false,
+                    "repeatAfterClinicVisit": {
+                        "unit": "min",
+                        "unitsFromZero": [
+                            1
+                        ]
+                    }
+                },
+        "notification": {
+            "title": {
+              "en": "Good evening, your evening questionnaire is ready for you.",
+              "it": "",
+              "es": "",
+              "nl": "Goedeavond, je avondvragenlijst staat voor je klaar.",
+              "da": "",
+              "de": "",
+              "pl": "",
+              "hb": ""
+        }
+      }
+    }
+    },
+
+
+    {
+      "name": "Morning Questionnaire",
+      "type": "on_demand",
+      "showIntroduction": true,
+      "showInCalendar": true,
+      "order": 1,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "ESM_DynaMINT_morning",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "Time for a new questionnaire!",
+        "it": "",
+        "nl": "Tijd voor een nieuwe vragenlijst!",
+        "da": "",
+        "de": "Zeit fuer einen neuen Fragebogen!",
+        "es": "",
+        "pl": "",
+        "hb": ""
+      },
+      "endText": {
+        "en": "Thanks for filling this out!",
+        "it": "",
+        "nl": "Bedankt voor het invullen!",
+        "da": "",
+        "de": "Vielen Dank, dass Sie diese Fragen beantwortet haben!",
+        "es": "",
+        "pl": "",
+        "hb": "תודה שענית על השאלון!"      
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": "",
+        "pl": "",
+        "hb": ""
+      },
+      "estimatedCompletionTime": 2,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "year",
+          "amount": 9999
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+    999999999999999999    
+          ]
+        },
+        "reminders": {
+          "unit": "min",
+          "amount": 60,
+          "repeat": 3
+        },
+        "completionWindow": {
+          "unit": "min",
+          "amount": 180
+        },
+        "clinicalProtocol": {
+                    "requiresInClinicCompletion": false,
+                    "repeatAfterClinicVisit": {
+                        "unit": "min",
+                        "unitsFromZero": [
+                            1
+                        ]
+                    }
+                },
+        "notification": {
+            "title": {
+              "en": "Good evening, your evening questionnaire is ready for you.",
+              "it": "",
+              "es": "",
+              "nl": "Goedeavond, je avondvragenlijst staat voor je klaar.",
+              "da": "",
+              "de": "",
+              "pl": "",
+              "hb": ""
+        }
+      }
+    }
+    },
+
+
+    {
+      "name": "REAPPRAISE",
+      "type": "on_demand",
+      "showIntroduction": true,
+      "showInCalendar": true,
+      "order": 3,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "EMI_ReApp_selfT",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "Time for a new questionnaire!",
+        "it": "",
+        "nl": "Tijd voor een nieuwe vragenlijst!",
+        "da": "",
+        "de": "Zeit fuer einen neuen Fragebogen!",
+        "es": "",
+        "pl": "",
+        "hb": ""
+      },
+      "endText": {
+        "en": "Thanks for filling this out!",
+        "it": "",
+        "nl": "Bedankt voor het invullen!",
+        "da": "",
+        "de": "Vielen Dank, dass Sie diese Fragen beantwortet haben!",
+        "es": "",
+        "pl": "",
+        "hb": "תודה שענית על השאלון!"      
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": "",
+        "pl": "",
+        "hb": ""
+      },
+      "estimatedCompletionTime": 2,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "year",
+          "amount": 9999
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+    999999999999999999    
+          ]
+        },
+        "reminders": {
+          "unit": "min",
+          "amount": 60,
+          "repeat": 3
+        },
+        "completionWindow": {
+          "unit": "min",
+          "amount": 180
+        },
+        "clinicalProtocol": {
+                    "requiresInClinicCompletion": false,
+                    "repeatAfterClinicVisit": {
+                        "unit": "min",
+                        "unitsFromZero": [
+                            1
+                        ]
+                    }
+                },
+        "notification": {
+            "title": {
+              "en": "Good evening, your evening questionnaire is ready for you.",
+              "it": "",
+              "es": "",
+              "nl": "Goedeavond, je avondvragenlijst staat voor je klaar.",
+              "da": "",
+              "de": "",
+              "pl": "",
+              "hb": ""
+        }
+      }
+    }
+    }
+  ]
+}
+
