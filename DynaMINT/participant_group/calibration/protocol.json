@@ -1,0 +1,146 @@
+{
+  "version": "0.0.1",
+  "schemaVersion": "0.0.1",
+  "name": "ESM_DynaMINT_calibration",
+  "healthIssues": [
+    "general"
+  ],
+  "protocols": [
+    {
+      "name": "ESM assessment",
+      "showIntroduction": true,
+      "showInCalendar": false,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/JeroenDMW/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "ESM_DynaMINT",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "Time for a new questionnaire!",
+        "it": "",
+        "nl": "Tijd voor een nieuwe vragenlijst!",
+        "da": "",
+        "de": "Zeit fuer einen neuen Fragebogen!",
+        "es": "",
+        "pl": "Czas na nowy kwestionariusz",
+        "hb": ""
+      },
+      "endText": {
+        "en": "Thanks for filling this out!",
+        "it": "",
+        "nl": "Bedankt voor het invullen!",
+        "da": "",
+        "de": "Vielen Dank, dass Sie diese Fragen beantwortet haben!",
+        "es": "",
+        "pl": "",
+        "hb": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": "",
+        "pl": "",
+        "hb": ""
+      },
+      "estimatedCompletionTime": 3,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "year",
+          "amount": 69
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [    
+    1922,
+    1982,
+    2112,
+    2246,
+    2273,
+    2421,
+    2481,
+    2533,
+    2657,
+    2705,
+    3341,
+    3452,
+    3552,
+    3664,
+    3707,
+    3868,
+    3906,
+    4014,
+    4129,
+    4229,
+    4797,
+    4865,
+    5004,
+    5068,
+    5152,
+    5287,
+    5313,
+    5484,
+    5531,
+    5639,
+    6240,
+    6317,
+    6447,
+    6539,
+    6572,
+    6668,
+    6796,
+    6855,
+    6960,
+    7089,
+    7651,
+    7773,
+    7832,
+    7953,
+    8074,
+    8112,
+    8257,
+    8336,
+    8425,
+    8540,
+    9114,
+    9243,
+    9281,
+    9406,
+    9476,
+    9552,
+    9632,
+    9776,
+    9854,
+    9981
+          ]
+        },
+      "reminders": [
+        {"offset": {"unit": "min", "amount": 5}, 
+          "notification": {
+              "title": {
+                  "en": "Questionnaire time",
+                  "nl": "Tijd voor een vragenlijst!",
+                  "de": "",
+                  "pl": "Czas na nowy kwestionariusz",
+                  "hb": ""
+              },
+             "text": {
+                  "en": "If you have already filled in the questionniare this time, you can ignore this notification.",
+                  "nl": "Als je de vragenlijst deze keer al hebt ingevuld, kun je deze melding negeren.",
+                  "de": "Wenn Sie diesen Fragebogen gerade ausgefüllt haben, können Sie diese Meldung ignorieren.",
+                  "pl": "W razie wykonania przedtem tego kwestionariusza, zignoruj to powiadomienie.",
+                  "hb": "אם כבר מילאת את השאלון, אתה יכול להתעלם מהתראה זו"
+            }
+           }
+          }   
+         ],
+        "completionWindow": {
+          "unit": "min",
+          "amount": 10
+        }
+      }
+    }    
+  ]
+}
