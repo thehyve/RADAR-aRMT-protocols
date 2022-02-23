@@ -880,7 +880,7 @@
         }
       },
          {
-        "name": "ERS",
+        "name": "ers",
         "showIntroduction": true,
         "questionnaire": {
           "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
