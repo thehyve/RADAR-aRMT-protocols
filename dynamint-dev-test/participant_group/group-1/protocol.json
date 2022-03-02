@@ -45,7 +45,7 @@
         "pl": "",
         "hb": ""
       },
-      "estimatedCompletionTime": 3,
+      "estimatedCompletionTime": 10,
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
@@ -166,7 +166,7 @@
         "pl": "",
         "hb": ""
       },
-      "estimatedCompletionTime": 3,
+      "estimatedCompletionTime": 7,
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
