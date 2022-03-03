@@ -1,0 +1,75 @@
+{
+  "version": "0.4.5",
+  "schemaVersion": "0.0.2",
+  "name": "RADAR-base Symposium 2022",
+  "healthIssues": [
+    "general"
+  ],
+  "protocols": [
+    {
+      "name": "SYMPOSIUM",
+      "showIntroduction": false,
+      "showInCalendar": true,
+      "order": 1,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/peyman-mohtashami/RADAR-aRMT-questionnaires-test/master/questionnaires/",
+        "name": "radarbase_symposium_2022",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "Thank you for taking the time today.",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 2,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "year",
+          "amount": 9999
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            540
+          ]
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 0,
+          "repeat": 0
+        },
+        "completionWindow": {
+          "unit": "day",
+          "amount": 1
+        },
+        "notification": {
+          "title": {
+            "en": ""
+          },
+          "text": {
+            "en": ""
+          }
+        }
+      }
+    }
+  ]
+}
