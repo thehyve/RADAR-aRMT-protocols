@@ -49,7 +49,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            780
+            810
           ]
         },
         "reminders": {
@@ -60,6 +60,14 @@
         "completionWindow": {
           "unit": "day",
           "amount": 1
+        },
+        "notification": {
+          "title": {
+            "en": "Questionnaire time"
+          },
+          "text": {
+            "en": "RADAR-bae Symposium 2022 Questionnaire"
+          }
         }
       }
     }
