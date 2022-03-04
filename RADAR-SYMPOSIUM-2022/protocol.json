@@ -40,7 +40,7 @@
         "de": "",
         "es": ""
       },
-      "estimatedCompletionTime": 2,
+      "estimatedCompletionTime": 3,
       "protocol": {
         "repeatProtocol": {
           "unit": "year",
@@ -49,7 +49,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            540
+            780
           ]
         },
         "reminders": {
@@ -60,14 +60,6 @@
         "completionWindow": {
           "unit": "day",
           "amount": 1
-        },
-        "notification": {
-          "title": {
-            "en": ""
-          },
-          "text": {
-            "en": ""
-          }
         }
       }
     }
