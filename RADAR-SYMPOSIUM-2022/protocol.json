@@ -1,5 +1,5 @@
 {
-  "version": "0.4.5",
+  "version": "0.4.6",
   "schemaVersion": "0.0.2",
   "name": "RADAR-base Symposium 2022",
   "healthIssues": [
@@ -49,7 +49,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            660
+            900
           ]
         },
         "reminders": {
